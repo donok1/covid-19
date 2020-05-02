@@ -5,7 +5,7 @@
         	Ce qui nous attend.
        	</div>
 		<div style="font-weight: 500;top: 140px;left: 10px;font-size: 29px;">
-			Les Futurs du COVID-19, Expliqués par des Simulations Interactives
+			Les futurs du COVID-19, expliqués par des simulations interactives
 		</div>
 		<div style="font-weight: 100;top: 189px;left: 10px;font-size: 19px;line-height: 21px;">
 			<b>
@@ -28,22 +28,22 @@ Bien sûr, on nous rappelle à raison de ne pas se ruer sur le papier toilette. 
 
 Pour être honnête, nous (Marcel - épidémiologiste et Nicky - art/code) sommes inquiets. Tu l'es aussi n'est-ce pas? C'est pourquoi de nos peurs sont nées ces **simulations interactives**, pour que *tu* puisses à ton tour canaliser tes peurs et comprendre:
 
-* **Ces Derniers Mois** (initiation à l'épidémiologie, modèle SEIR, R et R<sub>0</sub>)
-* **Les Mois à Venir** (confinement, traçage de contacts, masques)
-* **Les Années à Venir** (perte d'immunité? vaccin introuvable?)
+* **Ces derniers mois** (initiation à l'épidémiologie, modèle SEIR, R et R<sub>0</sub>)
+* **Les mois à venir** (confinement, traçage de contacts, masques)
+* **Les années à venir** (perte d'immunité? vaccin introuvable?)
 
-Ce guide (publié le 1er Mai 2020. clique sur cette note!→[^timestamp]) est censé *et* te donner de l'espoir, *et* te faire peur. Pour vaincre le COVID-19 **en préservant aussi nos santés mentals et financières**, nous devons faire preuve d'optimisme pour élaborer des plans, et de pessimisme pour élaborer des plans B. Comme l'a dit un jour Gladys Bronwyn Stern, *“L'optimiste invente l'avion, le pessimiste invente le parachute.”*
+Ce guide (publié le 1er Mai 2020. clique sur cette note!→[^timestamp]) est censé *et* vous donner de l'espoir, *et* vous faire peur. Pour vaincre le COVID-19 **en préservant aussi nos santés mentals et financières**, nous devons faire preuve d'optimisme pour élaborer des plans, et de pessimisme pour élaborer des plans B. Comme l'a dit un jour Gladys Bronwyn Stern, *“L'optimiste invente l'avion, le pessimiste invente le parachute.”*
 
-[^timestamp]: These footnotes will have sources, links, or bonus commentary. Like this commentary!
+[^timestamp]: Ces notes contiendront des sources, des liens et des commentaires bonus comme celui-ci!
     
     **Ce guide a été publié le 1er Mai 2020.** De nombreux détails deviendront obsolètes, mais nous sommes convaincus que ce guide couvre 95% des futurs possibles, et que notre initiation à l'épidémiologie te sera toujours utile.
 
-Donc accroche-toi: nous entrons dans une zone de turbulence.
+Alors accrochez-vous: nous entrons dans une zone de turbulence.
 
 <div class="section chapter">
     <div>
 		<img src="banners/curve.png" height=480 style="position: absolute;"/>
-        <div>Ces Derniers Mois</div>
+        <div>Ces derniers mois</div>
     </div>
 </div>
 
@@ -61,7 +61,7 @@ On estime *qu'au début* de l'épidémie de COVID-19, le virus allait d'un <icon
 
 Que se passe-t-il si nous simulons "double tous les 4 jours", *et rien de plus*, sur une population qui commence avec seulement 0.001% de <icon i></icon> ? 
 
-**Clique sur "Lancer" pour réaliser une simulation! Tu peux re-lancer avec d'autres paramètres quand la simulation est finie:** (limites techniques: [^caveats])
+**Cliquez sur "Lancer" pour réaliser une simulation! Vous pouvez relancer avec d'autres paramètres quand la simulation est finie:** (limites techniques: [^caveats])
 
 [^caveats]: **Attention: toutes ses simulations sont très simplificatrices, à des fins éducatives.**
     
@@ -93,7 +93,7 @@ Ceci est la **courbe de croissance logistique** "en S". Ça commence doucement, 
 
 Pour autant, cette simulation est *encore* fausse. On passe à côté  du fait qu'un individu Infectieux <icon i></icon> fini par arrêter d'être infectieux, soit en étant: 1) guéri, 2) "guéri" avec des lésions pulmonaires  3) décédé.
 
-Pour faire simple, supposons que tout les individus Infectieux <icon i></icon> deviennent guéris (**R**ecovered en anglais) <icon r></icon>. (Mais garde en tête que la réalité est bien plus dure.) Les <icon r></icon> ne peuvent plus être infectés, et supposons – *pour l'instant!* – qu'ils sont immunisés à vie.
+Pour faire simple, supposons que tout les individus Infectieux <icon i></icon> deviennent guéris (**R**ecovered en anglais) <icon r></icon>. (Mais gardez en tête que la réalité est bien plus dure.) Les <icon r></icon> ne peuvent plus être infectés, et supposons – *pour l'instant!* – qu'ils sont immunisés à vie.
 
 Pour le COVID-19, on estime qu'un individu est Infectieux <icon i></icon> pendant 10 jours, *en moyenne*.[^infectiousness] Certains guérissent en moins de 10 jours, d'autres en plus. **Voilà ce que ça donne, avec une simulation qui *commence* avec 100% de <icon i></icon>:**
 
@@ -109,7 +109,7 @@ Maintenant, que se passe-t-il lorsque on simule la courbe de croissance logistiq
 
 ![](pics/graphs_q.png)
 
-Il n'y a qu'à simuler!
+Voyons donc ça!
 
 <b style='color:#ff4040'>La courbe Rouge</b> représente les cas <icon i></icon> *actuels* ,    
 <b style='color:#999999'>La courbe Grise</b> représente le *total* de cas (actuels <icon i></icon> + guéris <icon r></icon>). 
@@ -119,7 +119,7 @@ En commencant avec seulement 0.001% de <icon i></icon>:
 		<iframe src="sim?stage=epi-4" width="800" height="540"></iframe>
 </div>
 
-Et *c'est de là* que nous viens cette fameuse courbe! Ce n'est pas une courbe de Gauss, ni même une courbe "log-normale". Ça n'a pas de nom, mais tu l'as vue des millions de fois et tu pries pour qu'elle s'applatisse.
+Et *c'est de là* que nous viens cette fameuse courbe! Ce n'est pas une courbe de Gauss, ni même une courbe "log-normale". Ça n'a pas de nom, mais vous l'avez vue des millions de fois et vous priez pour qu'elle s'applatisse.
 
 C'est le **Modèle SIR**, [^sir]    
 (<icon s></icon>**S**usceptible <icon i></icon>**I**nfectieux <icon r></icon>**R**ecovered (guéri en anglais))      
@@ -135,7 +135,7 @@ Ajoutons donc une autre nuance: avant qu'un <icon s></icon> ne devienne un <icon
 
 ![](pics/seir.png)
 
-(Cette variante est appellée le **Modèle SEIR**[^seir], avec "E" pour "Exposé" <icon e></icon>. Tu noteras que *ça ne correspond pas* au sens du mot "exposé" de tous les jours, quand tu peux *ou non* avoir le virus. La définition technique d'"Exposé" signifie que tu as bel et bien le virus. La terminologie en science est pleine d'absurdité.)
+(Cette variante est appellée le **Modèle SEIR**[^seir], avec "E" pour "Exposé" <icon e></icon>. Notez que *ça ne correspond pas* au sens du mot "exposé" de tous les jours: quand il est possible d'avoir *ou non* le virus. La définition technique d'"Exposé" signifie que le virus est bel et bien porté. La terminologie en science est pleine d'absurdité.)
 
 [^seir]: Pour plus d'explications techniques sur le modèle SEIR, voir [the Institute for Disease Modeling](https://www.idmod.org/docs/hiv/model-seir.html) et [Wikipedia](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology#The_SEIR_model)
 
@@ -143,7 +143,7 @@ Pour le COVID-19, on estime qu'un individu est infecté-mais-pas-encore-infectie
 
 [^latent]: “Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8–3.0 days) before symptom onset” (traduction: En supposant que les symptômes commencent au 5ème jour, sachant que le caractère infectieux commence 2 jours avant, on devient infectieux au bout de 3 jours) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)
 
-<b style='color:#ff4040'>La courbe Rouge <b style='color:#FF9393'>+ Rose</b> curve</b> représente les cas *actuels* (infectieux <icon i></icon> + exposés <icon e></icon>),    
+<b style='color:#ff4040'>La courbe Rouge <b style='color:#FF9393'>+ Rose</b></b> représente les cas *actuels* (infectieux <icon i></icon> + exposés <icon e></icon>),    
 <b style='color:#888'>La courbe Grise</b> représente le *total* de cas (actuels <icon i></icon> <icon e></icon> + guéris <icon r></icon>):
 
 <div class="sim">
