@@ -36,7 +36,7 @@ Ce guide (publié le 1er Mai 2020. clique sur cette note!→[^timestamp]) est ce
 
 [^timestamp]: Ces notes contiendront des sources, des liens et des commentaires bonus comme celui-ci!
     
-    **Ce guide a été publié le 1er Mai 2020.** De nombreux détails deviendront obsolètes, mais nous sommes convaincus que ce guide couvre 95% des futurs possibles, et que notre initiation à l'épidémiologie te sera toujours utile.
+    **Ce guide a été publié le 1er Mai 2020.** De nombreux détails deviendront obsolètes, mais nous sommes convaincus que ce guide couvre 95% des futurs possibles, et que notre initiation à l'épidémiologie vous sera bien utile.
 
 Alors accrochez-vous: nous entrons dans une zone de turbulence.
 
