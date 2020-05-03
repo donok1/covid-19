@@ -470,39 +470,39 @@ But what if things *still* go wrong? Things have gone horribly wrong already. Th
 
 The pessimist invents the parachute.
 
-###Scenario 4+: Masks For All, Summer, Circuit Breakers
+###Scenario 4+: Masques pour tous, été, interruptions forcées 
 
-What if R<sub>0</sub> is way higher than we thought, and the above interventions, even with mild distancing, *still* aren't enough to get R < 1?
+Que se passerait-il si R<sub>0</sub> était bien plus grand que ce que l'on pense, et que les actions précédentes, même aidée d'une légère distanciation, n'était *toujours* pas suffisantes pour rendre R < 1?
 
-Remember, even if we can't get R < 1, reducing R still reduces the "overshoot" in total cases, thus saving lives. But still, R < 1 is the ideal, so here's a few other ways to reduce R:
+Souvenez-vous, même si on ne peut rendre R < 1, minimiser R permet quand même de réduire le "débordement" du total de cas, donc de sauver des vies. Pour autant, R < 1 reste l'idéal, et voici d'autres moyens pour le réduire:
 
-**Masks For All:**
+**Masques pour tous:**
 
-*"Wait,"* you might ask, *"I thought face masks don't stop you from getting sick?"*
+*"Attendez,"* vous nous demanderez, *"Je pensais que les masques n'empêchaient pas de tomber malade ?"*
 
-You're right. Masks don't stop you from getting sick[^incoming]... they stop you from getting *others* sick.
+Et vous avez raison. Les masques n'empêchent pas de tomber malade[^incoming]... ils vous empêchent de faire tomber malade *les autres*.
 
-[^incoming]: “None of these surgical masks exhibited adequate filter performance and facial fit characteristics to be considered respiratory protection devices.” [Tara Oberg & Lisa M. Brosseau](https://www.sciencedirect.com/science/article/pii/S0196655307007742)
+[^incoming]: “None of these surgical masks exhibited adequate filter performance and facial fit characteristics to be considered respiratory protection devices.” [Tara Oberg & Lisa M. Brosseau](https://www.sciencedirect.com/science/article/pii/S0196655307007742) Traduction : "Aucun des masques chirurgicaux n'a présenté des performances de filtrage et des caractéristiques d'ajustement facial suffisantes pour être considéré comme un dispositif de protection respiratoire."
 
-[^outgoing]: “The overall 3.4 fold reduction [70% reduction] in aerosol copy numbers we observed combined with a nearly complete elimination of large droplet spray demonstrated by Johnson et al. suggests that surgical masks worn by infected persons could have a clinically significant impact on transmission.” [Milton DK, Fabian MP, Cowling BJ, Grantham ML, McDevitt JJ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591312/)
+[^outgoing]: “The overall 3.4 fold reduction [70% reduction] in aerosol copy numbers we observed combined with a nearly complete elimination of large droplet spray demonstrated by Johnson et al. suggests that surgical masks worn by infected persons could have a clinically significant impact on transmission.” [Milton DK, Fabian MP, Cowling BJ, Grantham ML, McDevitt JJ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591312/) Traduction : "La réduction globale de 3,4 fois (70% de réduction) du nombre de particules aériennes que nous avons observées, combinée à l'élimination quasi complète des projections des grosses goutelettes démontrée par Johnson et al. suggère que le port du masque par les personnes infectées pourrait avoir un impact cliniquement significatif sur la transmission."
 
-[^homemade]: [Davies, A., Thompson, K., Giri, K., Kafatos, G., Walker, J., & Bennett, A](https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/testing-the-efficacy-of-homemade-masks-would-they-protect-in-an-influenza-pandemic/0921A05A69A9419C862FA2F35F819D55) See Table 1: a 100% cotton T-shirt has around 2/3 the filtration efficiency as a surgical mask, for the two bacterial aerosols they tested.
+[^homemade]: [Davies, A., Thompson, K., Giri, K., Kafatos, G., Walker, J., & Bennett, A](https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/testing-the-efficacy-of-homemade-masks-would-they-protect-in-an-influenza-pandemic/0921A05A69A9419C862FA2F35F819D55) Voir Table 1: un T-shirt en coton a environ 2 tiers de l'efficacité de filtration d'un masque chirurgical, pour les deux aérosols à bactéries qu'ils ont testés.
 
 ![](pics/masks.png)
 
-To put a number on it: surgical masks *on the sick person* reduce cold & flu viruses in aerosols by 70%.[^outgoing] Reducing transmissions by 70% would be as large an impact as a lockdown!
+Pour mettre un chiffre là-dessus: les masques chirugicaux *portés par la personne malade* réduisent ses projections de rhumes et grippes de 70%.[^outgoing] Réduire les transmissions de 70% aurait un impact aussi important qu'un confinement !
 
-However, we don't know for sure the impact of masks on COVID-19 *specifically*. In science, one should only publish a finding if you're 95% sure of it. (...should.[^replication]) Masks, as of May 1st 2020, are less than "95% sure".
+Cependant, on ne connait pas encore précisément l'impact des masques sur le COVID-19 *en particulier*. En science, on ne devrait publier un résultat que si l'on en est (statistiquement) sûr à 95%. (...devrait.[^replication]) L'usage de masques, au 1er mai 2020, n'est pas "sûr à 95%".
 
-[^replication]: Any actual scientist who read that last sentence is probably laugh-crying right now. See: [p-hacking](https://en.wikipedia.org/wiki/Data_dredging), [the replication crisis](https://en.wikipedia.org/wiki/Replication_crisis))
+[^replication]: N'importe quel véritable scientifique qui lit cette dernière phrase est probalement plié de rire. Voir: [p-hacking](https://fr.wikipedia.org/wiki/Data_dredging), [crise de la reproductibilité](https://fr.wikipedia.org/wiki/Crise_de_la_reproductibilit%C3%A9))
 
-However, pandemics are like poker. **Make bets only when you're 95% sure, and you'll lose everything at stake.** As a recent article on masks in the British Medical Journal notes,[^precautionary] we *have* to make cost/benefit analyses under uncertainty. Like so:
+Pour autant, les pandémies c'est comme le poker. **Ne pariez que lorsque vous êtes sûr à 95%, et vous perdrez tout ce qui est en jeu.** Comme le fait noter un récent article du British Medical Journal,[^precautionary] dans un contexte d'incertitude, il est *nécessaire* d'appliquer des analyses coûts-avantages. Par exemple:
 
-[^precautionary]: “It is time to apply the precautionary principle” [Trisha Greenhalgh et al \[PDF\]](https://www.bmj.com/content/bmj/369/bmj.m1435.full.pdf)
+[^precautionary]: “It is time to apply the precautionary principle” [Trisha Greenhalgh et al \[PDF\]](https://www.bmj.com/content/bmj/369/bmj.m1435.full.pdf) Traduction: "Il est temps d'appliquer le principe de précaution."
 
-Cost: If homemade cloth masks, same as the cost of all that soap for handwashing. If surgical masks, more expensive but still pretty cheap.
+Coûts: Pour des masques en tiss faits maison, même coût que le savon et le lavage des mains. Pour des masques chirurgicaux, un peu plus cher mais encore peu coûteux.
 
-Benefit: Even if it's a 50–50 chance of surgical masks reducing transmission by 0% or 70%, the average "expected value" is still 35%, same as a half-lockdown! So let's guess-timate that surgical masks reduce R by up to 35%. (Again, you can challenge our assumptions by turning the sliders up/down)
+Bénéfices: Même s'il y avait 50% de chances que les masques chirurgicaux réduisent la transmission ou de 0%, ou de 70%, cela donnerait en moyenne 35%, autant qu'un demi-confinement ! Estimons donc que les masques réduisent R jusqu'à 35%. (Encore une fois, vous pouvez changer nos hypothèses en ajustant les sliders)
 
 **Here's a calculator of how masks reduce R! You can switch between cloth & surgical:** (assumes cloth masks are 2/3 as effective as surgical masks[^homemade])
 

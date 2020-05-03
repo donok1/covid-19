@@ -56,7 +56,10 @@ link to roosevelt sentence meaning understandable
 ### LastMonths: Curves
 
 ### LastMonths: R
-- L213: choisi le système français pour l'analogie avec les notes d'école. 
+- L213: choisi le système français pour l'analogie avec les notes d'école.
+
+### Scenario 4+
+- L477 overshoot --> "débordement" ? Utilisé dans les parties précédentes pas encore traduites. "  
 
 ### Next years and Now
 l.107: reduced the use of *month* to ease the readability in french
