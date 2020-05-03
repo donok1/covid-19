@@ -152,21 +152,21 @@ For COVID-19, it's estimated that you're <icon e></icon> infected-but-not-yet-in
 
 Not much changes! How long you stay <icon e></icon> Exposed changes the ratio of <icon e></icon>-to-<icon i></icon>, and *when* current cases peak... but the *height* of that peak, and total cases in the end, stays the same.
 
-Mais pourquoi ? A cause du *premier* concepte clé de l'épidémiologie 101:
+Mais pourquoi ? A cause du *premier* concepte clé de la base de l'épidémiologie:
 
 ![](pics/r.png)
 
-La version courte pour le "Nombre de reproduction". Il s'agit du nombre *moyen* de personnes qu'un <icon i></icon> infecte *avant* qu'il ne guérisse (ou décède).
+La version courte du "Nombre de reproduction". Il s'agit du nombre *moyen* de personnes qu'un <icon i></icon> infecte *avant* qu'il ne guérisse (ou décède).
 
 ![](pics/r2.png)
 
-**R** évolue au cours d'une vague, à fur et à mesure que l'immunité et les mesures d'intervention se développent.
+**R** évolue au cours d'une vague, au fur et à mesure que l'immunité et les mesures d'intervention se développent.
 
-**R<sub>0</sub>** est la valeur de R *au début de la vague, avant l'immunité et les mesures d'intervention*. R<sub>0</sub> reflète la force du virus-même, mais il change quand même d'un endroit à l'autre. Par exemple, R<sub>0</sub> est plus grand dans les villes denses qu'en campagne plus espacée.
+**R<sub>0</sub>** est la valeur de R *au début de la vague, avant l'immunité et les mesures d'intervention*. R<sub>0</sub> reflète la force du virus-même, mais il varie quand même d'un endroit à l'autre. Par exemple, R<sub>0</sub> est plus grand dans les villes denses qu'en campagne plus espacée.
 
 (La plupart des articles d'actualité - et même des publications scientifiques ! - confondent R et R<sub>0</sub>. Encore une fois, la terminologie scientifique est pleine d'absurdité)
 
-Le R<sub>0</sub> pour "la" grippe saisonnière tourne autour de 1.28[^r0_flu]. Cela signifie qu'au *début* d'une vague de grippe, chaque <icon i></icon> infecte 1.28 personnes *en moyenne.* (Si ça paraît étrange de ne pas avoir un nombre entier, souvenez-vous que la maman *moyenne* a 2.4 enfants. Cela ne veut pas dire qu'il y a familles avec des moitiés d'enfant.)
+Le R<sub>0</sub> pour "la" grippe saisonnière tourne autour de 1.28[^r0_flu]. Cela signifie qu'au *début* d'une vague de grippe, chaque <icon i></icon> infecte 1.28 personnes *en moyenne.* (Si ça paraît étrange de ne pas avoir un nombre entier, souvenez-vous que la maman *moyenne* a 2.4 enfants. Cela ne veut pas dire qu'il y a des demi-enfants se gambadant un peu partout.)
 
 [^r0_flu]: “The median R value for seasonal influenza was 1.28 (IQR: 1.19–1.37)” [Biggerstaff, M., Cauchemez, S., Reed, C. et al.](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-14-480) Traduction: “La valeur médiane de R pour l'influenza saisonnière était de 1.28 (IC: 1.19-1.37)"
 
@@ -176,17 +176,17 @@ Le R<sub>0</sub> pour le COVID-19 est estimé à environ 2.2[^r0_covid], bien qu
 
 [^r0_wuhan]: “we calculated a median R0 value of 5.7 (95% CI 3.8–8.9)” [Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.](https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article) Traduction: "Nous avons calculé une valeur médiane de R0 de 5.7 (IC 95% : 3.8-8.9)"
 
-Dans nos simulations - *au début et en moyenne* - un <icon i></icon> infecte quelqu'un tous les 4 jours et ce pendant 10 jours. Il y 2,5 fois "4 jours" dans "10 jours". Cela signifie -*au début et en moyenne* - que chaque <icon i></icon> en infecte 2.5 autres. Par conséquence, R<sub>0</sub> = 2,5.(limitations techniques:[^r0_caveats_sim])
+Dans nos simulations - *au début et en moyenne* - un <icon i></icon> infecte quelqu'un tous les 4 jours et ce pendant 10 jours. Il y 2,5 fois "4 jours" dans "10 jours". Cela signifie -*au début et en moyenne* - que chaque <icon i></icon> infecte 2.5 Susceptibles <icon s></icon> . Par conséquent, R<sub>0</sub> = 2,5.(limitations techniques:[^r0_caveats_sim])
 
 [^r0_caveats_sim]: Cela suppose qu'on est infectieux de manière constante tout au long de la "période infectieuse". Encore une fois, c'est une simplification pour aider à la compréhension.
 
-**Jouez avec ce calculateur de R<sub>0</sub> pour voir comment R<sub>0</sub> dépend du temps de guérison et du rythme de nouvelle infection:**
+**Jouez avec ce calculateur de R<sub>0</sub> pour voir comment R<sub>0</sub> dépend du temps de guérison et de la fréquence de nouvelle infection:**
 
 <div class="sim">
 		<iframe src="sim?stage=epi-6a&format=calc" width="285" height="255"></iframe>
 </div>
 
-Mais souvenez-vous, le moins de <icon s></icon> il y a, le plus *lentement* les <icon s></icon> deviennent <icon i></icon>. The nombre de reproduction *actuel* (R) dépend non-seulement du nombre de reproduction *de base* (R<sub>0</sub>), mais *aussi* de combien de personnes ne sont plus Susceptibles  <icon s></icon>. (Par exemple, en guérissant et en devenant naturellement immunisées.)
+Mais souvenez-vous, moins il y a de <icon s></icon>, plus les <icon s></icon> deviennent <icon i></icon> *lentement*. Le nombre de reproduction *actuel* (R) dépend non-seulement du nombre de reproduction *de base* (R<sub>0</sub>), mais *aussi* de combien de personnes ne sont plus Susceptibles  <icon s></icon>. (Par exemple, en guérissant et en devenant naturellement immunisées.)
 
 <div class="sim">
 		<iframe src="sim?stage=epi-6b&format=calc" width="285" height="390"></iframe>
@@ -204,13 +204,13 @@ Maintenant, lançons le modèle SEIR encore une fois, mais en montrant R<sub>0</
 
 Cela est dû au fait que lorsqu'il y a plus de non-<icon s></icon> que le seuil d'immunité collective, on obtient R < 1. Et lorsque R < 1, le nombre de nouveaux cas cesse d'augmenter: c'est un pic.
 
-**Si vous ne deviez retenir qu'une seule chose de ce guide, ce serait ceci** - c'est un graphique très complexe, alors prenez le temps de l'absorber complètement:
+**Si vous ne deviez retenir qu'une seule chose de ce guide, ce serait ceci** - c'est un graphique très complexe, alors prenez le temps de l'assimiler complètement:
 
 ![](pics/r3.png)
 
 **Cela signifie qu'il n'y a PAS besoin d'infecter tout le monde, ou même presque tout le monde, pour stopper le COVID-19 !**
 
-C'est paradoxal. Le COVID-19 est extrêmement contagieux et pourtant, pour le contenir, il faut "seulement" éviter plus que 60% des infections. 60% ?! Si c'était une note d'école, ce serait un 12/20. Mais si R<sub>0</sub> = 2.5, alors le réduire de 61% nous donne R = 0.975, ce qui est R < 1, donc le virus est contenu ! (formule exacte:[^exact_formula])
+C'est paradoxal. Le COVID-19 est extrêmement contagieux et pourtant, pour le contenir, il faut "seulement" éviter plus de 60% des infections. 60% ?! Si c'était une note d'école, ce serait un 12/20. Mais si R<sub>0</sub> = 2.5, alors le réduire de 61% nous donne R = 0.975, ce qui est R < 1, donc le virus est contenu ! (formule exacte:[^exact_formula])
 
 [^exact_formula]: Gardez en tête que R = R<sub>0</sub> * le taux des transmissions encore possibles. Souvenez-vous aussi que le taux des transmissions possibles = 1 - le taux des transmissions *empêchées*.
 
@@ -222,17 +222,17 @@ C'est paradoxal. Le COVID-19 est extrêmement contagieux et pourtant, pour le co
 
   Donc, TransmissionsEmpêchées > 1 - 1/R<sub>0</sub>
 
-  Par conséquence, il arrêter plus de **1 - 1/R<sub>0</sub>** des transmissions pour obtenir R < 1 et contenir le virus !
+  Par conséquent, il faut empêcher plus de **1 - 1/R<sub>0</sub>** des transmissions pour obtenir R < 1 et contenir le virus !
 
 ![](pics/r4.png)
 
-(Si vous pensez que R<sub>0</sub> ou d'autres paramètres dans vos simulations sont trop haut/bas, c'est bien, vous défiez nos hypothèses ! Il y aura un mode "bac à sable" à la fin de ce guide, où vous pourrez entrer vos *propres* paramètres et voir ce qu'il se passe.)
+(Si vous pensez que R<sub>0</sub> ou d'autres paramètres dans vos simulations sont trop haut/bas, c'est bien, vous défiez nos hypothèses ! Il y aura un mode "bac à sable" à la fin de ce guide, où vous pourrez entrer vos *propres* paramètres et voir ce que ça donne.)
 
 *Toutes* les mesures contre le COVID-19 dont vous avez entendu parler - lavage des mains, distance sociale, confinements, auto-isolation, suivi des contacts et mise en quarantaine, port du masque et même "immunité collective" - elles ont toutes le même but:
 
 Obtenir R < 1.
 
-Alors maintenant, utilisons notre "simulateur de vol épidémiologique" pour répondre à la question suivante: Comment peut-on obtenir R < 1 *tout en protégeant notre santé mentale et financière ?**
+Maintenant, utilisons notre "simulateur de vol épidémiologique" pour répondre à la question suivante: Comment peut-on obtenir R < 1 *tout en protégeant notre santé mentale et financière ?**
 
 Préparez-vous à un atterrissage d'urgence...
 
