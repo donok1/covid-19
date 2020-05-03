@@ -5,19 +5,19 @@
 |   | Traduit | Relu | Création image | Check qualité |
 |---|---|------|---|---|
 | [dp3t.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/dp3t.png) | [X] @veale | [X] @veale | [X] @veale | [X] |
-| [exponential.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/exponential.png) | [X] @sylvainberube | [X] @sylvainberube | [X] @sylvainberube |   |
+| [exponential.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/exponential.png) | [X] @sylvainberube | @sylvainberube | [X] @sylvainberube |   |
 | [graphs_q.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/graphs_q.png) | (aucun texte) | (aucun texte) | (image originale) | [X] |
 | [masks.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/masks.png) | |  |   |   |
 | [mitigation_vs_suppression.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/mitigation_vs_suppression.png)  |  |  |   |   |
 | [plan.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/plan.png)  |  |  |   |   |
 | [r.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r.png)  | (aucun texte) | (aucun texte) | (image originale) | [X] |
 | [r2.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r2.png)  |  |  |    |    |
-| [r3.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r3.png)  |  |  |    |    |
+| [r3.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r3.png)  | [X] @sylvainberube |  |    |    |
 | [r4.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r4.png) |  |  |    |    |
 | [seir.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/seir.png) |  |  |    |    |
 | [seirs.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/seirs.png) |  |  |    |    |
 | [sir.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/sir.png) |  |  |    |    |
-| [spread.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/spread.png) |  |  |    |    |
+| [spread.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/spread.png) | [X] @sylvainberube |  |    |    |
 | [susceptibles.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/susceptibles.png) |  |  |    |    |
 | [timeline1.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/timeline1.png) |  |  |    |    |
 | [timeline2.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/timeline2.png) |  |  |    |    |
@@ -105,7 +105,9 @@ GOOD
 
 #### Traduction (français) 
 
+MAUVAIS
 
+BON
 
 ### r4.png
 #### Original (anglais) 
@@ -192,7 +194,11 @@ recovery
 
 #### Traduction (français) 
 
+1 à 2...
 
+2 à 4...
+
+4 à 8...
 
 ### susceptibles.png
 #### Original (anglais) 
