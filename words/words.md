@@ -326,7 +326,7 @@ Oh.
 
 Voici la "seconde vague" dont tout le monde parle. Aussitôt le confinement levé, on repasse à R > 1. Un seul dernier <icon i></icon> (ou un <icon i></icon> importé) peut provoquer un sursaut aussi méchant que si nous avions suivi le Scénario 0: "On ne fait absolument rien".
 
-**Un confinement n'est pas un remède, c'est juste un retour au début.**
+**Un confinement n'est pas un remède, c'est juste un retour à la case départ.**
 
 Alors quoi, on se confine encore et toujours ?
 
