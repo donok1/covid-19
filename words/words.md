@@ -470,7 +470,7 @@ But what if things *still* go wrong? Things have gone horribly wrong already. Th
 
 The pessimist invents the parachute.
 
-###Scenario 4+: Masques pour tous, été, interruptions forcées 
+###Scenario 4+: Masques pour tous, été, "Disjoncteur" 
 
 Que se passerait-il si R<sub>0</sub> était bien plus grand que ce que l'on pense, et que les actions précédentes, même aidée d'une légère distanciation, n'était *toujours* pas suffisantes pour rendre R < 1?
 
@@ -500,77 +500,77 @@ Pour autant, les pandémies c'est comme le poker. **Ne pariez que lorsque vous �
 
 [^precautionary]: “It is time to apply the precautionary principle” [Trisha Greenhalgh et al \[PDF\]](https://www.bmj.com/content/bmj/369/bmj.m1435.full.pdf) Traduction: "Il est temps d'appliquer le principe de précaution."
 
-Coûts: Pour des masques en tiss faits maison, même coût que le savon et le lavage des mains. Pour des masques chirurgicaux, un peu plus cher mais encore peu coûteux.
+Coûts: Pour des masques en tissu faits maison, même coût que le savon et le lavage des mains. Pour des masques chirurgicaux, un peu plus cher mais encore peu coûteux.
 
 Bénéfices: Même s'il y avait 50% de chances que les masques chirurgicaux réduisent la transmission ou de 0%, ou de 70%, cela donnerait en moyenne 35%, autant qu'un demi-confinement ! Estimons donc que les masques réduisent R jusqu'à 35%. (Encore une fois, vous pouvez changer nos hypothèses en ajustant les sliders)
 
-**Here's a calculator of how masks reduce R! You can switch between cloth & surgical:** (assumes cloth masks are 2/3 as effective as surgical masks[^homemade])
+**Voici un calculateur de réduction de R grâce aux masques! Vous pouvez choisir entre tissu et chirurgical:** (en supposant que les masques en tissu ont 2 tiers de l'efficacité d'un masque chirurgical[^homemade])
 
 <div class="sim">
 		<iframe src="sim?stage=int-6a&format=calc" width="285" height="380"></iframe>
 </div>
 
-(other arguments for/against masks:[^mask_args])
+(autres arguments pour/contre le port du masque:[^mask_args])
 
-[^mask_args]: **"We need to save supplies for hospitals."** *Absolutely agreed.* But that's more of an argument for increasing mask production, not rationing. In the meantime, we can make cloth masks.
+[^mask_args]: **"Nous devons garder les provisions pour les hôpitaux."** *Absolument d'accord.* Mais c'est plus un argument en faveur de l'augmentation de la production, pas du rationnement. En attendant, nous pouvons faire des masques en tissu.
 
-   **"They're hard to wear correctly."** It's also hard to wash your hands according to the WHO Guidelines – seriously, "Step 3) right palm over left dorsum"?! – but we still recommend handwashing, because imperfect is still better than nothing.
+   **"C'est difficile de les porter correctement."** C'est aussi difficile de se laver les mains en respectant les indications de l'OMS - vraiment, "Etape 5) les dos des doigts en les tenant dans la paume des mains opposées"?! – bien sûr nous recommandons quand même le lavage des mains, l'imperfection vaut mieux que rien du tout.
    
-   **"It'll make people more reckless with handwashing & social distancing."** Sure, and safety belts make people ignore stop signs, and flossing makes people eat rocks. But seriously, we'd argue the opposite: masks are a *constant physical reminder* to be careful – and in East Asia, masks are also a symbol of solidarity!
+   **"Cela va rendre les gens imprudents pour le lavage des mains et la distanciation sociale."** Bien sûr, et les ceintures de sécurité font que les gens ignorent les panneaux stop, et les fils dentaires font que les gens mangent des pierres. Plus sérieusement, nous dirions le contraire: les masques sont un *rappel visuel constant* à la prudence – et en Asie de l'Est, les masques sont aussi un symbole de solidarité !
     
     
 
-Masks *alone* won't get R < 1. But if handwashing & "Test, Trace, Isolate" only gets us to R = 1.10, having just 2/3 of people wear *cloth* masks would tip that over to R < 1, virus contained!
+Les masques *seuls* ne vont pas rendre R < 1. Mais si le lavage des mains et la méthode "Test, tracage, isolement" ne nous amène qu'à R = 1.10, avoir ne serait-ce que 2 tiers de la population portant des masque *en tissu* permettra d'atteindre R < 1, et le virus sera contenu!
 
-**Summer:**
+**Eté:**
 
-Okay, this isn't an "intervention" we can control, but it will help! Some news outlets report that summer won't do anything to COVID-19. They're half right: summer won't get R < 1, but it *will* reduce R.
+D'accord, ce n'est pas une "intervention" que nous pouvons contrôler, mais ça va aider! Certains médias rapportent que l'été n'aura pas d'impact sur le COVID-19. Ils ont à moitié raison : l'été ne va pas rendre R < 1, mais *il va réduire* R.
 
-For COVID-19, every extra 1° Celsius (2.2° Fahrenheit) makes R drop by 1.2%.[^heat] The summer-winter difference in New York City is 15°C (60°F), so summer will make R drop by 18%.
+Pour le COVID-19, chaque degré Celsius supplémentaire (2.2° Fahrenheit) fait diminuer R de 1.2%.[^heat] La différence été-hiver à Paris est de 15°C (60°F), donc l'été devrait faire diminuer R de 18%.
 
-[^heat]: “One-degree Celsius increase in temperature [...] lower[s] R by 0.0225” and “The average R-value of these 100 cities is 1.83”. 0.0225 ÷ 1.83 = ~1.2%. [Wang, Jingyuan and Tang, Ke and Feng, Kai and Lv, Weifeng](https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3551767)
+[^heat]: “One-degree Celsius increase in temperature [...] lower[s] R by 0.0225” and “The average R-value of these 100 cities is 1.83”. 0.0225 ÷ 1.83 = ~1.2%. [Wang, Jingyuan and Tang, Ke and Feng, Kai and Lv, Weifeng](https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3551767) Traduction : "Une augmentation d'un degré Celsius de la température [...] diminue R de 0,0225" et "La valeur moyenne de R dans ces 100 villes est de 1,83." 0.0225 ÷ 1.83 = ~1,2%.
 
 <div class="sim">
 		<iframe src="sim?stage=int-6b&format=calc" width="285" height="220"></iframe>
 </div>
 
-Summer alone won't make R < 1, but if we have limited resources, we can scale back some interventions in the summer – so we can scale them *higher* in the winter.
+L'été seul ne va pas rendre R < 1, mais en cas de resources limitées, permettra de réduire certaines interventions en été – afin de pouvoir les *intensifier* en hiver.
 
-**A "Circuit Breaker" Lockdown:**
+**Un confinement "disjoncteur":**
 
-And if all that *still* isn't enough to get R < 1... we can do another lockdown.
+Et si tout cela ne permet *toujours* pas d'atteindre R < 1... nous pouvons nous confiner à nouveau.
 
-But we wouldn't have to be 2-months-closed / 1-month-open over & over! Because R is reduced, we'd only need one or two more "circuit breaker" lockdowns before a vaccine is available. (Singapore had to do this recently, "despite" having controlled COVID-19 for 4 months. That's not failure: this *is* what success takes.)
+Mais nous n'aurions pas à alterner 2 mois confinés/1 mois ouvert encore et encore! R ayant réduit, nous n'aurions qu'à réaliser ce confinement "disjoncteur" une ou deux fois avant que le vaccin ne soit disponible. (Singapour a procédé ainsi récemment, "même" s'ils avaient réussi à contrôler le virus pendant 4 mois. Ce n'est pas un échec: c'est *ce qu'il faut* pour réussir.)
 
-Here's a simulation a "lazy case" scenario:
+Voici une simulation d'un scenario "pas trop d'effort":
 
-1. Lockdown, then
-2. A moderate amount of hygiene + "Test, Trace, Isolate" + *cloth* "Masks For All", then...
-3. One more "circuit breaker" lockdown before a vaccine's found.
+1. Confinement, puis
+2. Un niveau correct d'hygiène + "Test, tracage, isolement" + "Masques pour tous" en *tissu*, et...
+3. Un dernier confinement "disjoncteur" avant que le vaccin ne soit trouvé.
 
 <div class="sim">
 		<iframe src="sim?stage=int-7&format=lines&height=620" width="800" height="620"></iframe>
 </div>
 
-Not to mention all the *other* interventions we could do, to further push R down:
+Sans parler de toutes les *autres* actions qui peuvent être mises en place pour minimiser R encore plus:
 
-* Travel restrictions/quarantines
-* Temperature checks at malls & schools
-* Deep-cleaning public spaces
-* [Replacing hand-shaking with foot-bumping](https://twitter.com/V_actually/status/1233785527788285953)
-* And all else human ingenuity shall bring
+* Restrictions des voyages/quarantaines
+* Contrôle de la température dans les centres commerciaux et les écoles
+* Nettoyage en profondeur des espaces publics
+* [Remplacer la poignée de main par le "check des pieds"](https://twitter.com/V_actually/status/1233785527788285953)
+* Et tout ce que l'ingéniosité humaine peut approter
 
 . . .
 
-We hope these plans give you hope. 
+Nous espérons que ces plans vous donne de l'espoir.  
 
-**Even under a pessimistic scenario, it *is* possible to beat COVID-19, while protecting our mental and financial health.** Use the lockdown as a "reset button", keep R < 1 with case isolation + privacy-protecting contract tracing + at *least* cloth masks for all... and life can get back to a normal-ish!
+**Même dans les cas les plus défavorables, *il est possible* de vaincre le COVID-19 tout en protégeant notre santé mentale et financière.** Utiliser le confinement comme un "bouton de remise à zéro", garder R < 1 avec isolation des cas + traçage des contacts respecteux de la vie privée + des masques *au moins* en tissus pour tous... et la vie peut reprendre son cours !
 
-Sure, you may have dried-out hands. But you'll get to invite a date out to a comics bookstore! You'll get to go out with friends to watch the latest Hollywood cash-grab. You'll get to people-watch at a library, taking joy in people going about the simple business of *being alive.*
+Bien sûr, vous aurez sans doute les mains sèches. Mais vous pourrez inviter la personne qui vous plaît à la librairie ! Vous pourrez dilapider vos économies dans les derniers film Hollywoodien avec vos amis. Vous pourrez espionner les gens à la bibliothèque, vous réjouissant de les voir s'adonner à la simple activité d'*être en vie*.
 
-Even under the worst-case scenario... life perseveres.
+Même dans le pire des cas... la vie persévère.
 
-Alors maintenant, faisons des plans pour quelques scénarios catastrophes. Amérissage, attrapez votre gilet de sauvetage et suivez les lumières vers les sorties de secours:
+Donc maintenant, faisons des plans pour quelques scénarios catastrophes. Amérissage, attrapez votre gilet de sauvetage et suivez les lumières vers les sorties de secours:
 
 <div class="section chapter">
     <div>
