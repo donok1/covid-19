@@ -127,7 +127,17 @@ of transmission to get R<1, and stop the spread!
 ### seir.png
 #### Original (anglais) 
 
+Slower when fewer
+faster when more
 
+Susceptible
+Exposed
+Infectious
+Recovered
+
+transmission
+incubation
+recovery
 
 #### Traduction (français) 
 
@@ -136,7 +146,19 @@ of transmission to get R<1, and stop the spread!
 ### seirs.png
 #### Original (anglais) 
 
+Slower when fewer
+faster when more
 
+Susceptible
+Exposed
+Infectious
+Recovered
+
+transmission
+incubation
+recovery
+
+waning
 
 #### Traduction (français) 
 
@@ -145,7 +167,15 @@ of transmission to get R<1, and stop the spread!
 ### sir.png
 #### Original (anglais) 
 
+Slower when fewer
+faster when more
 
+Susceptible
+Infectious
+Recovered
+
+transmission
+recovery
 
 #### Traduction (français) 
 
@@ -154,7 +184,11 @@ of transmission to get R<1, and stop the spread!
 ### spread.png
 #### Original (anglais) 
 
+1 to 2...
 
+2 to 4...
+
+4 to 8...
 
 #### Traduction (français) 
 
@@ -163,7 +197,11 @@ of transmission to get R<1, and stop the spread!
 ### susceptibles.png
 #### Original (anglais) 
 
+When population ~100% _, a _ can infect 100% of contact
 
+When population ~50% _, a _ can infect 50% of contact
+
+When population ~0% _, a _ can infect 0% of contact
 
 #### Traduction (français) 
 
@@ -172,7 +210,17 @@ of transmission to get R<1, and stop the spread!
 ### timeline1.png
 #### Original (anglais) 
 
+day 0
+exposed
 
+day 3
+infectious
+
+day 5
+infectious (& now feels symptoms)
+
+day 4
+infects someone else
 
 #### Traduction (français) 
 
@@ -181,7 +229,7 @@ of transmission to get R<1, and stop the spread!
 ### timeline2.png
 #### Original (anglais) 
 
-
+isolate symptomatic cases
 
 #### Traduction (français) 
 
@@ -190,7 +238,7 @@ of transmission to get R<1, and stop the spread!
 ### timeline3.png
 #### Original (anglais) 
 
-
+isolate symptomatic cases *and* quarantine contacts
 
 #### Traduction (français) 
 
