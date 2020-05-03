@@ -152,7 +152,7 @@ For COVID-19, it's estimated that you're <icon e></icon> infected-but-not-yet-in
 
 Not much changes! How long you stay <icon e></icon> Exposed changes the ratio of <icon e></icon>-to-<icon i></icon>, and *when* current cases peak... but the *height* of that peak, and total cases in the end, stays the same.
 
-Mais pourquoi ? A cause du *premier* concepte clé de la base de l'épidémiologie:
+Mais pourquoi ? A cause du *premier* concepte clé de l'épidémiologie:
 
 ![](pics/r.png)
 
