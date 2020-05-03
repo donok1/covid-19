@@ -472,7 +472,7 @@ The pessimist invents the parachute.
 
 ###Scenario 4+ : Masques pour tous, été, "Disjoncteur" 
 
-Que se passerait-il si R<sub>0</sub> était bien plus grand que ce que l'on pense, et que les actions précédentes, même aidée d'une légère distanciation, n'était *toujours* pas suffisantes pour rendre R < 1?
+Et si R<sub>0</sub> était bien plus grand que ce que l'on pense, et que les actions précédentes, même aidées d'une légère distanciation, n'était *toujours* pas suffisantes pour rendre R < 1?
 
 Souvenez-vous, même si on ne peut rendre R < 1, minimiser R permet quand même de réduire le "débordement" du total de cas, donc de sauver des vies. Pour autant, R < 1 reste l'idéal, et voici d'autres moyens pour le réduire:
 
@@ -486,7 +486,7 @@ Et vous avez raison. Les masques n'empêchent pas de tomber malade[^incoming]...
 
 [^outgoing]: “The overall 3.4 fold reduction [70% reduction] in aerosol copy numbers we observed combined with a nearly complete elimination of large droplet spray demonstrated by Johnson et al. suggests that surgical masks worn by infected persons could have a clinically significant impact on transmission.” [Milton DK, Fabian MP, Cowling BJ, Grantham ML, McDevitt JJ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591312/) Traduction : "La réduction globale de 3,4 fois (70% de réduction) du nombre de particules aériennes que nous avons observées, combinée à l'élimination quasi complète des projections des grosses goutelettes démontrée par Johnson et al. suggère que le port du masque par les personnes infectées pourrait avoir un impact cliniquement significatif sur la transmission."
 
-[^homemade]: [Davies, A., Thompson, K., Giri, K., Kafatos, G., Walker, J., & Bennett, A](https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/testing-the-efficacy-of-homemade-masks-would-they-protect-in-an-influenza-pandemic/0921A05A69A9419C862FA2F35F819D55) Voir Table 1: un T-shirt en coton a environ 2 tiers de l'efficacité de filtration d'un masque chirurgical, pour les deux aérosols à bactéries qu'ils ont testés.
+[^homemade]: [Davies, A., Thompson, K., Giri, K., Kafatos, G., Walker, J., & Bennett, A](https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/testing-the-efficacy-of-homemade-masks-would-they-protect-in-an-influenza-pandemic/0921A05A69A9419C862FA2F35F819D55) Voir Table 1: un T-shirt en coton a environ deux tiers de l'efficacité de filtration d'un masque chirurgical, pour les deux aérosols bactériens qu'ils ont testés.
 
 ![](pics/masks.png)
 
@@ -502,9 +502,9 @@ Pour autant, les pandémies c'est comme le poker. **Ne pariez que lorsque vous �
 
 Coûts: Pour des masques en tissu faits maison, même coût que le savon et le lavage des mains. Pour des masques chirurgicaux, un peu plus cher mais encore peu coûteux.
 
-Bénéfices: Même s'il y avait 50% de chances que les masques chirurgicaux réduisent la transmission ou de 0%, ou de 70%, cela donnerait en moyenne 35%, autant qu'un demi-confinement ! Estimons donc que les masques réduisent R jusqu'à 35%. (Encore une fois, vous pouvez changer nos hypothèses en ajustant les sliders)
+Bénéfices: Même s'il y avait 50% de chances que les masques chirurgicaux réduisent la transmission ou de 0%, ou de 70%, cela donnerait en moyenne 35%, autant qu'un demi-confinement ! Estimons donc que les masques réduisent R jusqu'à 35%. (Encore une fois, vous pouvez changer nos hypothèses en ajustant les curseurs)
 
-**Voici un calculateur de réduction de R grâce aux masques! Vous pouvez choisir entre tissu et chirurgical:** (en supposant que les masques en tissu ont 2 tiers de l'efficacité d'un masque chirurgical[^homemade])
+**Voici un calculateur de réduction de R grâce aux masques! Vous pouvez choisir entre tissu et chirurgical:** (en supposant que les masques en tissu ont deux tiers de l'efficacité d'un masque chirurgical[^homemade])
 
 <div class="sim">
 		<iframe src="sim?stage=int-6a&format=calc" width="285" height="380"></iframe>
@@ -520,7 +520,7 @@ Bénéfices: Même s'il y avait 50% de chances que les masques chirurgicaux réd
     
     
 
-Les masques *seuls* ne vont pas rendre R < 1. Mais si le lavage des mains et la méthode "Test, tracage, isolement" ne nous amène qu'à R = 1.10, avoir ne serait-ce que 2 tiers de la population portant des masque *en tissu* permettra d'atteindre R < 1, et le virus sera contenu!
+Les masques *seuls* ne vont pas rendre R < 1. Mais si le lavage des mains et la méthode "Test, suivi, isolement" ne nous amène qu'à R = 1.10, avoir ne serait-ce que deux tiers de la population portant des masque *en tissu* permettra d'atteindre R < 1, et le virus sera contenu!
 
 **Eté:**
 
@@ -540,12 +540,12 @@ L'été seul ne va pas rendre R < 1, mais en cas de resources limitées, permett
 
 Et si tout cela ne permet *toujours* pas d'atteindre R < 1... nous pouvons nous confiner à nouveau.
 
-Mais nous n'aurions pas à alterner 2 mois confinés/1 mois ouvert encore et encore! R ayant réduit, nous n'aurions qu'à réaliser ce confinement "disjoncteur" une ou deux fois avant que le vaccin ne soit disponible. (Singapour a procédé ainsi récemment, "même" s'ils avaient réussi à contrôler le virus pendant 4 mois. Ce n'est pas un échec: c'est *ce qu'il faut* pour réussir.)
+Mais nous n'aurions pas à alterner 2 mois confinés/1 mois ouvert encore et encore! R ayant diminué, nous n'aurions qu'à réaliser ce confinement "disjoncteur" une ou deux fois avant que le vaccin ne soit disponible. (Singapour a procédé ainsi récemment, "même" s'ils avaient réussi à contrôler le virus pendant 4 mois. Ce n'est pas un échec: c'est *ce qu'il faut* pour réussir.)
 
 Voici une simulation d'un scenario "pas trop d'effort":
 
 1. Confinement, puis
-2. Un niveau correct d'hygiène + "Test, tracage, isolement" + "Masques pour tous" en *tissu*, et...
+2. Un niveau correct d'hygiène + "Test, suivi, isolement" + "Masques pour tous" en *tissu*, et...
 3. Un dernier confinement "disjoncteur" avant que le vaccin ne soit trouvé.
 
 <div class="sim">
@@ -562,13 +562,13 @@ Sans parler de toutes les *autres* actions qui peuvent être mises en place pour
 
 . . .
 
-Nous espérons que ces plans vous donne de l'espoir.  
+Nous espérons que ces plans vous donnent de l'espoir.  
 
-**Même dans les cas les plus défavorables, *il est possible* de vaincre le COVID-19 tout en protégeant notre santé mentale et financière.** Utiliser le confinement comme un "bouton de remise à zéro", garder R < 1 avec isolation des cas + traçage des contacts respecteux de la vie privée + des masques *au moins* en tissus pour tous... et la vie peut reprendre son cours !
+**Même dans les cas les plus défavorables, *il est possible* de vaincre le COVID-19 tout en protégeant notre santé mentale et financière.** Utiliser le confinement comme un "bouton de remise à zéro", garder R < 1 avec isolation des cas + suivi des contacts respecteux de la vie privée + des masques *au moins* en tissus pour tous... et la vie peut reprendre son cours !
 
-Bien sûr, vous aurez sans doute les mains sèches. Mais vous pourrez inviter la personne qui vous plaît à la librairie ! Vous pourrez dilapider vos économies dans les derniers film Hollywoodien avec vos amis. Vous pourrez espionner les gens à la bibliothèque, vous réjouissant de les voir s'adonner à la simple activité d'*être en vie*.
+Bien sûr, vous aurez sans doute les mains sèches. Mais vous pourrez inviter la personne qui vous plaît à la librairie ! Vous pourrez dilapider vos économies dans les derniers film hollywoodiens avec vos amis. Vous pourrez espionner les gens à la bibliothèque, vous réjouissant de les voir s'adonner à la simple activité d'*être en vie*.
 
-Même dans le pire des cas... la vie persévère.
+Même dans les pires scénarios... la vie continue.
 
 Donc maintenant, faisons des plans pour quelques scénarios catastrophes. Amérissage, attrapez votre gilet de sauvetage et suivez les lumières vers les sorties de secours:
 
@@ -666,7 +666,7 @@ Même dans le scénario catastrophe "sans vaccin", nous avons 3 échappatoires. 
 		<iframe src="sim?stage=yrs-5&format=lines" width="800" height="540"></iframe>
 </div>
 
-Même dans le *pire* des scénarios cauchemardesques... La vie continue.
+Même dans *le pire* des pires scénarios... La vie continue.
 
 . . .
 
