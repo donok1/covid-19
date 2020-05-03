@@ -60,7 +60,7 @@ l.134 : choose to translate *builder* by *fabricants*. Best word so far to match
 ## Choix de traductions
 Ajoutez des choix de traduction de mots/expressions spécifiques qui doivent rester les mêmes dans toutes la traduction ici.
 Cela devrait être fait dès que possible en repérant les expressions spécifiques.
- 
+
 - Infectious people: les individus Infectieux 
 - Suspectible people: les individus Susceptibles (de contracter la maladie) 
 - Start (for simulations images): Lancer. Utiliser *réaliser* ou *lancer* en fonction.  
@@ -85,13 +85,13 @@ TODO On May 4th: get last updates from nickys project and stop at this version.
 
 |   |  Traduit | Relu  | Appliqué à l'image |
 |---|---|------|---|
-| dp3t.png |  |  | [X] DP-3T github project | 
-| exponential.png | |   |   | 
-| graphs_q.png |  |    |   | 
-| masks.png | |  |   | 
-| mitigation_vs_suppression.png  |  |  |   | 
-| plan.png  |  |  |   | 
-| r.png  |  |  |   | 
+| dp3t.png |  |  | [X] DP-3T github project |
+| exponential.png | |   |   |
+| graphs_q.png | aucun texte |  | [X] |
+| masks.png | |  |   |
+| mitigation_vs_suppression.png  |  |  |   |
+| plan.png  |  |  |   |
+| r.png  | aucun texte |  | [X] |
 | r2.png  |  |  |    |
 | r3.png  |  |  |    |
 | r4.png |  |  |    |
