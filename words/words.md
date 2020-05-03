@@ -710,4 +710,4 @@ Qu'est ce que ça veut dire pour vous maintenant ?
 
 Ne minimisez pas la peur pour fabriquer de l'espoir. Notre peur devrait faire *équipe* avec notre espoir, comme les inventeurs de l'avions et du parachute. C'est en se préparant à des futurs épouvantables qu'on *crée* un futur plein d'espérance.
 
-La seule chose à craindre est l'idée que la seule chose dont il faut avoir peur est la peur elle-même.
+La seule chose à craindre est l'idée que la seule chose dont il faille avoir peur est la peur elle-même.
