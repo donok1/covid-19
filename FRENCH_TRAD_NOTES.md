@@ -23,8 +23,8 @@ Ne pas changer le nombre de lignes en traduisant. (ie ne pas rajouter/supprimer 
 | Misc |[L1-L23](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L1-L23) |[X] @cyrilou242  |   | |
 | Intro |[L25-L41](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L25-L41) | [X] @cyrilou242  |   | |
 | LastMonths: Curves | [L43-L153](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L43-L153) | **WIP** @cyrilou242   |   | |
-| LastMonths: R | [L155-L237](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L155-L237)| **WIP** @e-guenat ? |   | |
-| NextMonths: Scenario 0-3  | [L239-L359](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L239-L359) |  |   | |
+| LastMonths: R | [L155-L237](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L155-L237)| [X] @e-guenat |   | |
+| NextMonths: Scenario 0-3  | [L239-L359](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L239-L359) | **WIP** @e-guenat |   | |
 | NextMonths: Scenario 4  | [L361-L471](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L361-L471) |  |   | |
 | NextMonths: Scenario 4+  | [L473-L573](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L473-L573) |  |   | |
 | NextYears  | [L575-L682](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L575-L682) | [X] @e-guenat | [X] @cyrilou242  | |
@@ -52,6 +52,9 @@ link to roosevelt sentence meaning understandable
 - L39 Epidemiologie 101 will not be understood sound French
 
 ### LastMonths: Curves
+
+### LastMonths: R
+- L213: choisi le système français pour l'analogie avec les notes d'école. 
 
 ### Next years and Now
 l.107: reduced the use of *month* to ease the readability in french
