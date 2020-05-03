@@ -352,7 +352,7 @@ Enfin bon, c'est bien joli de dessiner une ligne disant "capacité des soins int
 
 **Santé financière:** "Et l'économie alors" sonne comme si vous vous préoccupiez plus de dollars que de vies à sauver, mais "l'économie" n'est pas seulement des actions en bourse: c'est la capacité des personnes à fournir toit et nourriture à leurs proches, à investir dans le futur de leurs enfants, à apprécier de l'art, de la bonne nourriture, des jeux vidéos - les trucs qui font que la vie vaut la peine d'être vécue. Par ailleurs, la pauvreté *elle-même* a un impact désastreux sur la santé mentale et physique.
 
-Nous ne disons pas qu'on ne *devrait pas* se confiner à nouveau ! Nous verrons les confinements "coupe-circuit" plus tard. Même si ce n'est pas idéal.
+Nous ne disons pas qu'on ne *devrait pas* se confiner à nouveau ! Nous verrons les confinements "disjoncteurs" plus tard. Même si ce n'est pas idéal.
 
 Mais attendez... Taïwan et la Corée du Sud n'ont-elles pas *déjà* contenu le COVID-19 ? Pendant 4 mois, *sans* long confinement ?
 
