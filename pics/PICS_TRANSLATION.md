@@ -51,7 +51,13 @@ But they are effective at preventing you from getting *others* sick!
 
 #### Traduction (français) 
 
+Les gouttelettes deviennent plus petites à mesure qu'elles s'envolent, en raison de l'évaporation.
 
+Les masques sont meilleurs pour bloquer les grosses gouttelettes et pires pour les petites.
+
+C'est pourquoi les masques ne sont pas efficaces pour *vous* empêcher de tomber malade ...
+
+Mais ils sont efficaces pour vous empêcher de rendre *les autres* malades!
 
 ### mitigation_vs_suppression.png
 #### Original (anglais) 
@@ -62,7 +68,9 @@ Suppression
 
 #### Traduction (français) 
 
+Atténuation
 
+Endiguement
 
 ### plan.png
 #### Original (anglais) 
@@ -79,9 +87,39 @@ If not enough to get R<1, supplement with **Mask For All** and/or a "circuit bre
 VACCINATE
 If immunity doesn't last, do regular vaccinations. If no vaccine, change behavioral norms until we can treat of cure it!
 
+city-wide lockdown
+hand washing
+
+isolate cases
+quarantine contacts
+masks
+hand washing
+
+vaccines
+
 #### Traduction (français) 
 
+The goal: R < 1.
+Starting with a...
 
+LOCKDOWN
+So we get a fresh start & buy time to switch to...
+
+TEST, TRACE, ISOLATE
+If not enough to get R<1, supplement with **Mask For All** and/or a "circuit breaker" lockdown, until we can...
+
+VACCINATE
+If immunity doesn't last, do regular vaccinations. If no vaccine, change behavioral norms until we can treat of cure it!
+
+city-wide lockdown
+hand washing
+
+isolate cases
+quarantine contacts
+masks
+hand washing
+
+vaccines
 
 ### r2.png
 #### Original (anglais) 
@@ -94,7 +132,7 @@ contained!
 
 #### Traduction (français) 
 
-
+?
 
 ### r3.png
 #### Original (anglais) 
@@ -124,7 +162,7 @@ of transmission to get R<1, and stop the spread!
 
 #### Traduction (français) 
 
-
+?
 
 ### seir.png
 #### Original (anglais) 
@@ -143,7 +181,7 @@ recovery
 
 #### Traduction (français) 
 
-
+?
 
 ### seirs.png
 #### Original (anglais) 
@@ -164,7 +202,7 @@ waning
 
 #### Traduction (français) 
 
-
+?
 
 ### sir.png
 #### Original (anglais) 
@@ -181,7 +219,7 @@ recovery
 
 #### Traduction (français) 
 
-
+?
 
 ### spread.png
 #### Original (anglais) 
@@ -211,7 +249,7 @@ When population ~0% _, a _ can infect 0% of contact
 
 #### Traduction (français) 
 
-
+?
 
 ### timeline1.png
 #### Original (anglais) 
@@ -230,7 +268,7 @@ infects someone else
 
 #### Traduction (français) 
 
-
+?
 
 ### timeline2.png
 #### Original (anglais) 
@@ -239,7 +277,7 @@ isolate symptomatic cases
 
 #### Traduction (français) 
 
-
+?
 
 ### timeline3.png
 #### Original (anglais) 
@@ -248,3 +286,4 @@ isolate symptomatic cases *and* quarantine contacts
 
 #### Traduction (français) 
 
+?
