@@ -470,7 +470,7 @@ But what if things *still* go wrong? Things have gone horribly wrong already. Th
 
 The pessimist invents the parachute.
 
-###Scenario 4+: Masques pour tous, été, "Disjoncteur" 
+###Scenario 4+ : Masques pour tous, été, "Disjoncteur" 
 
 Que se passerait-il si R<sub>0</sub> était bien plus grand que ce que l'on pense, et que les actions précédentes, même aidée d'une légère distanciation, n'était *toujours* pas suffisantes pour rendre R < 1?
 
