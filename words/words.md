@@ -247,13 +247,13 @@ Préparez-vous à un atterrissage d'urgence...
 
 ###Scenario 0: On ne fait absolument rien
 
-Environ une personne atteinte du COVID-19 sur vingt a besoin de soins intensifs.[^icu_covid] Dans un pays développé comme les États-Unis, il y a une place en soins intensifs par 2400 personnes.[^icu_us] Par conséquent, sur 3400 personnes atteintes *en même temps*, les États-Unis peuvent en gérer 20 - soit 0,6% de la population.
+Environ une personne atteinte du COVID-19 sur vingt  a besoin de soins intensifs.[^icu_covid] Dans un pays développé comme les États-Unis, il y a une place en soins intensifs pour 3400 personnes.[^icu_us] Dès lors, pour 3400 personnes atteintes *en même temps*, les États-Unis peuvent en gérer 20 - soit 0,6% de la population.
 
 [^icu_covid]: ["Percentage of COVID-19 cases in the United States from February 12 to March 16, 2020 that required intensive care unit (ICU) admission, by age group"](https://www.statista.com/statistics/1105420/covid-icu-admission-rates-us-by-age-group/).Traduction: "Pourcentage de cas de COVID-19 aux États-Unis du 12 février au 26 mars 2020 nécéssitant une admission en unité de soins intesifs, par groupe d'âge". Entre 4,9% et 11,5% de *tous* les cas de COVID-19 ont eu besoin de soins intensifs. En choisissant généreusement l'estimation basse, cela nous fait 5%, soit 1 sur 20. Notez que cette proportion est propre à la pyramide des âges de ce pays. Elle sera plus haute dans les pays avec une population âgée et plus basse dans les pays avec une population jeune.
 
-[^icu_us]: “Number of ICU beds = 96,596”. De [the Society of Critical Care Medicine](https://sccm.org/Blog/March-2020/United-States-Resource-Availability-for-COVID-19) Tradution: "Nombre de lits en unité de soins intensifs = 96'596" La population des États-Unis était de 328'200 en 2019. 96'596 sur 328'200 environ 1 sur 3400.
+[^icu_us]: “Number of ICU beds = 96,596”. De [the Society of Critical Care Medicine](https://sccm.org/Blog/March-2020/United-States-Resource-Availability-for-COVID-19). Tradution: "Nombre de lits en unité de soins intensifs = 96'596" La population des États-Unis était de 328'200'000 en 2019. 96'596 sur 328'200'000 environ 1 sur 3400.
 
-Même si on faisait *plus que tripler* cette capacité pour atteindre 2%, voici ce qui se serait passé *si on n'avait absolument rien fait:*
+Même si cette capacité était *plus que triplée* pour atteindre 2%, voici ce qui se serait passé *si on n'avait absolument rien fait:*
 
 <div class="sim">
 		<iframe src="sim?stage=int-1&format=lines" width="800" height="540"></iframe>
@@ -261,16 +261,16 @@ Même si on faisait *plus que tripler* cette capacité pour atteindre 2%, voici 
 
 Pas bon.
 
-C'est ce que [Le rapport du 16 mars de l'Imperial College de Londres](http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/covid-19/report-9-impact-of-npis-on-covid-19/) a trouvé: si on ne fait rien, on sature les soins intensifs, avec plus de 80% de la population contaminée.
+C'est ce que [Le rapport du 16 mars de l'Imperial College London](http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/covid-19/report-9-impact-of-npis-on-covid-19/) décrit: si on ne fait rien, on sature les soins intensifs, avec plus de 80% de la population tombant malade.
 (Souvenez-vous: le nombre total de cas *dépasse* le seuil d'immunité collective)
 
 Même si seulement 0,5% des personnes infectées meurent - une estimation optimiste lorsqu'il n'y a plus de place en soins intensifs - dans un grand pays comme les États-Unis avec 300 millions d'habitants, 0,5% de 80% de 300 millions = tout de même 1,2 millions de décès... *SI on ne fait rien.*)
 
-(Beaucoup de médias et de réseaux sociaux annonçaient que "80% des gens vont être infectés" *sans* préciser "SI on ne fait rien". La peur a été transformée en clics, sans comprendre. *Soupir.*)
+(Beaucoup de médias et de réseaux sociaux annonçaient "80% des gens vont être infectés" *sans* préciser "SI l'on ne fait rien". La peur a été transformée en clics, pas en compréhension. *Soupir.*)
 
 ###Scenario 1: Aplatir la courbe / Immunité collective
 
-La stratégie "Aplatir la courbe" a été promue par tous les organismes de santé publique, pendant que le plan de base "d'immunité collective" du Royaume Uni était universellement décrié. Ces deux plans étaient *les mêmes*. Le Royaume Uni a juste mal communiqué le sien.[^yong]
+La stratégie "Aplatir la courbe" a été promue par tous les organismes de santé publique, pendant que le plan de base "d'immunité collective" du Royaume Uni était universellement décrié. Ces deux plans *le même objectif*. Le Royaume Uni a juste mal communiqué le sien.[^yong]
 
 [^yong]: “He says that the actual goal is the same as that of other countries: flatten the curve by staggering the onset of infections. As a consequence, the nation may achieve herd immunity; it’s a side effect, not an aim. [...] The government’s actual coronavirus action plan, available online, doesn’t mention herd immunity at all.”
 
@@ -282,7 +282,7 @@ Premièrement, voyons les deux principales manières "d'aplatir la courbe": le l
 
 Intensifier le lavage des mains réduit les grippes et les rhumes, dans les pays riches, d'environ 25%[^handwashing], tandis que le confinement généralisé a réduit les contacts rapprochés d'environ 70%[^london]. Supposons alors que le lavage des mains peut réduire R *jusqu'à* 25% et que la distanciation sociale peut réduire R *jusqu'à* 70%:
 
-[^handwashing]: “All eight eligible studies reported that handwashing lowered risks of respiratory infection, with risk reductions ranging from 6% to 44% [pooled value 24% (95% CI 6–40%)].”  [Rabie, T. and Curtis, V.](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-3156.2006.01568.x) Traduction: "Toutes les huit études valables ont rapporté que le lavage des mains réduisait le risque d'infections respiratoires, avec une réduction des risque allant de 6% à 44% [valeur moyenne 24% (IC 95% : 6-40%)]." Note: Par simplicité, la valeur a été arrondie à 25% dans les simulations. On notera que, comme le pointe cette méta-analyse, la qualité des études sur le lavage des main (du moins dans les pays riches) est exécrable.
+[^handwashing]: “All eight eligible studies reported that handwashing lowered risks of respiratory infection, with risk reductions ranging from 6% to 44% [pooled value 24% (95% CI 6–40%)].”  [Rabie, T. and Curtis, V.](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-3156.2006.01568.x) Traduction: "Les huit études valables ont rapporté que le lavage des mains réduisait le risque d'infections respiratoires, avec une réduction des risques allant de 6% à 44% [valeur moyenne 24% (IC 95% : 6-40%)]." Note: Par simplicité, la valeur a été arrondie à 25% dans les simulations. On notera que, comme le pointe cette méta-analyse, la qualité des études sur le lavage des main (du moins dans les pays riches) est exécrable.
 
 [^london]: “We found a 73% reduction in the average daily number of contacts observed per participant. This would be sufficient to reduce R0 from a value from 2.6 before the lockdown to 0.62 (0.37 - 0.89) during the lockdown”.  [Jarvis and Zandvoort et al](https://cmmid.github.io/topics/covid19/comix-impact-of-physical-distance-measures-on-transmission-in-the-UK.html) Traduction: "Nous avons trouvé une réduction de 73% du nombre de contacts journaliers observés par participant. Cela serait suffisant pour réduire R0 de 2,6 avant le confinement à 0,62 (IC 0,37 - 0.89) pendant le confinement". Pour faire simple, le taux a été arrondi à 70% dans les simulations.
 
@@ -294,7 +294,7 @@ Intensifier le lavage des mains réduit les grippes et les rhumes, dans les pays
 		<iframe src="sim?stage=int-2a&format=calc" width="285" height="260"></iframe>
 </div>
 
-Maintenant, simulons ce qu'il arrive à une épidémie de COVID-19 si, début mars, nous avions augmenté le lavage des mains mais seulement avec une distanciation sociale *légère* - de telle sorte que R est plus bas, mais toujours au dessus de 1:
+Maintenant, simulons ce qu'il serait arrivé à une épidémie de COVID-19 si, début mars, nous avions augmenté le lavage des mains mais seulement avec une distanciation sociale *légère* - de sorte que R est plus bas, mais toujours au dessus de 1:
 
 <div class="sim">
    <iframe src="sim?stage=int-2&format=lines" width="800" height="540"></iframe>
@@ -302,7 +302,7 @@ Maintenant, simulons ce qu'il arrive à une épidémie de COVID-19 si, début ma
 
 Trois observations:
 
-1. Cela *réduit* le nombre total de cas ! **Même si on n'arrive pas à R < 1, réduire R sauve quand même des vies en réduisant le dépassement au dessus du seuil d'immunité collective.** Beaucoup de gens s'imaginent "qu'aplatir la courbe" étale les cas sans toutefois réduire leur nombre total. C'est impossible dans *n'importe lequel* des modèles de base de l'épidémiologie. Mais parce que les médias d'actualité présentaient l'affirmation "80% seront infectés" comme inévitable, les gens ont pensé que le nombre total de cas serait le même quoi qu'on fasse. *Soupir.*
+1. Le nombre total de cas *baisse* ! **Même si on n'arrive pas à R < 1, réduire R sauve quand même des vies en réduisant le dépassement au dessus du seuil d'immunité collective.** Beaucoup de gens s'imaginent "qu'aplatir la courbe" étale les cas sans toutefois réduire leur nombre total. C'est impossible dans *n'importe lequel* des modèles de base de l'épidémiologie. Mais parce que les médias d'actualité présentaient l'affirmation "80% seront infectés" comme inévitable, les gens ont pensé que le nombre total de cas serait le même quoi qu'on fasse. *Soupir.*
 
 2. A cause des mesures supplémentaires, le nombre de cas actuels atteint un pic *avant* que l'immunité collective ne soit atteinte. En fait, dans cette simulation, le nombre total de cas passe *un tout petit peu* au dessus du seuil d'immunité collective - le plan du Royaume Uni ! A ce moment, R < 1, on peut abandonner toutes les autres mesures d'intervention et le COVID-19 reste contenu ! Eh bien, il y a quand même un problème...
 
@@ -324,7 +324,7 @@ Voyons ce qu'il arrive lorsqu'on *fracasse* la courbe avec un confinement de 5 m
 
 Oh.
 
-Voici la "seconde vague" dont tout le monde parle. Aussitôt le confinement levé, on repasse à R > 1. Un seul dernier <icon i></icon> (ou un <icon i></icon> importé) peut provoquer un sursaut aussi méchant que si nous avions suivi le Scénario 0: "On ne fait absolument rien".
+Voici la "seconde vague" dont tout le monde parle. Aussitôt le confinement levé, on repasse à R > 1. Un seul <icon i></icon> (ou un <icon i></icon> importé) peut provoquer un sursaut aussi méchant que si nous avions suivi le Scénario 0: "On ne fait absolument rien".
 
 **Un confinement n'est pas un remède, c'est juste un retour à la case départ.**
 
@@ -348,9 +348,9 @@ Enfin bon, c'est bien joli de dessiner une ligne disant "capacité des soins int
 
 **La santé mentale:** La solitude est un des plus importants facteurs de risque menant à la dépression, à l'anxiété et au suicide. C'est tout aussi associé à une mort prématurée que ne l'est le fait de fumer 15 cigarettes par jour.[^loneliness]
 
-[^loneliness]: Voir la [Figure 6 de Holt-Lunstad & Smith 2010](https://journals.sagepub.com/doi/abs/10.1177/1745691614568352). Bien sûr, grosse mise en garde: ils ont trouvé une *correlation*. Mais à moins que vous ne vouliez imposer aléatoirement à des gens d'être solitaires pour toute leur vie, des indices observationnels sont tout ce que vous pourrez avoir.
+[^loneliness]: Voir la [Figure 6 de Holt-Lunstad & Smith 2010](https://journals.sagepub.com/doi/abs/10.1177/1745691614568352). Bien sûr, grosse mise en garde: ils ont trouvé une *corrélation*. Mais à moins que vous ne vouliez imposer aléatoirement à des gens d'être solitaires pour toute leur vie, des indices observationnels sont tout ce que vous pourrez avoir.
 
-**Santé financière:** "Et l'économie alors" sonne comme si vous vous préoccupiez plus de dollars que de vies à sauver, mais "l'économie" n'est pas seulement des actions en bourse: c'est la capacité des personnes à fournir toit et nourriture à leurs proches, à investir dans le futur de leurs enfants, à apprécier de l'art, de la bonne nourriture, des jeux vidéos - les trucs qui font que la vie vaut la peine d'être vécue. Par ailleurs, la pauvreté *elle-même* a un impact désastreux sur la santé mentale et physique.
+**Santé financière:** "Et l'économie alors" sonne comme si vous vous préoccupiez plus de dollars que de vies à sauver, mais "l'économie" n'est pas seulement des actions en bourse : c'est la capacité des personnes à fournir toit et nourriture à leurs proches, à investir dans le futur de leurs enfants, à apprécier de l'art, de la bonne nourriture, des jeux vidéos - les trucs qui font que la vie vaut la peine d'être vécue. Par ailleurs, la pauvreté *elle-même* a un impact désastreux sur la santé mentale et physique.
 
 Nous ne disons pas qu'on ne *devrait pas* se confiner à nouveau ! Nous verrons les confinements "disjoncteurs" plus tard. Même si ce n'est pas idéal.
 
