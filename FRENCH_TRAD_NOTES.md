@@ -24,7 +24,7 @@ Ne pas changer le nombre de lignes en traduisant. (ie ne pas rajouter/supprimer 
 | Intro |[L25-L41](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L25-L41) | [X] @cyrilou242  |   | |
 | LastMonths: Curves | [L43-L153](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L43-L153) | [X] @cyrilou242   | [X] @e-guenat  | |
 | LastMonths: R | [L155-L237](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L155-L237)| [X] @e-guenat | [X] @cyrilou242  | |
-| NextMonths: Scenario 0-3  | [L239-L359](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L239-L359) | **WIP** @e-guenat |   | |
+| NextMonths: Scenario 0-3  | [L239-L359](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L239-L359) | **WIP** @e-guenat | [X] @maximebedoin  | |
 | NextMonths: Scenario 4  | [L361-L471](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L361-L471) |  |   | |
 | NextMonths: Scenario 4+  | [L473-L573](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L473-L573) | **WIP** @cyrilou242 |   | |
 | NextYears  | [L575-L682](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L575-L682) | [X] @e-guenat | [X] @cyrilou242  | |
@@ -56,7 +56,10 @@ link to roosevelt sentence meaning understandable
 ### LastMonths: Curves
 
 ### LastMonths: R
-- L213: choisi le système français pour l'analogie avec les notes d'école. 
+- L213: choisi le système français pour l'analogie avec les notes d'école.
+
+### Scenario 4+
+- L477 overshoot --> "débordement" ? Utilisé dans les parties précédentes pas encore traduites. "  
 
 ### Next years and Now
 l.107: reduced the use of *month* to ease the readability in french
@@ -73,11 +76,10 @@ Cela devrait être fait dès que possible en repérant les expressions spécifiq
 - Epidémiologie 101 : **traduction compréhensible en français**
 - <icon i></icon> Infectious people --> les individus Infectieux <icon i></icon> . Noter l'inversion de l'ordre pour l'image.
 - contact tracing  : suivi des contacts
-- ICU : [unités de] soins intensifs
+- ICU : respirateurs
 - ventilators : respirateurs
 - privacy-protecting [as an ADJ] : respectueuse de vos données personnelles / respectueuse de votre vie privée [TO DECIDE] 
-- Exponential decay: décroissance exponentielle
--Flatten the curve : aplatir la courbe
+- Exponential decay: décroissance exponentielle 
 
 - contextual notes: If title of an article or quote, I leave it in English and added a translation as the end of the note, as follows:
 [^keyword]: “quote EN” [from REF](URL) Traduction: "quote FR "
