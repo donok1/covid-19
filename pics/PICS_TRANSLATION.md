@@ -4,11 +4,11 @@
 
 |   | Traduit | Relu | Création image | Check qualité |
 |---|---|------|---|---|
-| [dp3t.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/dp3t.png) | [X] @veale | [X] @veale | [X] @veale | [X] |
+| [dp3t.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/dp3t.png) | [X] @veale | [X] @veale | [X] @veale |  |
 | [exponential.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/exponential.png) | [X] @sylvainberube | @sylvainberube | [X] @sylvainberube |   |
 | [graphs_q.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/graphs_q.png) | (aucun texte) | (aucun texte) | (image originale) | [X] |
 | [masks.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/masks.png) | |  |   |   |
-| [mitigation_vs_suppression.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/mitigation_vs_suppression.png)  |  |  |   |   |
+| [mitigation_vs_suppression.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/mitigation_vs_suppression.png)  | [X] @sylvainberube |  | [X] @sylvainberube |   |
 | [plan.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/plan.png)  |  |  |   |   |
 | [r.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r.png)  | (aucun texte) | (aucun texte) | (image originale) | [X] |
 | [r2.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r2.png)  |  |  |    |    |
@@ -99,27 +99,7 @@ vaccines
 
 #### Traduction (français) 
 
-The goal: R < 1.
-Starting with a...
-
-LOCKDOWN
-So we get a fresh start & buy time to switch to...
-
-TEST, TRACE, ISOLATE
-If not enough to get R<1, supplement with **Mask For All** and/or a "circuit breaker" lockdown, until we can...
-
-VACCINATE
-If immunity doesn't last, do regular vaccinations. If no vaccine, change behavioral norms until we can treat of cure it!
-
-city-wide lockdown
-hand washing
-
-isolate cases
-quarantine contacts
-masks
-hand washing
-
-vaccines
+?
 
 ### r2.png
 #### Original (anglais) 
