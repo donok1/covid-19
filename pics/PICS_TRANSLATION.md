@@ -7,17 +7,17 @@
 | [dp3t.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/dp3t.png) | [X] @veale | [X] @veale | [X] @veale |  |
 | [exponential.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/exponential.png) | [X] @sylvainberube |  | [X] @sylvainberube |   |
 | [graphs_q.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/graphs_q.png) | — | — | (image originale) | [X] |
-| [masks.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/masks.png) | |  |   |   |
+| [masks.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/masks.png) | [X] @sylvainberube |  | @sylvainberube |   |
 | [mitigation_vs_suppression.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/mitigation_vs_suppression.png)  | [X] @sylvainberube |  | [X] @sylvainberube |   |
 | [plan.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/plan.png)  |  |  |  |   |
 | [r.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r.png)  | — | — | (image originale) | [X] |
 | [r2.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r2.png)  | [X] @sylvainberube |  | [X] @sylvainberube |    |
 | [r3.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r3.png)  | [X] @sylvainberube |  |    |    |
-| [r4.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r4.png) |  |  |    |    |
-| [seir.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/seir.png) |  |  |    |    |
+| [r4.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r4.png) | [X] @sylvainberube |  | @sylvainberube |    |
+| [seir.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/seir.png) | [X] @sylvainberube |  | @sylvainberube |    |
 | [seirs.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/seirs.png) |  |  |    |    |
 | [sir.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/sir.png) |  |  |    |    |
-| [spread.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/spread.png) | [X] @sylvainberube |  |    |    |
+| [spread.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/spread.png) | [X] @sylvainberube |  | [X] @sylvainberube |    |
 | [susceptibles.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/susceptibles.png) |  |  |    |    |
 | [timeline1.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/timeline1.png) |  |  |    |    |
 | [timeline2.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/timeline2.png) |  |  |    |    |
@@ -148,18 +148,18 @@ of transmission to get R<1, and stop the spread!
 
 si R_0 est
 
-(1.0 ... 4.0)
+(1,0 ... 4,0)
 
-then you need to stop more than
+alors vous devez arrêter plus de
 
 (0%, ..., 75%)
 
-of transmission to get R<1, and stop the spread!
+de transmission pour obtenir R<1 et arrêter la propagation!
 
 ### seir.png
 #### Original (anglais) 
 
-Slower when fewer
+slower when fewer
 faster when more
 
 Susceptible
@@ -173,7 +173,17 @@ recovery
 
 #### Traduction (français) 
 
-?
+plus lent quand moins de
+plus rapide quand plus de
+
+Susceptible
+Exposé
+Infectieux
+Guéri
+
+transmission
+incubation
+guérison
 
 ### seirs.png
 #### Original (anglais) 
@@ -194,7 +204,19 @@ waning
 
 #### Traduction (français) 
 
-?
+plus lent quand moins de
+plus rapide quand plus de
+
+Susceptible
+Exposé
+Infectieux
+Guéri
+
+transmission
+incubation
+guérison
+
+déclin
 
 ### sir.png
 #### Original (anglais) 
@@ -211,7 +233,15 @@ recovery
 
 #### Traduction (français) 
 
-?
+plus lent quand moins de
+plus rapide quand plus de
+
+Susceptible
+Infectieux
+Guéri
+
+transmission
+guérison
 
 ### spread.png
 #### Original (anglais) 
