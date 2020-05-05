@@ -4,20 +4,20 @@
 
 |   | Traduit | Relu | Création image | Check qualité |
 |---|---|------|---|---|
-| [dp3t.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/dp3t.png) | [X] @veale | [X] @veale | [X] @veale | [X] |
-| [exponential.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/exponential.png) | [X] @sylvainberube | @sylvainberube | [X] @sylvainberube |   |
-| [graphs_q.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/graphs_q.png) | (aucun texte) | (aucun texte) | (image originale) | [X] |
-| [masks.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/masks.png) | |  |   |   |
-| [mitigation_vs_suppression.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/mitigation_vs_suppression.png)  |  |  |   |   |
-| [plan.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/plan.png)  |  |  |   |   |
-| [r.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r.png)  | (aucun texte) | (aucun texte) | (image originale) | [X] |
-| [r2.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r2.png)  |  |  |    |    |
+| [dp3t.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/dp3t.png) | [X] @veale | [X] @veale | [X] @veale |  |
+| [exponential.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/exponential.png) | [X] @sylvainberube |  | [X] @sylvainberube |   |
+| [graphs_q.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/graphs_q.png) | — | — | (image originale) | [X] |
+| [masks.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/masks.png) | [X] @sylvainberube |  | @sylvainberube |   |
+| [mitigation_vs_suppression.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/mitigation_vs_suppression.png)  | [X] @sylvainberube |  | [X] @sylvainberube |   |
+| [plan.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/plan.png)  |  |  |  |   |
+| [r.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r.png)  | — | — | (image originale) | [X] |
+| [r2.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r2.png)  | [X] @sylvainberube |  | [X] @sylvainberube |    |
 | [r3.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r3.png)  | [X] @sylvainberube |  |    |    |
-| [r4.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r4.png) |  |  |    |    |
-| [seir.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/seir.png) |  |  |    |    |
+| [r4.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r4.png) | [X] @sylvainberube |  | @sylvainberube |    |
+| [seir.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/seir.png) | [X] @sylvainberube |  | @sylvainberube |    |
 | [seirs.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/seirs.png) |  |  |    |    |
 | [sir.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/sir.png) |  |  |    |    |
-| [spread.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/spread.png) | [X] @sylvainberube |  |    |    |
+| [spread.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/spread.png) | [X] @sylvainberube |  | [X] @sylvainberube |    |
 | [susceptibles.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/susceptibles.png) |  |  |    |    |
 | [timeline1.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/timeline1.png) |  |  |    |    |
 | [timeline2.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/timeline2.png) |  |  |    |    |
@@ -51,7 +51,13 @@ But they are effective at preventing you from getting *others* sick!
 
 #### Traduction (français) 
 
+Les gouttelettes deviennent plus petites à mesure qu'elles s'envolent, à cause de l'évaporation.
 
+Les masques bloquent mieux les grosses gouttelettes que les petites.
+
+C'est pourquoi les masques ne sont pas efficaces pour *vous* empêcher de tomber malade ...
+
+Mais ils sont efficaces pour vous empêcher de rendre *les autres* malades!
 
 ### mitigation_vs_suppression.png
 #### Original (anglais) 
@@ -62,7 +68,9 @@ Suppression
 
 #### Traduction (français) 
 
+Atténuation
 
+Endiguement
 
 ### plan.png
 #### Original (anglais) 
@@ -79,9 +87,19 @@ If not enough to get R<1, supplement with **Mask For All** and/or a "circuit bre
 VACCINATE
 If immunity doesn't last, do regular vaccinations. If no vaccine, change behavioral norms until we can treat of cure it!
 
+city-wide lockdown
+hand washing
+
+isolate cases
+quarantine contacts
+masks
+hand washing
+
+vaccines
+
 #### Traduction (français) 
 
-
+?
 
 ### r2.png
 #### Original (anglais) 
@@ -94,7 +112,11 @@ contained!
 
 #### Traduction (français) 
 
+épidémie
 
+endémie
+
+contenue !
 
 ### r3.png
 #### Original (anglais) 
@@ -105,9 +127,9 @@ GOOD
 
 #### Traduction (français) 
 
-MAUVAIS
+MAL
 
-BON
+BIEN
 
 ### r4.png
 #### Original (anglais) 
@@ -124,12 +146,20 @@ of transmission to get R<1, and stop the spread!
 
 #### Traduction (français) 
 
+si R_0 est
 
+(1,0 ... 4,0)
+
+alors vous devez arrêter plus de
+
+(0%, ..., 75%)
+
+de transmission pour obtenir R<1 et arrêter la propagation!
 
 ### seir.png
 #### Original (anglais) 
 
-Slower when fewer
+slower when fewer
 faster when more
 
 Susceptible
@@ -143,7 +173,17 @@ recovery
 
 #### Traduction (français) 
 
+plus lent quand moins de
+plus rapide quand plus de
 
+Susceptible
+Exposé
+Infectieux
+Guéri
+
+transmission
+incubation
+guérison
 
 ### seirs.png
 #### Original (anglais) 
@@ -164,7 +204,19 @@ waning
 
 #### Traduction (français) 
 
+plus lent quand moins de
+plus rapide quand plus de
 
+Susceptible
+Exposé
+Infectieux
+Guéri
+
+transmission
+incubation
+guérison
+
+déclin
 
 ### sir.png
 #### Original (anglais) 
@@ -181,7 +233,15 @@ recovery
 
 #### Traduction (français) 
 
+plus lent quand moins de
+plus rapide quand plus de
 
+Susceptible
+Infectieux
+Guéri
+
+transmission
+guérison
 
 ### spread.png
 #### Original (anglais) 
@@ -211,7 +271,7 @@ When population ~0% _, a _ can infect 0% of contact
 
 #### Traduction (français) 
 
-
+?
 
 ### timeline1.png
 #### Original (anglais) 
@@ -230,7 +290,7 @@ infects someone else
 
 #### Traduction (français) 
 
-
+?
 
 ### timeline2.png
 #### Original (anglais) 
@@ -239,7 +299,7 @@ isolate symptomatic cases
 
 #### Traduction (français) 
 
-
+?
 
 ### timeline3.png
 #### Original (anglais) 
@@ -248,3 +308,4 @@ isolate symptomatic cases *and* quarantine contacts
 
 #### Traduction (français) 
 
+?
