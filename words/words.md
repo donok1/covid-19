@@ -245,7 +245,7 @@ Préparez-vous à un atterrissage d'urgence...
 
 ... ça aurait pu être pire. Voici un univers parallèle que l'on a évité:
 
-###Scenario 0: On ne fait absolument rien
+###Scenario 0 : On ne fait absolument rien
 
 Environ une personne atteinte du COVID-19 sur vingt  a besoin de soins intensifs.[^icu_covid] Dans un pays développé comme les États-Unis, il y a une place en soins intensifs pour 3400 personnes.[^icu_us] Dès lors, pour 3400 personnes atteintes *en même temps*, les États-Unis peuvent en gérer 20 - soit 0,6% de la population.
 
@@ -268,7 +268,7 @@ Même si seulement 0,5% des personnes infectées meurent - une estimation optimi
 
 (Beaucoup de médias et de réseaux sociaux annonçaient "80% des gens vont être infectés" *sans* préciser "SI l'on ne fait rien". La peur a été transformée en clics, pas en compréhension. *Soupir.*)
 
-###Scenario 1: Aplatir la courbe / Immunité collective
+###Scenario 1 : Aplatir la courbe / Immunité collective
 
 La stratégie "Aplatir la courbe" a été promue par tous les organismes de santé publique, pendant que le plan de base "d'immunité collective" du Royaume Uni était universellement décrié. Ces deux plans *le même objectif*. Le Royaume Uni a juste mal communiqué le sien.[^yong]
 
@@ -286,7 +286,7 @@ Intensifier le lavage des mains réduit les grippes et les rhumes, dans les pays
 
 [^london]: “We found a 73% reduction in the average daily number of contacts observed per participant. This would be sufficient to reduce R0 from a value from 2.6 before the lockdown to 0.62 (0.37 - 0.89) during the lockdown”.  [Jarvis and Zandvoort et al](https://cmmid.github.io/topics/covid19/comix-impact-of-physical-distance-measures-on-transmission-in-the-UK.html) Traduction: "Nous avons trouvé une réduction de 73% du nombre de contacts journaliers observés par participant. Cela serait suffisant pour réduire R0 de 2,6 avant le confinement à 0,62 (IC 0,37 - 0.89) pendant le confinement". Pour faire simple, le taux a été arrondi à 70% dans les simulations.
 
-**Jouez avec ce calculateur pour voir comment le pourcentage de non-<icon s></icon>, le lavage des mains et la distanciation sociale réduisent R:** (ce calculateur visualise leurs effets *relatifs*, ce qui explique pourquoi lorsqu'un l'un d'eux est augmenté, les autres semblent diminuer.[^log_caveat])
+**Jouez avec ce calculateur pour voir comment le pourcentage de non-<icon s></icon>, le lavage des mains et la distanciation sociale réduisent R:** (ce calculateur visualise leurs effets *relatifs*, c'est pourquoi lorsqu'un l'un d'eux est augmenté, les autres semblent diminuer.[^log_caveat])
 
 [^log_caveat]: Cette distortion disparaîtrait si R était représenté dans une échelle logarithmique... Mais dans ce cas il faudrait aussi expliquer le concept d'*échelle logarithmique.*
 
@@ -312,11 +312,11 @@ C'était l'autre conclusion du rapport du 16 mars de l'Imperial College de Londr
 
 ![](pics/mitigation_vs_suppression.png)
 
-Il ne faut donc pas simplement "aplatir" la courbe, il faut la *fracasser*. Par exemple, par le biais d'un...
+Il ne faut donc pas simplement "aplatir" la courbe, il faut l'*écraser*. Par exemple, par le biais d'un...
 
-###Scenario 2: Confinement de plusieurs moins
+###Scenario 2 : Confinement de plusieurs moins
 
-Voyons ce qu'il arrive lorsqu'on *fracasse* la courbe avec un confinement de 5 mois, qu'on réduit <icon i></icon> à presque rien, et que finalement, - *finalement* - on retrouve une vie normale:
+Voyons ce qu'il arrive lorsqu'on *écrase* la courbe avec un confinement de 5 mois, qu'on réduit <icon i></icon> à presque rien, et que finalement, - *finalement* - on retrouve une vie normale:
 
 <div class="sim">
 		<iframe src="sim?stage=int-3&format=lines" width="800" height="540"></iframe>
@@ -324,19 +324,19 @@ Voyons ce qu'il arrive lorsqu'on *fracasse* la courbe avec un confinement de 5 m
 
 Oh.
 
-Voici la "seconde vague" dont tout le monde parle. Aussitôt le confinement levé, on repasse à R > 1. Un seul <icon i></icon> (ou un <icon i></icon> importé) peut provoquer un sursaut aussi méchant que si nous avions suivi le Scénario 0: "On ne fait absolument rien".
+Voici la "seconde vague" dont tout le monde parle. Aussitôt le confinement levé, on repasse à R > 1. Un seul <icon i></icon> (ou un <icon i></icon> importé) peut provoquer un sursaut aussi grave que si nous avions suivi le   0: "On ne fait absolument rien".
 
 **Un confinement n'est pas un remède, c'est juste un retour à la case départ.**
 
 Alors quoi, on se confine encore et toujours ?
 
-###Scenario 3: Confinement intermittent
+###Scenario 3 : Confinement intermittent
 
-Cette solution a été suggérée en premier par le rapport du 16 mars de l'Imperial College de Londres et plus tard par un article de Harvard.[^lockdown_harvard]
+Cette solution a été suggérée en premier par le rapport du 16 mars de l'Imperial College London et plus tard dans un article de Harvard.[^lockdown_harvard]
 
 [^lockdown_harvard]: “Absent other interventions, a key metric for the success of social distancing is whether critical care capacities are exceeded. To avoid this, prolonged or intermittent social distancing may be necessary into 2022.” [Kissler and Tedijanto et al](https://science.sciencemag.org/content/early/2020/04/14/science.abb5793) Traduction: Sans autres interventions, un indicateur clé du succès de la distanciation sociale est si oui ou non les soins intensifs sont saturés. Pour éviter cela, une distanciation sociale prolongée ou intermittente pourrait être nécessaire jusqu'en 2022."
 
-**Voici une simulation:** (Après avoir lancé le scénario "pré-enregistré", vous pourrez essayer de simuler votre *propre* plan confinement, en déplaçant les curseurs *pendant* que la simulation tourne ! Gardez en tête que vous pouvez mettre en pause et reprendre la simulation, ainsi que changer la vitesse de la simulation)
+**Voici une simulation :** (Après avoir lancé le scénario "pré-enregistré", vous pourrez essayer de simuler votre *propre* plan de confinement, en déplaçant les curseurs *pendant* la simulation ! Gardez en tête que vous pouvez mettre en pause et reprendre la simulation, ainsi que changer sa vitesse)
 
 <div class="sim">
 		<iframe src="sim?stage=int-4&format=lines" width="800" height="540"></iframe>
@@ -344,21 +344,21 @@ Cette solution a été suggérée en premier par le rapport du 16 mars de l'Impe
 
 Cela *pourrait* maintenir le nombre de cas en dessous de la capacité des soins intensifs! Et c'est *beaucoup* mieux qu'un confinement de 18 mois en attendant qu'un vaccin soit disponible. Il faut juste... tout fermer pendant quelques mois, rouvrir pendant quelques mois et répéter jusqu'à ce qu'un vaccin arrive. (Et s'il n'y a pas de vaccin, répéter jusqu'à ce que l'immunité collective soit atteinte... en 2022.)
 
-Enfin bon, c'est bien joli de dessiner une ligne disant "capacité des soins intensifs", mais il a beaucoup de choses importantes qu'on *ne peut pas* simuler ici. Comme:
+Enfin bon, c'est bien joli de dessiner une ligne disant "capacité des soins intensifs", mais il y a beaucoup de choses importantes qu'on *ne peut pas* simuler ici. Comme:
 
-**La santé mentale:** La solitude est un des plus importants facteurs de risque menant à la dépression, à l'anxiété et au suicide. C'est tout aussi associé à une mort prématurée que ne l'est le fait de fumer 15 cigarettes par jour.[^loneliness]
+**La santé mentale :** La solitude est un des facteurs de dépression, d'anxiété et de suicide les plus importants. C'est tout aussi associé à une mort prématurée que ne l'est le fait de fumer 15 cigarettes par jour.[^loneliness]
 
 [^loneliness]: Voir la [Figure 6 de Holt-Lunstad & Smith 2010](https://journals.sagepub.com/doi/abs/10.1177/1745691614568352). Bien sûr, grosse mise en garde: ils ont trouvé une *corrélation*. Mais à moins que vous ne vouliez imposer aléatoirement à des gens d'être solitaires pour toute leur vie, des indices observationnels sont tout ce que vous pourrez avoir.
 
-**Santé financière:** "Et l'économie alors" sonne comme si vous vous préoccupiez plus de dollars que de vies à sauver, mais "l'économie" n'est pas seulement des actions en bourse : c'est la capacité des personnes à fournir toit et nourriture à leurs proches, à investir dans le futur de leurs enfants, à apprécier de l'art, de la bonne nourriture, des jeux vidéos - les trucs qui font que la vie vaut la peine d'être vécue. Par ailleurs, la pauvreté *elle-même* a un impact désastreux sur la santé mentale et physique.
+**Santé financière :** "Et l'économie alors ?" sonne comme si vous vous préoccupiez plus de l'argent que de vies à sauver, mais "l'économie" n'est pas seulement des actions en bourse : c'est la capacité des personnes à fournir toit et nourriture à leurs proches, à investir dans le futur de leurs enfants, à jouir de l'art, de la bonne nourriture, des jeux vidéos - les trucs qui font que la vie vaut la peine d'être vécue. Par ailleurs, la pauvreté *elle-même* a un impact désastreux sur la santé mentale et physique.
 
-Nous ne disons pas qu'on ne *devrait pas* se confiner à nouveau ! Nous verrons les confinements "disjoncteurs" plus tard. Même si ce n'est pas idéal.
+Nous ne disons pas qu'on ne *devrait pas* se confiner à nouveau ! Nous verrons les confinements "disjoncteurs" plus tard. Mais ce n'est pas l'idéal.
 
-Mais attendez... Taïwan et la Corée du Sud n'ont-elles pas *déjà* contenu le COVID-19 ? Pendant 4 mois, *sans* long confinement ?
+Mais attendez... Taïwan et la Corée du Sud n'ont-elles pas *déjà* contenu le COVID-19 ? Et cela pendant 4 mois, *sans* long confinement ?
 
 Comment ?
 
-###Scenario 4: Test, Trace, Isolate
+###Scenario 4 : Test, Trace, Isolate
 
 *"Sure, we \*could've\* done what Taiwan & South Korea did at the start, but it's too late now. We missed the start."*
 
