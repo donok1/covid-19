@@ -5,13 +5,13 @@
 |   | Traduit | Relu | Création image | Check qualité |
 |---|---|------|---|---|
 | [dp3t.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/dp3t.png) | [X] @veale | [X] @veale | [X] @veale |  |
-| [exponential.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/exponential.png) | [X] @sylvainberube | @sylvainberube | [X] @sylvainberube |   |
-| [graphs_q.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/graphs_q.png) | (aucun texte) | (aucun texte) | (image originale) | [X] |
+| [exponential.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/exponential.png) | [X] @sylvainberube |  | [X] @sylvainberube |   |
+| [graphs_q.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/graphs_q.png) | — | — | (image originale) | [X] |
 | [masks.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/masks.png) | |  |   |   |
 | [mitigation_vs_suppression.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/mitigation_vs_suppression.png)  | [X] @sylvainberube |  | [X] @sylvainberube |   |
-| [plan.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/plan.png)  |  |  |   |   |
-| [r.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r.png)  | (aucun texte) | (aucun texte) | (image originale) | [X] |
-| [r2.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r2.png)  |  |  |    |    |
+| [plan.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/plan.png)  |  |  |  |   |
+| [r.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r.png)  | — | — | (image originale) | [X] |
+| [r2.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r2.png)  | [X] @sylvainberube |  | [X] @sylvainberube |    |
 | [r3.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r3.png)  | [X] @sylvainberube |  |    |    |
 | [r4.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r4.png) |  |  |    |    |
 | [seir.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/seir.png) |  |  |    |    |
@@ -51,9 +51,9 @@ But they are effective at preventing you from getting *others* sick!
 
 #### Traduction (français) 
 
-Les gouttelettes deviennent plus petites à mesure qu'elles s'envolent, en raison de l'évaporation.
+Les gouttelettes deviennent plus petites à mesure qu'elles s'envolent, à cause de l'évaporation.
 
-Les masques sont meilleurs pour bloquer les grosses gouttelettes et pires pour les petites.
+Les masques bloquent mieux les grosses gouttelettes que les petites.
 
 C'est pourquoi les masques ne sont pas efficaces pour *vous* empêcher de tomber malade ...
 
@@ -112,7 +112,11 @@ contained!
 
 #### Traduction (français) 
 
-?
+épidémie
+
+endémie
+
+contenue !
 
 ### r3.png
 #### Original (anglais) 
@@ -123,9 +127,9 @@ GOOD
 
 #### Traduction (français) 
 
-MAUVAIS
+MAL
 
-BON
+BIEN
 
 ### r4.png
 #### Original (anglais) 
@@ -142,7 +146,15 @@ of transmission to get R<1, and stop the spread!
 
 #### Traduction (français) 
 
-?
+si R_0 est
+
+(1.0 ... 4.0)
+
+then you need to stop more than
+
+(0%, ..., 75%)
+
+of transmission to get R<1, and stop the spread!
 
 ### seir.png
 #### Original (anglais) 
