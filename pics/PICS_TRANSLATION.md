@@ -116,7 +116,7 @@ contained!
 
 endémie
 
-contenue !
+contenue!
 
 ### r3.png
 #### Original (anglais) 
@@ -216,7 +216,7 @@ transmission
 incubation
 guérison
 
-déclin
+?
 
 ### sir.png
 #### Original (anglais) 
@@ -271,7 +271,11 @@ When population ~0% _, a _ can infect 0% of contact
 
 #### Traduction (français) 
 
-?
+Quand la population a 100% de [], alors un [] peut infecter 100% de ses contacts
+
+Quand la population a 50% de [], alors un [] peut infecter 50% de ses contacts
+
+Quand la population a 0% de [], alors un [] peut infecter 0% de ses contacts
 
 ### timeline1.png
 #### Original (anglais) 
@@ -290,7 +294,17 @@ infects someone else
 
 #### Traduction (français) 
 
-?
+jour 0
+exposé
+
+jour 3
+infectieux
+
+jour 5
+infectieux (avec symptômes)
+
+jour 4
+infecte quelqu'un d'autre
 
 ### timeline2.png
 #### Original (anglais) 
@@ -299,7 +313,7 @@ isolate symptomatic cases
 
 #### Traduction (français) 
 
-?
+isolement des cas symptomatiques
 
 ### timeline3.png
 #### Original (anglais) 
@@ -308,4 +322,8 @@ isolate symptomatic cases *and* quarantine contacts
 
 #### Traduction (français) 
 
-?
+isolement des cas symptomatiques
+et mise en quarantaine des contacts
+
+contact tracé et mis en quarantaine
+des les 48 heures
