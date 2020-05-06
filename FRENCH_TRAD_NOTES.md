@@ -21,7 +21,7 @@ Ne pas changer le nombre de lignes en traduisant. (ie ne pas rajouter/supprimer 
 |   |Lignes | Traduit | Relu  |Check qualité |
 |---|---|------|---|----|
 | Misc |[L1-L23](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L1-L23) |[X] @cyrilou242  |   | |
-| Intro |[L25-L41](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L25-L41) | [X] @cyrilou242  |   | |
+| Intro |[L25-L41](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L25-L41) | [X] @cyrilou242  | [X] @donok1  | |
 | LastMonths: Curves | [L43-L153](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L43-L153) | [X] @cyrilou242   | [X] @e-guenat  | |
 | LastMonths: R | [L155-L237](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L155-L237)| [X] @e-guenat | [X] @cyrilou242  | |
 | NextMonths: Scenario 0-3  | [L239-L359](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L239-L359) | **WIP** @e-guenat | [X] @maximebedoin  | |
