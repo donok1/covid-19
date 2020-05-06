@@ -359,7 +359,7 @@ Mais attendez... Taïwan et la Corée du Sud n'ont-elles pas *déjà* contenu le
 Comment ?
 
 
-###Scénario 4 : Tester, Traer, Isoler
+###Scénario 4 : Tester, Tracer, Isoler
 
 *« Bien sûr, on \*pourrait\* avoir fait comme Taiwan et la Corée du Sud ont fait au début, mais c'est désormais trop tard. On a loupé le départ. »*
 
@@ -469,7 +469,7 @@ Voilà comment on bat le Covid-19.
 
 Mais et si les choses se passent *quand même* mal ? Les choses se sont déjà horriblement mal passées. C'est de la peur, et c'est bien ! La peur nous donne l'énergie de créer des *plans de secours*.
 
-Les pessimistes inventent les parachutes.
+Le pessimiste invente le parachute.
 
 ###Scenario 4+ : Masques pour tous, été, "Disjoncteur" 
 
