@@ -9,10 +9,10 @@
 | [graphs_q.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/graphs_q.png) | — | — | — |  |
 | [masks.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/masks.png) | @sylvainberube |  | @sylvainberube |   |
 | [mitigation_vs_suppression.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/mitigation_vs_suppression.png)  | @sylvainberube |  | @sylvainberube |   |
-| [plan.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/plan.png)  |  |  |  |   |
+| [plan.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/plan.png)  | @sylvainberube |  | @sylvainberube |   |
 | [r.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r.png)  | — | — | — |  |
 | [r2.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r2.png)  | @sylvainberube |  | @sylvainberube |    |
-| [r3.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r3.png)  | @sylvainberube |  |    |    |
+| [r3.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r3.png)  | @sylvainberube |  | @sylvainberube |    |
 | [r4.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r4.png) | @sylvainberube |  | @sylvainberube |    |
 | [seir.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/seir.png) | @sylvainberube |  | @sylvainberube |    |
 | [seirs.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/seirs.png) | @sylvainberube |  | @sylvainberube |    |
@@ -20,7 +20,7 @@
 | [spread.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/spread.png) | @sylvainberube |  | @sylvainberube |    |
 | [susceptibles.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/susceptibles.png) | @sylvainberube |  | @sylvainberube |    |
 | [timeline1.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/timeline1.png) | @sylvainberube |  | @sylvainberube |    |
-| [timeline2.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/timeline2.png) | @sylvainberube |  |    | @sylvainberube |
+| [timeline2.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/timeline2.png) | @sylvainberube |  | @sylvainberube |  |
 | [timeline3.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/timeline3.png) | @sylvainberube |  | @sylvainberube |    |
 
 ##  Polices
@@ -99,7 +99,27 @@ vaccines
 
 #### Traduction (français) 
 
-?
+Objectif : R<1.
+Commençons par un...
+
+Confinement
+Afin de repartir de zéro et gagner du temps pour préparer la phase de...
+
+Test, suivi, isolement
+Si cela ne suffit pas pour atteindre R<1, complétons avec "masque pour tous" et un confinement «disjoncteur» jusqu'à ce qu'arrive le...
+
+Vaccin
+Si l'immunité ne dure pas, vaccinons régulièrement. Si aucun vaccin n'est trouvé, changeons nos habitudes jusqu'à ce que nous puissions traiter ou guérir facilement!
+
+confinement à l'échelle de la ville
+lavage des mains
+
+isoler les cas
+mise en quarantaine des contacts
+masques
+lavage des mains
+
+vaccins
 
 ### r2.png
 #### Original (anglais) 
