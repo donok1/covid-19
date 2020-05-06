@@ -7,7 +7,7 @@ Si vous souhaitez aider à traduire, vous pouvez:
 |   | Traduit | Relecture  | Check qualité final |
 |---|---------|---|----|
 | index.html head  | [X] @cyrilou242  |   | |
-| index.html  footers |    |   | |
+| index.html  footers | [X] @e-guenat |   | |
 | index.html sidebars  |    |   | |
 | /pics  |     |   | |
 | sharing/thumbnail.png  |     |   | |
