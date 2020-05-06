@@ -116,7 +116,7 @@ contained!
 
 endémie
 
-contenue!
+enrayée!
 
 ### r3.png
 #### Original (anglais) 
@@ -127,9 +127,9 @@ GOOD
 
 #### Traduction (français) 
 
-MAL
+PAS BON
 
-BIEN
+BON
 
 ### r4.png
 #### Original (anglais) 
@@ -150,11 +150,11 @@ si R_0 est
 
 (1,0 ... 4,0)
 
-alors vous devez arrêter plus de
+alors vous devez éviter plus de
 
 (0%, ..., 75%)
 
-de transmission pour obtenir R<1 et arrêter la propagation!
+des transmissions pour obtenir R<1 et empêcher la propagation!
 
 ### seir.png
 #### Original (anglais) 
