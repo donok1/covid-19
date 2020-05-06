@@ -528,7 +528,7 @@ D'accord, ce n'est pas une "intervention" que nous pouvons contrôler, mais ça 
 
 Pour le COVID-19, chaque degré Celsius supplémentaire (1,8° Fahrenheit) fait diminuer R de 1,2%.[^heat] La différence été-hiver à Paris est de 15°C (60°F), donc l'été devrait faire diminuer R de 18%.
 
-[^heat]: “One-degree Celsius increase in temperature [...] lower[s] R by 0.0225” and “The average R-value of these 100 cities is 1.83”. 0.0225 ÷ 1.83 = ~1.2%. [Wang, Jingyuan and Tang, Ke and Feng, Kai and Lv, Weifeng](https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3551767) Traduction : "Une augmentation de température d'un degré Celsius [...] diminue R de 0,0225" et "La valeur moyenne de R dans ces 100 villes est de 1,83." 0.0225 ÷ 1.83 = ~1,2%.
+[^heat]: “One-degree Celsius increase in temperature [...] lower[s] R by 0.0225” and “The average R-value of these 100 cities is 1.83”. 0.0225 ÷ 1.83 = ~1.2%. [Wang, Jingyuan and Tang, Ke and Feng, Kai and Lv, Weifeng](https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3551767) Traduction : "Une augmentation de température d'un degré Celsius [...] diminue R de 0,0225" et "La valeur moyenne de R dans ces 100 villes est de 1,83." 0,225 ÷ 1,83 = ~1,2%.
 
 <div class="sim">
 		<iframe src="sim?stage=int-6b&format=calc" width="285" height="220"></iframe>
@@ -564,7 +564,7 @@ Sans parler de toutes les *autres* actions qui peuvent être mises en place pour
 
 Nous espérons que ces plans vous donnent espoir.  
 
-**Même dans les cas les plus défavorables, *il est possible* de vaincre le COVID-19 tout en protégeant notre santé mentale et financière.** Utiliser le confinement comme un "bouton de remise à zéro", garder R < 1 avec isolation des cas + suivi des contacts respecteux de la vie privée + masques *au moins* en tissus pour tous... et la vie peut reprendre son cours!
+**Même dans les cas les plus défavorables, *il est possible* de vaincre le COVID-19 tout en protégeant notre santé mentale et financière.** Utiliser le confinement comme un "bouton de remise à zéro", garder R < 1 avec isolation des cas + traçage des contacts respectueux de la vie privée + masques *au moins* en tissus pour tous... et la vie peut reprendre son cours!
 
 Bien sûr, vous aurez sans doute les mains sèches. Mais vous pourrez inviter votre béguin à la librairie! Vous pourrez dilapider vos économies dans les derniers film hollywoodiens avec vos amis. Vous pourrez espionner les gens à la bibliothèque, vous réjouissant de les voir s'adonner à la simple activité d'*être en vie*.
 
