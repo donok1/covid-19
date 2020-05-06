@@ -276,7 +276,7 @@ La stratégie "Aplatir la courbe" a été promue par tous les organismes de sant
 
     Tiré de [The Atlantic article by Ed Yong](https://www.theatlantic.com/health/archive/2020/03/coronavirus-pandemic-herd-immunity-uk-boris-johnson/608065/) Traduction: "Il dit que l'objectif est en fait le même que les autres pays: aplatir la courbe en étalant le départ des infections. Par conséquent, le pays pourrait atteindre l'immunité collective; c'est un effet secondaire, pas un but en soi. [...] En fait, le plan d'action du gouvernement contre le coronavirus, disponible en ligne, ne mentionne pas du tout l'immunité collective."
 
-Cependant, les deux plans avaient des failles littéralement fatales.
+Cependant, les deux plans avaient des failles fatales (littéralement).
 
 Premièrement, voyons les deux principales manières "d'aplatir la courbe": le lavage des mains et la distanciation sociale.
 
