@@ -4,24 +4,24 @@
 
 |   | Traduit | Relu | Création image | Check qualité |
 |---|---|------|---|---|
-| [dp3t.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/dp3t.png) | [X] @veale | [X] @veale | [X] @veale | [X] |
-| [exponential.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/exponential.png) | [X] @sylvainberube | @sylvainberube | [X] @sylvainberube |   |
-| [graphs_q.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/graphs_q.png) | (aucun texte) | (aucun texte) | (image originale) | [X] |
-| [masks.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/masks.png) | |  |   |   |
-| [mitigation_vs_suppression.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/mitigation_vs_suppression.png)  |  |  |   |   |
-| [plan.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/plan.png)  |  |  |   |   |
-| [r.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r.png)  | (aucun texte) | (aucun texte) | (image originale) | [X] |
-| [r2.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r2.png)  |  |  |    |    |
-| [r3.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r3.png)  | [X] @sylvainberube |  |    |    |
-| [r4.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r4.png) |  |  |    |    |
-| [seir.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/seir.png) |  |  |    |    |
-| [seirs.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/seirs.png) |  |  |    |    |
-| [sir.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/sir.png) |  |  |    |    |
-| [spread.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/spread.png) | [X] @sylvainberube |  |    |    |
-| [susceptibles.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/susceptibles.png) |  |  |    |    |
-| [timeline1.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/timeline1.png) |  |  |    |    |
-| [timeline2.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/timeline2.png) |  |  |    |    |
-| [timeline3.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/timeline3.png) |  |  |    |    |
+| [dp3t.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/dp3t.png) | @veale | @veale | @veale |  |
+| [exponential.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/exponential.png) | @sylvainberube |  | @sylvainberube |   |
+| [graphs_q.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/graphs_q.png) | — | — | — |  |
+| [masks.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/masks.png) | @sylvainberube |  | @sylvainberube |   |
+| [mitigation_vs_suppression.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/mitigation_vs_suppression.png)  | @sylvainberube |  | @sylvainberube |   |
+| [plan.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/plan.png)  | @sylvainberube |  | @sylvainberube |   |
+| [r.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r.png)  | — | — | — |  |
+| [r2.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r2.png)  | @sylvainberube |  | @sylvainberube |    |
+| [r3.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r3.png)  | @sylvainberube |  | @sylvainberube |    |
+| [r4.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/r4.png) | @sylvainberube |  | @sylvainberube |    |
+| [seir.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/seir.png) | @sylvainberube |  | @sylvainberube |    |
+| [seirs.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/seirs.png) | @sylvainberube |  | @sylvainberube |    |
+| [sir.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/sir.png) | @sylvainberube |  | @sylvainberube |    |
+| [spread.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/spread.png) | @sylvainberube |  | @sylvainberube |    |
+| [susceptibles.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/susceptibles.png) | @sylvainberube |  | @sylvainberube |    |
+| [timeline1.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/timeline1.png) | @sylvainberube |  | @sylvainberube |    |
+| [timeline2.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/timeline2.png) | @sylvainberube |  | @sylvainberube |  |
+| [timeline3.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/timeline3.png) | @sylvainberube |  | @sylvainberube |    |
 
 ##  Polices
 [Patrick Hand](https://fonts.google.com/specimen/Patrick+Hand) (PH)
@@ -51,7 +51,13 @@ But they are effective at preventing you from getting *others* sick!
 
 #### Traduction (français) 
 
+Les gouttelettes deviennent plus petites à mesure qu'elles s'envolent, à cause de l'évaporation.
 
+Les masques bloquent mieux les grosses gouttelettes que les petites.
+
+C'est pourquoi les masques ne sont pas efficaces pour *vous* empêcher de tomber malade ...
+
+Mais ils sont efficaces pour vous empêcher de rendre *les autres* malades!
 
 ### mitigation_vs_suppression.png
 #### Original (anglais) 
@@ -62,7 +68,9 @@ Suppression
 
 #### Traduction (français) 
 
+Atténuation
 
+Endiguement
 
 ### plan.png
 #### Original (anglais) 
@@ -79,9 +87,39 @@ If not enough to get R<1, supplement with **Mask For All** and/or a "circuit bre
 VACCINATE
 If immunity doesn't last, do regular vaccinations. If no vaccine, change behavioral norms until we can treat of cure it!
 
+city-wide lockdown
+hand washing
+
+isolate cases
+quarantine contacts
+masks
+hand washing
+
+vaccines
+
 #### Traduction (français) 
 
+Objectif : R<1.
+Commençons par un...
 
+Confinement
+Afin de repartir de zéro et gagner du temps pour préparer la phase de...
+
+Test, suivi, isolement
+Si cela ne suffit pas pour atteindre R<1, complétons avec "masque pour tous" et un confinement «disjoncteur» jusqu'à ce qu'arrive le...
+
+Vaccin
+Si l'immunité ne dure pas, vaccinons régulièrement. Si aucun vaccin n'est trouvé, changeons nos habitudes jusqu'à ce que nous puissions traiter ou guérir facilement!
+
+confinement à l'échelle de la ville
+lavage des mains
+
+isoler les cas
+mise en quarantaine des contacts
+masques
+lavage des mains
+
+vaccins
 
 ### r2.png
 #### Original (anglais) 
@@ -94,7 +132,11 @@ contained!
 
 #### Traduction (français) 
 
+épidémie
 
+endémie
+
+enrayée!
 
 ### r3.png
 #### Original (anglais) 
@@ -105,7 +147,7 @@ GOOD
 
 #### Traduction (français) 
 
-MAUVAIS
+PAS BON
 
 BON
 
@@ -124,12 +166,20 @@ of transmission to get R<1, and stop the spread!
 
 #### Traduction (français) 
 
+si R_0 est
 
+(1,0 ... 4,0)
+
+alors vous devez éviter plus de
+
+(0%, ..., 75%)
+
+des transmissions pour obtenir R<1 et empêcher la propagation!
 
 ### seir.png
 #### Original (anglais) 
 
-Slower when fewer
+slower when fewer
 faster when more
 
 Susceptible
@@ -143,7 +193,17 @@ recovery
 
 #### Traduction (français) 
 
+plus lent quand moins de
+plus rapide quand plus de
 
+Susceptible
+Exposé
+Infectieux
+Guéri
+
+transmission
+incubation
+guérison
 
 ### seirs.png
 #### Original (anglais) 
@@ -164,7 +224,19 @@ waning
 
 #### Traduction (français) 
 
+plus lent quand moins de
+plus rapide quand plus de
 
+Susceptible
+Exposé
+Infectieux
+Guéri
+
+transmission
+incubation
+guérison
+
+perte de l'immunité
 
 ### sir.png
 #### Original (anglais) 
@@ -181,7 +253,15 @@ recovery
 
 #### Traduction (français) 
 
+plus lent quand moins de
+plus rapide quand plus de
 
+Susceptible
+Infectieux
+Guéri
+
+transmission
+guérison
 
 ### spread.png
 #### Original (anglais) 
@@ -211,7 +291,11 @@ When population ~0% _, a _ can infect 0% of contact
 
 #### Traduction (français) 
 
+Quand la population a 100% de [], alors un [] peut infecter 100% de ses contacts
 
+Quand la population a 50% de [], alors un [] peut infecter 50% de ses contacts
+
+Quand la population a 0% de [], alors un [] peut infecter 0% de ses contacts
 
 ### timeline1.png
 #### Original (anglais) 
@@ -230,7 +314,17 @@ infects someone else
 
 #### Traduction (français) 
 
+jour 0
+exposé
 
+jour 3
+infectieux
+
+jour 5
+infectieux (avec symptômes)
+
+jour 4
+infecte quelqu'un d'autre
 
 ### timeline2.png
 #### Original (anglais) 
@@ -239,7 +333,7 @@ isolate symptomatic cases
 
 #### Traduction (français) 
 
-
+isolement des cas symptomatiques
 
 ### timeline3.png
 #### Original (anglais) 
@@ -248,3 +342,8 @@ isolate symptomatic cases *and* quarantine contacts
 
 #### Traduction (français) 
 
+isolement des cas symptomatiques
+et mise en quarantaine des contacts
+
+contact tracé et mis en quarantaine
+des les 48 heures
