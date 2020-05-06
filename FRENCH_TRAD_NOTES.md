@@ -26,7 +26,7 @@ Ne pas changer le nombre de lignes en traduisant. (ie ne pas rajouter/supprimer 
 | LastMonths: R | [L155-L237](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L155-L237)| [X] @e-guenat | [X] @cyrilou242  | |
 | NextMonths: Scenario 0-3  | [L239-L359](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L239-L359) | **WIP** @e-guenat | [X] @maximebedoin  | |
 | NextMonths: Scenario 4  | [L361-L471](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L361-L471) |  |   | |
-| NextMonths: Scenario 4+  | [L473-L573](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L473-L573) | **WIP** @cyrilou242 |   | |
+| NextMonths: Scenario 4+  | [L473-L573](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L473-L573) | **WIP** @cyrilou242 | [X] @donok1  | |
 | NextYears  | [L575-L682](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L575-L682) | [X] @e-guenat | [X] @cyrilou242  | |
 | The Now  | [L684-L711](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L684-L711) | [X] @e-guenat | [X] @cyrilou242  | |
 
