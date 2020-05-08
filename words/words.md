@@ -490,7 +490,7 @@ Et vous avez raison. Les masques n'empêchent pas de tomber malade[^incoming]...
 
 ![](pics/masks.png)
 
-Pour donner un chiffre: les masques chirugicaux *portés par la personne malade* réduisent de 70% ses projections de virus causant des rhumes ou la grippe.[^outgoing] Réduire les transmissions de 70% aurait un impact aussi important qu'un confinement!
+Pour donner un chiffre: les masques chirugicaux *portés par la personne infectieuse* réduisent de 70% ses projections de virus causant des rhumes ou la grippe.[^outgoing] Réduire les transmissions de 70% aurait un impact aussi important qu'un confinement!
 
 Cependant, on ne connait pas encore précisément l'impact des masques sur le COVID-19 *en particulier*. En science, on ne devrait publier un résultat que si l'on en est (statistiquement) sûr à 95%. (...devrait.[^replication]) L'usage de masques, au 1er mai 2020, n'est pas "sûr à 95%".
 
