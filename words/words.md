@@ -32,7 +32,7 @@ Pour être honnête, nous (Marcel - épidémiologiste et Nicky - art/code) somme
 * **Les mois à venir** (confinement, traçage de contacts, masques)
 * **Les années à venir** (perte d'immunité? vaccin introuvable?)
 
-Ce guide (publié le 1er Mai 2020. clique sur cette note!→[^timestamp]) est là pour vous donner de l'espoir, *et* vous faire peur. Pour vaincre le COVID-19 **en préservant aussi nos santés mentales et financières**, nous devons faire preuve d'optimisme pour élaborer des plans, et de pessimisme pour élaborer des plans B. Comme l'a dit un jour Gladys Bronwyn Stern, *“L'optimiste invente l'avion, le pessimiste invente le parachute.”*
+Ce guide (publié le 1er Mai 2020. clique sur cette note!→[^timestamp]) est là pour vous donner espoir, *et* vous faire peur. Pour vaincre le COVID-19 **en préservant aussi nos santés mentales et financières**, nous devons faire preuve d'optimisme pour élaborer des plans, et de pessimisme pour élaborer des plans B. Comme l'a dit un jour Gladys Bronwyn Stern, *“L'optimiste invente l'avion, le pessimiste invente le parachute.”*
 
 [^timestamp]: Ces notes contiendront des sources, des liens et des commentaires bonus comme celui-ci!
     
