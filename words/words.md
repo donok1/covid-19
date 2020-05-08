@@ -490,13 +490,13 @@ Et vous avez raison. Les masques n'empêchent pas de tomber malade[^incoming]...
 
 ![](pics/masks.png)
 
-Pour donner un chiffre: les masques chirugicaux *portés par la personne infectieuse* réduisent de 70% ses projections de virus causant des rhumes ou la grippe.[^outgoing] Réduire les transmissions de 70% aurait un impact aussi important qu'un confinement!
+Pour donner un chiffre: les masques chirugicaux *portés par la personne infectieuse* réduisent de 70% ses projections de particules virales.[^outgoing] Réduire les transmissions de 70% aurait un impact aussi important qu'un confinement!
 
 Cependant, on ne connait pas encore précisément l'impact des masques sur le COVID-19 *en particulier*. En science, on ne devrait publier un résultat que si l'on en est (statistiquement) sûr à 95%. (...devrait.[^replication]) L'usage de masques, au 1er mai 2020, n'est pas "sûr à 95%".
 
 [^replication]: Tout véritable scientifique qui lit cette dernière phrase est probalement plié de rire. Voir: [p-hacking](https://fr.wikipedia.org/wiki/Data_dredging), [crise de la reproductibilité](https://fr.wikipedia.org/wiki/Crise_de_la_reproductibilit%C3%A9))
 
-Pourtant, les pandémies c'est comme le poker. **Ne pariez que lorsque vous êtes sûr à 95%, et vous perdrez tout ce qui est en jeu.** Comme mentionné dans un récent article du British Medical Journal,[^precautionary] dans un contexte d'incertitude il est *nécessaire* d'appliquer des analyses coûts-avantages. Par exemple:
+Seulement, les pandémies c'est comme le poker. **Ne pariez que lorsque vous êtes sûr à 95%, et vous perdrez tout ce qui est en jeu.** Comme le note dans un récent article du British Medical Journal,[^precautionary] dans un contexte d'incertitude il est *nécessaire* d'appliquer des analyses coûts-avantages. Par exemple:
 
 [^precautionary]: “It is time to apply the precautionary principle” [Trisha Greenhalgh et al \[PDF\]](https://www.bmj.com/content/bmj/369/bmj.m1435.full.pdf) Traduction: "Il est temps d'appliquer le principe de précaution."
 
@@ -566,7 +566,7 @@ Nous espérons que ces plans vous donnent espoir.
 
 **Même dans les cas les plus défavorables, *il est possible* de vaincre le COVID-19 tout en protégeant notre santé mentale et financière.** Utiliser le confinement comme un "bouton de remise à zéro", garder R < 1 avec isolation des cas + traçage des contacts respectueux de la vie privée + masques *au moins* en tissus pour tous... et la vie peut reprendre son cours!
 
-Bien sûr, vous aurez sans doute les mains sèches. Mais vous pourrez inviter votre béguin à la librairie! Vous pourrez dilapider vos économies dans les derniers film hollywoodiens avec vos amis. Vous pourrez espionner les gens à la bibliothèque, vous réjouissant de les voir s'adonner à la simple activité d'*être en vie*.
+Bien sûr, vous aurez sans doute les mains sèches. Mais vous pourrez inviter votre crush à boire un verre! Vous pourrez dilapider vos économies dans les derniers film hollywoodiens avec vos amis. Vous pourrez espionner les gens à la bibliothèque, vous réjouissant de les voir s'adonner à la simple activité d'*être en vie*.
 
 Même dans les pires scénarios... la vie continue.
 
