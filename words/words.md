@@ -494,7 +494,7 @@ Pour donner un chiffre: les masques chirugicaux *portés par la personne infecti
 
 Cependant, on ne connait pas encore précisément l'impact des masques sur le COVID-19 *en particulier*. En science, on ne devrait publier un résultat que si l'on en est (statistiquement) sûr à 95%. (...devrait.[^replication]) L'usage de masques, au 1er mai 2020, n'est pas "sûr à 95%".
 
-[^replication]: Chaque véritable scientifique qui lit cette dernière phrase est probalement mort de rire. Voir: [p-hacking](https://fr.wikipedia.org/wiki/Data_dredging), [crise de la reproductibilité](https://fr.wikipedia.org/wiki/Crise_de_la_reproductibilit%C3%A9))
+[^replication]: Tout véritable scientifique qui lit cette dernière phrase est probalement plié de rire. Voir: [p-hacking](https://fr.wikipedia.org/wiki/Data_dredging), [crise de la reproductibilité](https://fr.wikipedia.org/wiki/Crise_de_la_reproductibilit%C3%A9))
 
 Pourtant, les pandémies c'est comme le poker. **Ne pariez que lorsque vous êtes sûr à 95%, et vous perdrez tout ce qui est en jeu.** Comme mentionné dans un récent article du British Medical Journal,[^precautionary] dans un contexte d'incertitude il est *nécessaire* d'appliquer des analyses coûts-avantages. Par exemple:
 
