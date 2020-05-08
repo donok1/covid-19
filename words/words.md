@@ -484,27 +484,27 @@ Et vous avez raison. Les masques n'empêchent pas de tomber malade[^incoming]...
 
 [^incoming]: “None of these surgical masks exhibited adequate filter performance and facial fit characteristics to be considered respiratory protection devices.” [Tara Oberg & Lisa M. Brosseau](https://www.sciencedirect.com/science/article/pii/S0196655307007742) Traduction : "Aucun des masques chirurgicaux n'a présenté des performances de filtrage et des caractéristiques d'ajustement facial suffisantes pour être considéré comme un dispositif de protection respiratoire."
 
-[^outgoing]: “The overall 3.4 fold reduction [70% reduction] in aerosol copy numbers we observed combined with a nearly complete elimination of large droplet spray demonstrated by Johnson et al. suggests that surgical masks worn by infected persons could have a clinically significant impact on transmission.” [Milton DK, Fabian MP, Cowling BJ, Grantham ML, McDevitt JJ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591312/) Traduction : "La réduction globale de 3,4 fois (70% de réduction) du nombre de particules aériennes que nous avons observées, combinée à l'élimination quasi complète des projections des grosses goutelettes démontrée par Johnson et al. suggère que le port du masque par les personnes infectées pourrait avoir un impact cliniquement significatif sur la transmission."
+[^outgoing]: “The overall 3.4 fold reduction [70% reduction] in aerosol copy numbers we observed combined with a nearly complete elimination of large droplet spray demonstrated by Johnson et al. suggests that surgical masks worn by infected persons could have a clinically significant impact on transmission.” [Milton DK, Fabian MP, Cowling BJ, Grantham ML, McDevitt JJ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591312/) Traduction : "La réduction globale de 3,4 fois (70% de réduction) du nombre de particules en suspension dans l'air que nous avons observées, combinée à l'élimination quasi totale des projections des grosses goutelettes démontrée par Johnson et al. suggère que le port du masque par les personnes infectées pourrait avoir un impact cliniquement significatif sur la transmission."
 
 [^homemade]: [Davies, A., Thompson, K., Giri, K., Kafatos, G., Walker, J., & Bennett, A](https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/testing-the-efficacy-of-homemade-masks-would-they-protect-in-an-influenza-pandemic/0921A05A69A9419C862FA2F35F819D55) Voir Table 1: un T-shirt en coton a environ deux tiers de l'efficacité de filtration d'un masque chirurgical, pour les deux aérosols bactériens qu'ils ont testés.
 
 ![](pics/masks.png)
 
-Pour mettre un chiffre là-dessus: les masques chirugicaux *portés par la personne malade* réduisent ses projections de rhumes et grippes de 70%.[^outgoing] Réduire les transmissions de 70% aurait un impact aussi important qu'un confinement !
+Pour donner un chiffre: les masques chirugicaux *portés par la personne infectieuse* réduisent de 70% ses projections de particules virales.[^outgoing] Réduire les transmissions de 70% aurait un impact aussi important qu'un confinement!
 
 Cependant, on ne connait pas encore précisément l'impact des masques sur le COVID-19 *en particulier*. En science, on ne devrait publier un résultat que si l'on en est (statistiquement) sûr à 95%. (...devrait.[^replication]) L'usage de masques, au 1er mai 2020, n'est pas "sûr à 95%".
 
-[^replication]: N'importe quel véritable scientifique qui lit cette dernière phrase est probalement plié de rire. Voir: [p-hacking](https://fr.wikipedia.org/wiki/Data_dredging), [crise de la reproductibilité](https://fr.wikipedia.org/wiki/Crise_de_la_reproductibilit%C3%A9))
+[^replication]: Tout véritable scientifique qui lit cette dernière phrase est probalement plié de rire. Voir: [p-hacking](https://fr.wikipedia.org/wiki/Data_dredging), [crise de la reproductibilité](https://fr.wikipedia.org/wiki/Crise_de_la_reproductibilit%C3%A9))
 
-Pour autant, les pandémies c'est comme le poker. **Ne pariez que lorsque vous êtes sûr à 95%, et vous perdrez tout ce qui est en jeu.** Comme le fait noter un récent article du British Medical Journal,[^precautionary] dans un contexte d'incertitude, il est *nécessaire* d'appliquer des analyses coûts-avantages. Par exemple:
+Seulement, les pandémies c'est comme le poker. **Ne pariez que lorsque vous êtes sûr à 95%, et vous perdrez tout ce qui est en jeu.** Comme le note dans un récent article du British Medical Journal,[^precautionary] dans un contexte d'incertitude il est *nécessaire* d'appliquer des analyses coûts-avantages. Par exemple:
 
 [^precautionary]: “It is time to apply the precautionary principle” [Trisha Greenhalgh et al \[PDF\]](https://www.bmj.com/content/bmj/369/bmj.m1435.full.pdf) Traduction: "Il est temps d'appliquer le principe de précaution."
 
-Coûts: Pour des masques en tissu faits maison, même coût que le savon et le lavage des mains. Pour des masques chirurgicaux, un peu plus cher mais encore peu coûteux.
+Coûts: Pour des masques en tissu faits maison (qui ont environ deux tiers de l'efficacité d'un masque chirurgical[^homemade]), presque rien. Pour des masques chirurgicaux, un peu plus cher mais encore peu coûteux.
 
-Bénéfices: Même s'il y avait 50% de chances que les masques chirurgicaux réduisent la transmission ou de 0%, ou de 70%, cela donnerait en moyenne 35%, autant qu'un demi-confinement ! Estimons donc que les masques réduisent R jusqu'à 35%. (Encore une fois, vous pouvez changer nos hypothèses en ajustant les curseurs)
+Bénéfices: Même s'il y avait 50% de chances que les masques chirurgicaux réduisent la transmission de 70%, cela donnerait en moyenne 35%, autant qu'un demi-confinement! Estimons donc que les masques réduisent R jusqu'à 35%. (Encore une fois, vous pouvez changer nos hypothèses en ajustant les curseurs)
 
-**Voici un calculateur de réduction de R grâce aux masques! Vous pouvez choisir entre tissu et chirurgical:** (en supposant que les masques en tissu ont deux tiers de l'efficacité d'un masque chirurgical[^homemade])
+
 
 <div class="sim">
 		<iframe src="sim?stage=int-6a&format=calc" width="285" height="380"></iframe>
@@ -516,19 +516,19 @@ Bénéfices: Même s'il y avait 50% de chances que les masques chirurgicaux réd
 
    **"C'est difficile de les porter correctement."** C'est aussi difficile de se laver les mains en respectant les indications de l'OMS - vraiment, "Etape 5) les dos des doigts en les tenant dans la paume des mains opposées"?! – bien sûr nous recommandons quand même le lavage des mains, l'imperfection vaut mieux que rien du tout.
    
-   **"Cela va rendre les gens imprudents pour le lavage des mains et la distanciation sociale."** Bien sûr, et les ceintures de sécurité font que les gens ignorent les panneaux stop, et les fils dentaires font que les gens mangent des pierres. Plus sérieusement, nous dirions le contraire: les masques sont un *rappel visuel constant* à la prudence – et en Asie de l'Est, les masques sont aussi un symbole de solidarité !
+   **"Cela va rendre les gens imprudents pour le lavage des mains et la distanciation sociale."** Bien sûr, et les ceintures de sécurité font que les gens ignorent les panneaux stop, et les fils dentaires font que les gens mangent des pierres. Plus sérieusement, nous dirions le contraire: les masques sont un *rappel visuel constant* à la prudence – et en Asie de l'Est, les masques sont aussi un symbole de solidarité!
     
     
 
-Les masques *seuls* ne vont pas rendre R < 1. Mais si le lavage des mains et la méthode "Test, suivi, isolement" ne nous amène qu'à R = 1.10, avoir ne serait-ce que deux tiers de la population portant des masque *en tissu* permettra d'atteindre R < 1, et le virus sera contenu!
+Les masques *seuls* ne vont pas rendre R < 1. Mais si le lavage des mains et la méthode "Tester, tracer, isoler" ne nous amène qu'à R = 1,10, avoir ne serait-ce que deux tiers de la population portant des masques *en tissu* permettra d'atteindre R < 1, et le virus sera contenu!
 
 **Eté:**
 
-D'accord, ce n'est pas une "intervention" que nous pouvons contrôler, mais ça va aider! Certains médias rapportent que l'été n'aura pas d'impact sur le COVID-19. Ils ont à moitié raison : l'été ne va pas rendre R < 1, mais *il va réduire* R.
+D'accord, ce n'est pas une "intervention" que nous pouvons contrôler, mais ça va aider! Certains médias rapportent que l'été n'aura pas d'impact sur le COVID-19. Ils ont à moitié raison: l'été ne va pas rendre R < 1, mais *il va réduire* R.
 
-Pour le COVID-19, chaque degré Celsius supplémentaire (2.2° Fahrenheit) fait diminuer R de 1.2%.[^heat] La différence été-hiver à Paris est de 15°C (60°F), donc l'été devrait faire diminuer R de 18%.
+Pour le COVID-19, chaque degré Celsius supplémentaire (1,8° Fahrenheit) fait diminuer R de 1,2%.[^heat] La différence été-hiver à Paris est de 15°C (60°F), donc l'été devrait faire diminuer R de 18%.
 
-[^heat]: “One-degree Celsius increase in temperature [...] lower[s] R by 0.0225” and “The average R-value of these 100 cities is 1.83”. 0.0225 ÷ 1.83 = ~1.2%. [Wang, Jingyuan and Tang, Ke and Feng, Kai and Lv, Weifeng](https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3551767) Traduction : "Une augmentation d'un degré Celsius de la température [...] diminue R de 0,0225" et "La valeur moyenne de R dans ces 100 villes est de 1,83." 0.0225 ÷ 1.83 = ~1,2%.
+[^heat]: “One-degree Celsius increase in temperature [...] lower[s] R by 0.0225” and “The average R-value of these 100 cities is 1.83”. 0.0225 ÷ 1.83 = ~1.2%. [Wang, Jingyuan and Tang, Ke and Feng, Kai and Lv, Weifeng](https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3551767) Traduction : "Une augmentation de température d'un degré Celsius [...] diminue R de 0,0225" et "La valeur moyenne de R dans ces 100 villes est de 1,83." 0,0225 ÷ 1,83 = ~1,2%.
 
 <div class="sim">
 		<iframe src="sim?stage=int-6b&format=calc" width="285" height="220"></iframe>
@@ -545,7 +545,7 @@ Mais nous n'aurions pas à alterner 2 mois confinés/1 mois ouvert encore et enc
 Voici une simulation d'un scenario "pas trop d'effort":
 
 1. Confinement, puis
-2. Un niveau correct d'hygiène + "Test, suivi, isolement" + "Masques pour tous" en *tissu*, et...
+2. Un niveau correct d'hygiène + "Tester, tracer, isoler" + un soupçon de "Masques pour tous", et...
 3. Un dernier confinement "disjoncteur" avant que le vaccin ne soit trouvé.
 
 <div class="sim">
@@ -558,15 +558,15 @@ Sans parler de toutes les *autres* actions qui peuvent être mises en place pour
 * Contrôle de la température dans les centres commerciaux et les écoles
 * Nettoyage en profondeur des espaces publics
 * [Remplacer la poignée de main par le "check des pieds"](https://twitter.com/V_actually/status/1233785527788285953)
-* Et tout ce que l'ingéniosité humaine peut approter
+* Et tout ce que l'ingéniosité humaine peut apporter
 
 . . .
 
-Nous espérons que ces plans vous donnent de l'espoir.  
+Nous espérons que ces plans vous donnent espoir.  
 
-**Même dans les cas les plus défavorables, *il est possible* de vaincre le COVID-19 tout en protégeant notre santé mentale et financière.** Utiliser le confinement comme un "bouton de remise à zéro", garder R < 1 avec isolation des cas + suivi des contacts respecteux de la vie privée + des masques *au moins* en tissus pour tous... et la vie peut reprendre son cours !
+**Même dans les cas les plus défavorables, *il est possible* de vaincre le COVID-19 tout en protégeant notre santé mentale et financière.** Utiliser le confinement comme un "bouton de remise à zéro", garder R < 1 avec isolation des cas + traçage des contacts respectueux de la vie privée + masques *au moins* en tissus pour tous... et la vie peut reprendre son cours!
 
-Bien sûr, vous aurez sans doute les mains sèches. Mais vous pourrez inviter la personne qui vous plaît à la librairie ! Vous pourrez dilapider vos économies dans les derniers film hollywoodiens avec vos amis. Vous pourrez espionner les gens à la bibliothèque, vous réjouissant de les voir s'adonner à la simple activité d'*être en vie*.
+Bien sûr, vous aurez sans doute les mains sèches. Mais vous pourrez inviter votre crush à boire un verre! Vous pourrez dilapider vos économies dans les derniers film hollywoodiens avec vos amis. Vous pourrez espionner les gens à la bibliothèque, vous réjouissant de les voir s'adonner à la simple activité d'*être en vie*.
 
 Même dans les pires scénarios... la vie continue.
 
