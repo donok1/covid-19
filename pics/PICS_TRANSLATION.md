@@ -4,6 +4,7 @@
 
 |   | Traduit | Relu | Création image | Check qualité |
 |---|---|------|---|---|
+| [PICS_TRANSLATION.md](https://raw.githubusercontent.com/ncase/covid-19/master/pics/PICS_TRANSLATION.md) | @sylvainberube | @donok1 | - |  |
 | [dp3t.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/dp3t.png) | @veale | @veale | @veale |  |
 | [exponential.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/exponential.png) | @sylvainberube |  | @sylvainberube |   |
 | [graphs_q.png](https://raw.githubusercontent.com/ncase/covid-19/master/pics/graphs_q.png) | — | — | — |  |
@@ -105,7 +106,7 @@ Commençons par un...
 Confinement
 Afin de repartir de zéro et gagner du temps pour préparer la phase de...
 
-Test, suivi, isolement
+Test, traçage, isolement
 Si cela ne suffit pas pour atteindre R<1, complétons avec "masque pour tous" et un confinement «disjoncteur» jusqu'à ce qu'arrive le...
 
 Vaccin
@@ -117,7 +118,7 @@ lavage des mains
 isoler les cas
 mise en quarantaine des contacts
 masques
-lavage des mains
+lavage des mains **< Faute dans l'image**
 
 vaccins
 
@@ -147,9 +148,9 @@ GOOD
 
 #### Traduction (français) 
 
-PAS BON
+PAS BIEN
 
-BON
+BIEN
 
 ### r4.png
 #### Original (anglais) 
@@ -162,11 +163,11 @@ then you need to stop more than
 
 (0%, ..., 75%)
 
-of transmission to get R<1, and stop the spread!
+of transmissions to get R<1, and stop the spread!
 
 #### Traduction (français) 
 
-si R_0 est
+si R_0 =
 
 (1,0 ... 4,0)
 
@@ -340,10 +341,13 @@ isolement des cas symptomatiques
 
 isolate symptomatic cases *and* quarantine contacts
 
+contact traced & quarantined
+within ~48 hours
+
 #### Traduction (français) 
 
 isolement des cas symptomatiques
-et mise en quarantaine des contacts
+*et* mise en quarantaine des contacts
 
 contact tracé et mis en quarantaine
 des les 48 heures
