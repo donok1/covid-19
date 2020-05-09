@@ -239,7 +239,7 @@ Préparez-vous à un atterrissage d'urgence...
 <div class="section chapter">
     <div>
 		<img src="banners/curve.png" height=480 style="position: absolute;"/>
-        <div>The Next Few Months</div>
+        <div>Les mois à venir</div>
     </div>
 </div>
 
@@ -366,11 +366,7 @@ Mais c'est justement ça ! « Un confinement n'est pas un remède, c'est juste 
 
 Pour comprendre comment Taïwan et la Corée du Sud ont contenu le COVID-19, nous devons comprendre le déroulement précis d'une infection typique au COVID-19[^timeline] :
 
-[^timeline]: **3 days on average to infectiousness :** « Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8–3.0 days) before symptom onset » (translation: Assuming symptoms start at 5 days, infectiousness starts 2 days before = Infectiousness starts at 3 days) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5) Traduction : **3 jours en moyenne jusqu'à l'infectiosité :** « En supposant que la période d'incubation est en moyenne de 5,2 jours en s'appuyant sur une autre étude des premiers cas de COVID-19, nous en déduisons que la contagiosité commence au bout de 2,3 jours (IC 95% : 0,8–3,0 jours) avant l'apparition des symptômes » (explication : En supposant que les symptômes commencent au 5ème jour, sachant que le caractère infectieux commence 2 jours avant, on devient infectieux au bout de 3 jours)
-    
-	**4 days on average to infecting someone else:** « The mean [serial] interval was 3.96 days (95% CI 3.53–4.39 days) » [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article) Traduction : **4 jours en moyenne pour infecter quelqu'un d'autre :** « L'intervalle [sériel] moyen était de 3,96 jours (IC 95% : 3,53–4,39 jours) »
-    
-	**5 days on average to feeling symptoms:** « The median incubation period was estimated to be 5.1 days (95% CI, 4.5 to 5.8 days) » [Lauer SA, Grantz KH, Bi Q, et al](https://annals.org/AIM/FULLARTICLE/2762808/INCUBATION-PERIOD-CORONAVIRUS-DISEASE-2019-COVID-19-FROM-PUBLICLY-REPORTED) Traduction : **5 jours en moyenne pour ressentir des symptômes :** « La période d'incubation médiane a été estimée à 5,1 jours (IC 95%, 4,5 à 5,8 jours) »
+[^timeline]: **3 days on average to infectiousness :** « Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8–3.0 days) before symptom onset » (translation: Assuming symptoms start at 5 days, infectiousness starts 2 days before = Infectiousness starts at 3 days) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5) Traduction : **3 jours en moyenne jusqu'à l'infectiosité :** « En supposant que la période d'incubation est en moyenne de 5,2 jours en s'appuyant sur une autre étude des premiers cas de COVID-19, nous en déduisons que la contagiosité commence au bout de 2,3 jours (IC 95% : 0,8–3,0 jours) avant l'apparition des symptômes » (explication : En supposant que les symptômes commencent au 5ème jour, sachant que le caractère infectieux commence 2 jours avant, on devient infectieux au bout de 3 jours)<br>**4 days on average to infecting someone else:** « The mean [serial] interval was 3.96 days (95% CI 3.53–4.39 days) » [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article) Traduction : **4 jours en moyenne pour infecter quelqu'un d'autre :** « L'intervalle [sériel] moyen était de 3,96 jours (IC 95% : 3,53–4,39 jours) »<br>**5 days on average to feeling symptoms:** « The median incubation period was estimated to be 5.1 days (95% CI, 4.5 to 5.8 days) » [Lauer SA, Grantz KH, Bi Q, et al](https://annals.org/AIM/FULLARTICLE/2762808/INCUBATION-PERIOD-CORONAVIRUS-DISEASE-2019-COVID-19-FROM-PUBLICLY-REPORTED) Traduction : **5 jours en moyenne pour ressentir des symptômes :** « La période d'incubation médiane a été estimée à 5,1 jours (IC 95%, 4,5 à 5,8 jours) »
 
 ![](pics/timeline1.png)
 
@@ -408,7 +404,7 @@ Voici comment ça marche :
 
 Avec d'autres équipes similaires comme TCN Protocol[^tcn] et MIT PACT[^pact], ils ont inspiré Apple et Google à intégrer un traçage de contacts respectueux de la vie privée dans Android/iOS.[^gapple] (Vous ne faites pas confiance à Google/Apple ? Bien ! La beauté de ce système est qu'il n'a *pas besoin* de confiance !) Bientôt, votre agence de santé publique locale pourrait vous demander de télécharger une appli. Si elle est respectueuse de la vie privée et avec un code publique, je vous en prie, faites-le !
 
-	[^tcn]: [Temporary Contact Numbers, un protocole de traçage de contact décentralisé, respectueux de la vie privée](https://github.com/TCNCoalition/TCN#tcn-protocol)
+[^tcn]: [Temporary Contact Numbers, un protocole de traçage de contact décentralisé, respectueux de la vie privée](https://github.com/TCNCoalition/TCN#tcn-protocol)
 
 [^pact]: [PACT: Private Automated Contact Tracing](https://pact.mit.edu/)
 
@@ -426,14 +422,7 @@ Mais qu'en est-il des gens sans smartphones ? Ou des infections par les poigné
 
 Isoler les cas *symptomatiques* réduirait R jusqu'à 40% et mettre en quarantaine leurs contact *pré/a-symptomatiques* réduirait R jusqu'à 50%[^oxford] :
 
-[^oxford]: De la même étude d'Oxford qui a recommandé en premier de combattre le COVID-19 avec des applis : [Luca Ferretti & Chris Wymant et al](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936/tab-figures-data) Regardez la Figure 2. En présumant que R<sub>0</sub> = 2,0, ils ont trouvé que :
-    
-	* Les symptomatiques contribuent R = 0,8 (40%)
-	* Les pré-symptomatiques contribuent R = 0,9 (45%)
-	* Les asymptomatiques contribuent R = 0,1 (5%, quoique leur modèle a de l'incertitude et cela pourrait être bien plus bas)
-	* Les trucs environnementaux comme les poignées de porte contribuent R = 0,2 (10%)
-
-	Et ajoutez les contacts pré- et a-symptomatiques (45% et 5%) et vous obtenez 50% de R !
+[^oxford]: De la même étude d'Oxford qui a recommandé en premier de combattre le COVID-19 avec des applis : [Luca Ferretti & Chris Wymant et al](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936/tab-figures-data) Regardez la Figure 2. En présumant que R<sub>0</sub> = 2,0, ils ont trouvé que :<br>* Les symptomatiques contribuent R = 0,8 (40%)<br>* Les pré-symptomatiques contribuent R = 0,9 (45%)<br>* Les asymptomatiques contribuent R = 0,1 (5%, quoique leur modèle a de l'incertitude et cela pourrait être bien plus bas)<br>* Les trucs environnementaux comme les poignées de porte contribuent R = 0,2 (10%)<br><br>Et ajoutez les contacts pré- et a-symptomatiques (45% et 5%) et vous obtenez 50% de R !
 
 <div class="sim">
 		<iframe src="sim?stage=int-4a&format=calc" width="285" height="340"></iframe>
