@@ -26,7 +26,7 @@
 
 Bien sûr, on nous rappelle à raison de ne pas se ruer sur le papier toilette. Mais si les responsables politiques craignent la peur et le désordre, ils minimiseront aussi les véritables dangers pour éviter toute panique générale. La peur n'est pas un problème. Le problème est la manière dont nous la canalisons. La peur nous donne l'énergie pour faire face aux dangers de l'instant, et nous prépare aux dangers futurs.
 
-Pour être honnête, nous (Marcel - épidémiologiste et Nicky - art/code) sommes inquiets. Tu l'es aussi n'est-ce pas ? C'est pourquoi de nos peurs sont nées ces **simulations interactives**, pour que *tu* puisses à ton tour canaliser tes peurs et comprendre :
+Pour être honnête, nous (Marcel - épidémiologiste et Nicky - art/code) sommes inquiets. Tu l'es aussi n'est-ce pas ? C'est pourquoi de nos peurs sont nées ces **simulations interactives**, pour que *tu* puisses à ton tour canaliser tes peurs et <span class="nowrap">comprendre :</span>
 
 * **Ces derniers mois** (initiation à l'épidémiologie, modèle SEIR, R et R<sub>0</sub>)
 * **Les mois à venir** (confinement, traçage de contacts, masques)
@@ -243,7 +243,7 @@ Préparez-vous à un atterrissage d'urgence...
     </div>
 </div>
 
-... ça aurait pu être pire. Voici un univers parallèle que l'on a évité:
+... ça aurait pu être pire. Voici un univers parallèle que l'on a <span class="nowrap">évité :</span>
 
 ###Scenario 0 : On ne fait absolument rien
 
@@ -280,7 +280,7 @@ Cependant, les deux plans avaient des failles fatales (littéralement).
 
 Premièrement, voyons les deux principales manières « d'aplatir la courbe »: le lavage des mains et la distanciation sociale.
 
-Intensifier le lavage des mains réduit les grippes et les rhumes, dans les pays riches, d'environ 25%[^handwashing], tandis que le confinement généralisé a réduit les contacts rapprochés d'environ 70%[^london]. Supposons alors que le lavage des mains peut réduire R *jusqu'à* 25% et que la distanciation sociale peut réduire R *jusqu'à* 70%:
+Intensifier le lavage des mains réduit les grippes et les rhumes, dans les pays riches, d'environ 25%[^handwashing], tandis que le confinement généralisé a réduit les contacts rapprochés d'environ 70%[^london]. Supposons alors que le lavage des mains peut réduire R *jusqu'à* 25% et que la distanciation sociale peut réduire R *jusqu'à* <span class="nowrap">70% :</span>
 
 [^handwashing]: « All eight eligible studies reported that handwashing lowered risks of respiratory infection, with risk reductions ranging from 6% to 44% [pooled value 24% (95% CI 6–40%)]. »  [Rabie, T. and Curtis, V.](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-3156.2006.01568.x) Traduction : « Les huit études valables ont rapporté que le lavage des mains réduisait le risque d'infections respiratoires, avec une réduction des risques allant de 6% à 44% [valeur moyenne 24% (IC 95% : 6-40%)]. » Note : Par simplicité, la valeur a été arrondie à 25% dans les simulations. On notera que, comme le pointe cette méta-analyse, la qualité des études sur le lavage des main (du moins dans les pays riches) est exécrable.
 
@@ -308,7 +308,7 @@ Trois observations :
 
 3. On sature les unités de soins intensifs. Pour plusieurs mois. (et souvenez-vous, on a pourtant *déjà* triplé la capacité pour ces simulations)
 
-C'était l'autre conclusion du rapport du 16 mars de l'Imperial College de Londres, qui a convaincu le Royaume Uni d'abandonner sa stratégie de base. Toute tentative d'**atténuation** (réduire R, mais R > 1) échouera. Le seul échappatoire est l'**endiguement** (réduire R afin d'atteindre R < 1).
+C'était l'autre conclusion du rapport du 16 mars de l'Imperial College de Londres, qui a convaincu le Royaume Uni d'abandonner sa stratégie de base. Toute tentative d'**atténuation** (réduire R, mais R > 1) échouera. Le seul échappatoire est l'**endiguement** (réduire R afin d'atteindre <span class="nowrap">R < 1).</span>
 
 ![](pics/mitigation_vs_suppression.png)
 
@@ -599,7 +599,7 @@ Il s'agit du **Modèle SEIRS**. Le dernier « S » signifie Susceptible <span cl
 
 ![](pics/seirs.png)
 
-Maintenant, simulons une vague de COVID-19 sur 10 ans, sans intervention... *si l'immunité ne dure qu'un an :*
+Maintenant, simulons une vague de COVID-19 sur 10 ans, sans intervention... *si l'immunité ne dure qu'un an *:
 
 <div class="sim">
 		<iframe src="sim?stage=yrs-2&format=lines&height=600" width="800" height="600"></iframe>
@@ -683,7 +683,7 @@ L'avion a coulé. Nous nous sommes précipités sur des canots de sauvetages. C'
 
 Des équipes d'épidémiologistes et de décideurs ([de gauche](https://www.americanprogress.org/issues/healthcare/news/2020/04/03/482613/national-state-plan-end-coronavirus-crisis/), [de droite](https://www.aei.org/research-products/report/national-coronavirus-response-a-road-map-to-reopening/ ), et [multi-partisanes](https://ethics.harvard.edu/covid-roadmap)) sont arrivées à un consensus sur la manière de battre le COVID-19, tout en protégeant nos vies *et* nos libertés.
 
-Voilà grossièrement l'idée, avec quelques plans de rechange (moins consensuels):
+Voilà grossièrement l'idée, avec quelques plans de rechange (moins consensuels) :
 
 ![](pics/plan.png)
 
