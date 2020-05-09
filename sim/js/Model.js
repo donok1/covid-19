@@ -26,7 +26,7 @@ let interventionStrengths = [
 	['isolate', 0.4],
 	['quarantine', 0.5],
 	['masks', 0.35*0.5], // 3.4 fold reduction (70%) (what CI?), subtract points for... improper usage? https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591312/ // cloth masks...
-	['summer', 0.4] // 15°C diff * 0.0225 (Wang et al)
+	['summer', 0.20] // slightly overestimated to make sure simulations in Paris look like the original one in NY
 ];
 
 let updateModel = (days, fake)=>{
