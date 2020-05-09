@@ -90,7 +90,7 @@ Cela devrait être fait dès que possible en repérant les expressions spécifiq
 - 2 tiers : deux tiers
 - virgule comme séparateurs décimal
 - interval de confiance: IC
-- Guillemets à la française à travers tout le document: "" : «∙Ceci est une citation∙», avec des espace insecable entre la citation et les guillemets 
+- Guillemets à la française à travers tout le document: "" : «∙Ceci est une citation∙», avec un espace insecable entre la citation et les guillemets 
 
 ## Get last update from nicky
 TODO On May 4th: get last updates from nickys project and stop at this version.
