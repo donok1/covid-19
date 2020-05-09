@@ -32,13 +32,13 @@ Pour être honnête, nous (Marcel - épidémiologiste et Nicky - art/code) somme
 * **Les mois à venir** (confinement, traçage de contacts, masques)
 * **Les années à venir** (perte d'immunité? vaccin introuvable?)
 
-Ce guide (publié le 1er Mai 2020. clique sur cette note!→[^timestamp]) est censé *et* vous donner de l'espoir, *et* vous faire peur. Pour vaincre le COVID-19 **en préservant aussi nos santés mentales et financières**, nous devons faire preuve d'optimisme pour élaborer des plans, et de pessimisme pour élaborer des plans B. Comme l'a dit un jour Gladys Bronwyn Stern, *“L'optimiste invente l'avion, le pessimiste invente le parachute.”*
+Ce guide (publié le 1er Mai 2020. clique sur cette note!→[^timestamp]) est là pour vous donner espoir, *et* vous faire peur. Pour vaincre le COVID-19 **en préservant aussi nos santés mentales et financières**, nous devons faire preuve d'optimisme pour élaborer des plans, et de pessimisme pour élaborer des plans B. Comme l'a dit un jour Gladys Bronwyn Stern, *“L'optimiste invente l'avion, le pessimiste invente le parachute.”*
 
 [^timestamp]: Ces notes contiendront des sources, des liens et des commentaires bonus comme celui-ci!
     
     **Ce guide a été publié le 1er Mai 2020.** De nombreux détails deviendront obsolètes, mais nous sommes convaincus que ce guide couvre 95% des futurs possibles, et que notre initiation à l'épidémiologie vous sera bien utile.
 
-Alors accrochez-vous: nous entrons dans une zone de turbulence.
+Alors accrochez-vous: nous entrons dans une zone de turbulences.
 
 <div class="section chapter">
     <div>
@@ -51,7 +51,7 @@ Les pilotes utilisent des simulateurs de vol pour apprendre comment ne pas crash
 
 **Les épidémiologistes utilisent des simulateurs d'épidémie pour apprendre comment ne pas crasher l'humanité.**
 
-Créons notre propre très, *très* simple "simulateur de vol épidémique" ! Dans cette simulation, les individus Infectieux <icon i></icon> peuvent transformer les individus Susceptibles de contracter la maladie <icon s></icon> en encore plus d'individus Infectieux <icon i></icon> :
+Créons notre propre très, *très* simple "simulateur de vol épidémique" ! Dans cette simulation, les individus Infectieux <icon i></icon> peuvent transformer les individus Susceptibles de contracter la maladie <icon s></icon> en encore plus d'individus <span class="nowrap">Infectieux <icon i></icon> :</span>
 
 ![](pics/spread.png)
 
@@ -59,7 +59,7 @@ On estime *qu'au début* de l'épidémie de COVID-19, le virus allait d'un <icon
 
 [^serial_interval]: “The mean [serial] interval was 3.96 days (95% CI 3.53–4.39 days)”. [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article) Traduction : "L'intervalle [sériel] moyen était de 3.96 jours (intervalle de confiance à 95% : 3.53–4.39 jours)". (Attention: les pré-publications ne sont pas considérées comme des versions finales)
 
-Que se passe-t-il si nous simulons le cas "double tous les 4 jours", *et rien de plus*, sur une population qui commence avec seulement 0.001% de <icon i></icon> ? 
+Que se passe-t-il si nous simulons le cas "double tous les 4 jours", *et rien de plus*, sur une population qui commence avec seulement 0.001% de <span class="nowrap"><icon i></icon> ?</span> 
 
 **Cliquez sur "Lancer" pour réaliser une simulation! Vous pouvez relancer avec d'autres paramètres quand la simulation est finie:** (limites techniques: [^caveats])
 
@@ -81,7 +81,7 @@ Pour autant, cette simulation est fausse. La  croissance exponentielle, heureuse
 
 ![](pics/susceptibles.png)
 
-Plus il y a de <icon i></icon>, plus les <icon s></icon> deviennent des <icon i></icon> rapidement, **mais moins il y a de <icon s></icon>, *moins* les <icon s></icon>s deviennent des <icon i></icon> rapidement.**
+Plus il y a de <span class="nowrap"><icon i></icon>,</span> plus les <icon s></icon> deviennent des <icon i></icon> rapidement, **mais moins il y a de <span class="nowrap"><icon s></icon>,</span> *moins* les <icon s></icon>s deviennent des <icon i></icon> rapidement.**
 
 En quoi cela change la croissance d'une épidémie ? Il n'y a qu'à le simuler:
 
@@ -93,9 +93,9 @@ Ceci est la **courbe de croissance logistique** "en S". Ça commence doucement, 
 
 Pour autant, cette simulation est *encore* fausse. On passe à côté  du fait qu'un individu Infectieux <icon i></icon> fini par arrêter d'être infectieux, soit en étant: 1) guéri, 2) "guéri" avec des lésions pulmonaires  3) décédé.
 
-Pour faire simple, supposons que tout les individus Infectieux <icon i></icon> deviennent guéris (**R**ecovered en anglais) <icon r></icon>. (Mais gardez en tête que la réalité est bien plus dure.) Les <icon r></icon> ne peuvent plus être infectés, et supposons – *pour l'instant!* – qu'ils sont immunisés à vie.
+Pour faire simple, supposons que tout les individus Infectieux <icon i></icon> deviennent guéris (**R**ecovered en anglais) <span class="nowrap"><icon r></icon>.</span> (Mais gardez en tête que la réalité est bien plus dure.) Les <icon r></icon> ne peuvent plus être infectés, et supposons – *pour l'instant!* – qu'ils sont immunisés à vie.
 
-Pour le COVID-19, on estime qu'un individu est Infectieux <icon i></icon> pendant 10 jours, *en moyenne*.[^infectiousness] Certains guérissent en moins de 10 jours, d'autres en plus. **Voilà ce que ça donne, avec une simulation qui *commence* avec 100% de <icon i></icon>:**
+Pour le COVID-19, on estime qu'un individu est Infectieux <icon i></icon> pendant 10 jours, *en moyenne*.[^infectiousness] Certains guérissent en moins de 10 jours, d'autres en plus. **Voilà ce que ça donne, avec une simulation qui *commence* avec 100% de <span class="nowrap"><icon i></icon> :</span>**
 
 [^infectiousness]: “The median communicable period \[...\] was 9.5 days.” [Hu, Z., Song, C., Xu, C. et al](https://link.springer.com/article/10.1007/s11427-020-1661-4) Traduction : "La période de contagiosité médiane \[...\] était de 9.5 jours.". Oui, nous savons qu'une "médiane" n'est pas la même chose qu'une "moyenne". C'est suffisamment proche pour notre explication simplifiée.
 
@@ -111,9 +111,9 @@ Maintenant, que se passe-t-il lorsqu'on simule la courbe de croissance logistiqu
 
 Voyons donc ça !
 
-<b style='color:#ff4040'>La courbe Rouge</b> représente les cas <icon i></icon> *actuels* ,    
-<b style='color:#999999'>La courbe Grise</b> représente le *total* de cas (actuels <icon i></icon> + guéris <icon r></icon>). 
-En commencant avec seulement 0.001% de <icon i></icon>:
+<b style='color:#ff4040'>La courbe Rouge</b> représente les cas <icon i></icon> *actuels*,    
+<b style='color:#999999'>La courbe Grise</b> représente le *total* de cas (actuels <icon i></icon> + guéris <span class="nowrap"><icon r></icon>).</span> 
+En commencant avec seulement 0.001% de <span class="nowrap"><icon i></icon> :</span>
 
 <div class="sim">
 		<iframe src="sim?stage=epi-4" width="800" height="540"></iframe>
@@ -131,32 +131,32 @@ la *deuxième* idée la plus importante de notre initiation à l'épidémiologie
 
 **NB: Les simulations qui conseillent les décideurs politiques sont bien, *bien* plus sophistiquées que ça!** Néanmoins le modèle SIR suffit pour trouver un résultat global similaire, même si certaines nuances lui échappe.
 
-Ajoutons donc une autre nuance: avant qu'un <icon s></icon> ne devienne un <icon i></icon>, il doit d'abord être Exposé <icon e></icon>. Cela correspond au moment où l'individu possède le virus mais ne peut pas encore le transmettre – infect**é** mais pas encore infect**ieux**.
+Ajoutons donc une autre nuance: avant qu'un <icon s></icon> ne devienne un <span class="nowrap"><icon i></icon>,</span> il doit d'abord être Exposé <span class="nowrap"><icon e></icon>.</span> Cela correspond au moment où l'individu possède le virus mais ne peut pas encore le transmettre – infect**é** mais pas encore infect**ieux**.
 
 ![](pics/seir.png)
 
-(Cette variante est appellée le **Modèle SEIR**[^seir], avec "E" pour "Exposé" <icon e></icon>. Notez que *ça ne correspond pas* au sens du mot "exposé" de tous les jours: quand il est possible d'avoir *ou non* le virus. La définition technique d'"Exposé" signifie que le virus est bel et bien porté. La terminologie en science est pleine d'absurdité.)
+(Cette variante est appellée le **Modèle SEIR**[^seir], avec "E" pour "Exposé" <span class="nowrap"><icon e></icon>.</span> Notez que *ça ne correspond pas* au sens du mot "exposé" de tous les jours: quand il est possible d'avoir *ou non* le virus. La définition technique d'"Exposé" signifie que le virus est bel et bien porté. La terminologie en science est pleine d'absurdité.)
 
 [^seir]: Pour plus d'explications techniques sur le modèle SEIR, voir [the Institute for Disease Modeling](https://www.idmod.org/docs/hiv/model-seir.html) et [Wikipedia](https://fr.wikipedia.org/wiki/Mod%C3%A8les_compartimentaux_en_%C3%A9pid%C3%A9miologie)
 
-Pour le COVID-19, on estime qu'un individu est infecté-mais-pas-encore-infectieux <icon e></icon> pendant 3 jours, *en moyenne*.[^latent] Que se passe-t-il lorsqu'on ajoute cela à la simulation?
+Pour le COVID-19, on estime qu'un individu est infecté-mais-pas-encore-infectieux <icon e></icon> pendant 3 jours, *en moyenne*.[^latent] Que se passe-t-il lorsqu'on ajoute cela à la simulation ?
 
 [^latent]: “Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8–3.0 days) before symptom onset” Traduction : "En supposant que la période d'incubation est en moyenne de 5.2 jours en s'appuyant sur une autre étude des premiers cas de COVID-19, nous en déduisons que la contagiosité commence au bout de 2.3 jours (intervalle de confiance à 95% : 0.8–3.0 jours) avant l'apparition des symptômes". (explication : En supposant que les symptômes commencent au 5ème jour, sachant que le caractère infectieux commence 2 jours avant, on devient infectieux au bout de 3 jours) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)
 
-<b style='color:#ff4040'>La courbe Rouge <b style='color:#FF9393'>+ Rose</b></b> représente les cas *actuels* (infectieux <icon i></icon> + exposés <icon e></icon>),    
-<b style='color:#888'>La courbe Grise</b> représente le *total* de cas (actuels <icon i></icon> <icon e></icon> + guéris <icon r></icon>):
+<b style='color:#ff4040'>La courbe Rouge <b style='color:#FF9393'>+ Rose</b></b> représente les cas *actuels* (infectieux <icon i></icon> + exposés <span class="nowrap"><icon e></icon>),</span>    
+<b style='color:#888'>La courbe Grise</b> représente le *total* de cas (actuels <icon i></icon> <icon e></icon> + guéris <span class="nowrap"><icon r></icon>) :</span>
 
 <div class="sim">
 		<iframe src="sim?stage=epi-5" width="800" height="540"></iframe>
 </div>
 
-Pas beaucoup de changement! Le temps que l'on passe en Exposé <icon e></icon> change le ratio de <icon e></icon>-pour-<icon i></icon>, et la *date* du pic de cas... mais la *hauteur* du pic, et le nombre total de cas à la fin restent les mêmes.
+Pas beaucoup de changement! Le temps que l'on passe en Exposé <icon e></icon> change le ratio de <span class="nowrap"><icon e></icon>-pour-<icon i></icon>,</span> et la *date* du pic de cas... mais la *hauteur* du pic, et le nombre total de cas à la fin restent les mêmes.
 
 Mais pourquoi ? A cause du *premier* concepte clé de l'épidémiologie:
 
 ![](pics/r.png)
 
-La version courte du "Nombre de reproduction". Il s'agit du nombre *moyen* de personnes qu'un <icon i></icon> infecte *avant* qu'il ne guérisse (ou décède).
+La version courte du "Nombre de reproduction". Il s'agit du nombre *moyen* de personnes qu'un <span class="nowrap"><icon i></icon></span> infecte *avant* qu'il ne guérisse (ou décède).
 
 ![](pics/r2.png)
 
@@ -176,7 +176,7 @@ Le R<sub>0</sub> pour le COVID-19 est estimé à environ 2.2[^r0_covid], bien qu
 
 [^r0_wuhan]: “we calculated a median R0 value of 5.7 (95% CI 3.8–8.9)” [Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.](https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article) Traduction: "Nous avons calculé une valeur médiane de R0 de 5.7 (IC 95% : 3.8-8.9)"
 
-Dans nos simulations - *au début et en moyenne* - un <icon i></icon> infecte quelqu'un tous les 4 jours et ce pendant 10 jours. Il y 2,5 fois "4 jours" dans "10 jours". Cela signifie -*au début et en moyenne* - que chaque <icon i></icon> infecte 2.5 Susceptibles <icon s></icon> . Par conséquent, R<sub>0</sub> = 2,5.(limitations techniques:[^r0_caveats_sim])
+Dans nos simulations - *au début et en moyenne* - un <icon i></icon> infecte quelqu'un tous les 4 jours et ce pendant 10 jours. Il y 2,5 fois "4 jours" dans "10 jours". Cela signifie -*au début et en moyenne* - que chaque <icon i></icon> infecte 2.5 Susceptibles <span class="nowrap"><icon s></icon>.</span> Par conséquent, R<sub>0</sub> = 2,5.(limitations techniques:[^r0_caveats_sim])
 
 [^r0_caveats_sim]: Cela suppose qu'on est infectieux de manière constante tout au long de la "période infectieuse". Encore une fois, c'est une simplification pour aider à la compréhension.
 
@@ -186,7 +186,7 @@ Dans nos simulations - *au début et en moyenne* - un <icon i></icon> infecte qu
 		<iframe src="sim?stage=epi-6a&format=calc" width="285" height="255"></iframe>
 </div>
 
-Mais souvenez-vous, moins il y a de <icon s></icon>, plus les <icon s></icon> deviennent <icon i></icon> *lentement*. Le nombre de reproduction *actuel* (R) dépend non-seulement du nombre de reproduction *de base* (R<sub>0</sub>), mais *aussi* de combien de personnes ne sont plus Susceptibles  <icon s></icon>. (Par exemple, en guérissant et en devenant naturellement immunisées.)
+Mais souvenez-vous, moins il y a de <span class="nowrap"><icon s></icon>,</span> plus les <icon s></icon> deviennent <icon i></icon> *lentement*. Le nombre de reproduction *actuel* (R) dépend non-seulement du nombre de reproduction *de base* (R<sub>0</sub>), mais *aussi* de combien de personnes ne sont plus Susceptibles  <span class="nowrap"><icon s></icon>.</span> (Par exemple, en guérissant et en devenant naturellement immunisées.)
 
 <div class="sim">
 		<iframe src="sim?stage=epi-6b&format=calc" width="285" height="390"></iframe>
@@ -286,7 +286,7 @@ Intensifier le lavage des mains réduit les grippes et les rhumes, dans les pays
 
 [^london]: “We found a 73% reduction in the average daily number of contacts observed per participant. This would be sufficient to reduce R0 from a value from 2.6 before the lockdown to 0.62 (0.37 - 0.89) during the lockdown”.  [Jarvis and Zandvoort et al](https://cmmid.github.io/topics/covid19/comix-impact-of-physical-distance-measures-on-transmission-in-the-UK.html) Traduction: "Nous avons trouvé une réduction de 73% du nombre de contacts journaliers observés par participant. Cela serait suffisant pour réduire R0 de 2,6 avant le confinement à 0,62 (IC 0,37 - 0.89) pendant le confinement". Pour faire simple, le taux a été arrondi à 70% dans les simulations.
 
-**Jouez avec ce calculateur pour voir comment le pourcentage de non-<icon s></icon>, le lavage des mains et la distanciation sociale réduisent R:** (ce calculateur visualise leurs effets *relatifs*, c'est pourquoi lorsqu'un l'un d'eux est augmenté, les autres semblent diminuer.[^log_caveat])
+**Jouez avec ce calculateur pour voir comment le pourcentage de <span class="nowrap">non-<icon s></icon>,</span> le lavage des mains et la distanciation sociale réduisent R:** (ce calculateur visualise leurs effets *relatifs*, c'est pourquoi lorsqu'un l'un d'eux est augmenté, les autres semblent diminuer.[^log_caveat])
 
 [^log_caveat]: Cette distortion disparaîtrait si R était représenté dans une échelle logarithmique... Mais dans ce cas il faudrait aussi expliquer le concept d'*échelle logarithmique.*
 
@@ -316,7 +316,7 @@ Il ne faut donc pas simplement "aplatir" la courbe, il faut l'*écraser*. Par ex
 
 ###Scenario 2 : Confinement de plusieurs moins
 
-Voyons ce qu'il arrive lorsqu'on *écrase* la courbe avec un confinement de 5 mois, qu'on réduit <icon i></icon> à presque rien, et que finalement, - *finalement* - on retrouve une vie normale:
+Voyons ce qu'il arrive lorsqu'on *écrase* la courbe avec un confinement de 5 mois, qu'on réduit <icon i></icon> à presque rien, et que finalement, - *finalement* - on retrouve une vie normale :
 
 <div class="sim">
 		<iframe src="sim?stage=int-3&format=lines" width="800" height="540"></iframe>
@@ -484,27 +484,27 @@ Et vous avez raison. Les masques n'empêchent pas de tomber malade[^incoming]...
 
 [^incoming]: “None of these surgical masks exhibited adequate filter performance and facial fit characteristics to be considered respiratory protection devices.” [Tara Oberg & Lisa M. Brosseau](https://www.sciencedirect.com/science/article/pii/S0196655307007742) Traduction : "Aucun des masques chirurgicaux n'a présenté des performances de filtrage et des caractéristiques d'ajustement facial suffisantes pour être considéré comme un dispositif de protection respiratoire."
 
-[^outgoing]: “The overall 3.4 fold reduction [70% reduction] in aerosol copy numbers we observed combined with a nearly complete elimination of large droplet spray demonstrated by Johnson et al. suggests that surgical masks worn by infected persons could have a clinically significant impact on transmission.” [Milton DK, Fabian MP, Cowling BJ, Grantham ML, McDevitt JJ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591312/) Traduction : "La réduction globale de 3,4 fois (70% de réduction) du nombre de particules aériennes que nous avons observées, combinée à l'élimination quasi complète des projections des grosses goutelettes démontrée par Johnson et al. suggère que le port du masque par les personnes infectées pourrait avoir un impact cliniquement significatif sur la transmission."
+[^outgoing]: “The overall 3.4 fold reduction [70% reduction] in aerosol copy numbers we observed combined with a nearly complete elimination of large droplet spray demonstrated by Johnson et al. suggests that surgical masks worn by infected persons could have a clinically significant impact on transmission.” [Milton DK, Fabian MP, Cowling BJ, Grantham ML, McDevitt JJ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591312/) Traduction : "La réduction globale de 3,4 fois (70% de réduction) du nombre de particules en suspension dans l'air que nous avons observées, combinée à l'élimination quasi totale des projections des grosses goutelettes démontrée par Johnson et al. suggère que le port du masque par les personnes infectées pourrait avoir un impact cliniquement significatif sur la transmission."
 
 [^homemade]: [Davies, A., Thompson, K., Giri, K., Kafatos, G., Walker, J., & Bennett, A](https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/testing-the-efficacy-of-homemade-masks-would-they-protect-in-an-influenza-pandemic/0921A05A69A9419C862FA2F35F819D55) Voir Table 1: un T-shirt en coton a environ deux tiers de l'efficacité de filtration d'un masque chirurgical, pour les deux aérosols bactériens qu'ils ont testés.
 
 ![](pics/masks.png)
 
-Pour mettre un chiffre là-dessus: les masques chirugicaux *portés par la personne malade* réduisent ses projections de rhumes et grippes de 70%.[^outgoing] Réduire les transmissions de 70% aurait un impact aussi important qu'un confinement !
+Pour donner un chiffre: les masques chirugicaux *portés par la personne infectieuse* réduisent de 70% ses projections de particules virales.[^outgoing] Réduire les transmissions de 70% aurait un impact aussi important qu'un confinement!
 
 Cependant, on ne connait pas encore précisément l'impact des masques sur le COVID-19 *en particulier*. En science, on ne devrait publier un résultat que si l'on en est (statistiquement) sûr à 95%. (...devrait.[^replication]) L'usage de masques, au 1er mai 2020, n'est pas "sûr à 95%".
 
-[^replication]: N'importe quel véritable scientifique qui lit cette dernière phrase est probalement plié de rire. Voir: [p-hacking](https://fr.wikipedia.org/wiki/Data_dredging), [crise de la reproductibilité](https://fr.wikipedia.org/wiki/Crise_de_la_reproductibilit%C3%A9))
+[^replication]: Tout véritable scientifique qui lit cette dernière phrase est probalement plié de rire. Voir: [p-hacking](https://fr.wikipedia.org/wiki/Data_dredging), [crise de la reproductibilité](https://fr.wikipedia.org/wiki/Crise_de_la_reproductibilit%C3%A9))
 
-Pour autant, les pandémies c'est comme le poker. **Ne pariez que lorsque vous êtes sûr à 95%, et vous perdrez tout ce qui est en jeu.** Comme le fait noter un récent article du British Medical Journal,[^precautionary] dans un contexte d'incertitude, il est *nécessaire* d'appliquer des analyses coûts-avantages. Par exemple:
+Seulement, les pandémies c'est comme le poker. **Ne pariez que lorsque vous êtes sûr à 95%, et vous perdrez tout ce qui est en jeu.** Comme le note dans un récent article du British Medical Journal,[^precautionary] dans un contexte d'incertitude il est *nécessaire* d'appliquer des analyses coûts-avantages. Par exemple:
 
 [^precautionary]: “It is time to apply the precautionary principle” [Trisha Greenhalgh et al \[PDF\]](https://www.bmj.com/content/bmj/369/bmj.m1435.full.pdf) Traduction: "Il est temps d'appliquer le principe de précaution."
 
-Coûts: Pour des masques en tissu faits maison, même coût que le savon et le lavage des mains. Pour des masques chirurgicaux, un peu plus cher mais encore peu coûteux.
+Coûts: Pour des masques en tissu faits maison (qui ont environ deux tiers de l'efficacité d'un masque chirurgical[^homemade]), presque rien. Pour des masques chirurgicaux, un peu plus cher mais encore peu coûteux.
 
-Bénéfices: Même s'il y avait 50% de chances que les masques chirurgicaux réduisent la transmission ou de 0%, ou de 70%, cela donnerait en moyenne 35%, autant qu'un demi-confinement ! Estimons donc que les masques réduisent R jusqu'à 35%. (Encore une fois, vous pouvez changer nos hypothèses en ajustant les curseurs)
+Bénéfices: Même s'il y avait 50% de chances que les masques chirurgicaux réduisent la transmission de 70%, cela donnerait en moyenne 35%, autant qu'un demi-confinement! Estimons donc que les masques réduisent R jusqu'à 35%. (Encore une fois, vous pouvez changer nos hypothèses en ajustant les curseurs)
 
-**Voici un calculateur de réduction de R grâce aux masques! Vous pouvez choisir entre tissu et chirurgical:** (en supposant que les masques en tissu ont deux tiers de l'efficacité d'un masque chirurgical[^homemade])
+
 
 <div class="sim">
 		<iframe src="sim?stage=int-6a&format=calc" width="285" height="380"></iframe>
@@ -516,19 +516,19 @@ Bénéfices: Même s'il y avait 50% de chances que les masques chirurgicaux réd
 
    **"C'est difficile de les porter correctement."** C'est aussi difficile de se laver les mains en respectant les indications de l'OMS - vraiment, "Etape 5) les dos des doigts en les tenant dans la paume des mains opposées"?! – bien sûr nous recommandons quand même le lavage des mains, l'imperfection vaut mieux que rien du tout.
    
-   **"Cela va rendre les gens imprudents pour le lavage des mains et la distanciation sociale."** Bien sûr, et les ceintures de sécurité font que les gens ignorent les panneaux stop, et les fils dentaires font que les gens mangent des pierres. Plus sérieusement, nous dirions le contraire: les masques sont un *rappel visuel constant* à la prudence – et en Asie de l'Est, les masques sont aussi un symbole de solidarité !
+   **"Cela va rendre les gens imprudents pour le lavage des mains et la distanciation sociale."** Bien sûr, et les ceintures de sécurité font que les gens ignorent les panneaux stop, et les fils dentaires font que les gens mangent des pierres. Plus sérieusement, nous dirions le contraire: les masques sont un *rappel visuel constant* à la prudence – et en Asie de l'Est, les masques sont aussi un symbole de solidarité!
     
     
 
-Les masques *seuls* ne vont pas rendre R < 1. Mais si le lavage des mains et la méthode "Test, suivi, isolement" ne nous amène qu'à R = 1.10, avoir ne serait-ce que deux tiers de la population portant des masque *en tissu* permettra d'atteindre R < 1, et le virus sera contenu!
+Les masques *seuls* ne vont pas rendre R < 1. Mais si le lavage des mains et la méthode "Tester, tracer, isoler" ne nous amène qu'à R = 1,10, avoir ne serait-ce que deux tiers de la population portant des masques *en tissu* permettra d'atteindre R < 1, et le virus sera contenu!
 
 **Eté:**
 
-D'accord, ce n'est pas une "intervention" que nous pouvons contrôler, mais ça va aider! Certains médias rapportent que l'été n'aura pas d'impact sur le COVID-19. Ils ont à moitié raison : l'été ne va pas rendre R < 1, mais *il va réduire* R.
+D'accord, ce n'est pas une "intervention" que nous pouvons contrôler, mais ça va aider! Certains médias rapportent que l'été n'aura pas d'impact sur le COVID-19. Ils ont à moitié raison: l'été ne va pas rendre R < 1, mais *il va réduire* R.
 
-Pour le COVID-19, chaque degré Celsius supplémentaire (2.2° Fahrenheit) fait diminuer R de 1.2%.[^heat] La différence été-hiver à Paris est de 15°C (60°F), donc l'été devrait faire diminuer R de 18%.
+Pour le COVID-19, chaque degré Celsius supplémentaire (1,8° Fahrenheit) fait diminuer R de 1,2%.[^heat] La différence été-hiver à Paris est de 15°C (60°F), donc l'été devrait faire diminuer R de 18%.
 
-[^heat]: “One-degree Celsius increase in temperature [...] lower[s] R by 0.0225” and “The average R-value of these 100 cities is 1.83”. 0.0225 ÷ 1.83 = ~1.2%. [Wang, Jingyuan and Tang, Ke and Feng, Kai and Lv, Weifeng](https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3551767) Traduction : "Une augmentation d'un degré Celsius de la température [...] diminue R de 0,0225" et "La valeur moyenne de R dans ces 100 villes est de 1,83." 0.0225 ÷ 1.83 = ~1,2%.
+[^heat]: “One-degree Celsius increase in temperature [...] lower[s] R by 0.0225” and “The average R-value of these 100 cities is 1.83”. 0.0225 ÷ 1.83 = ~1.2%. [Wang, Jingyuan and Tang, Ke and Feng, Kai and Lv, Weifeng](https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3551767) Traduction : "Une augmentation de température d'un degré Celsius [...] diminue R de 0,0225" et "La valeur moyenne de R dans ces 100 villes est de 1,83." 0,0225 ÷ 1,83 = ~1,2%.
 
 <div class="sim">
 		<iframe src="sim?stage=int-6b&format=calc" width="285" height="220"></iframe>
@@ -545,7 +545,7 @@ Mais nous n'aurions pas à alterner 2 mois confinés/1 mois ouvert encore et enc
 Voici une simulation d'un scenario "pas trop d'effort":
 
 1. Confinement, puis
-2. Un niveau correct d'hygiène + "Test, suivi, isolement" + "Masques pour tous" en *tissu*, et...
+2. Un niveau correct d'hygiène + "Tester, tracer, isoler" + un soupçon de "Masques pour tous", et...
 3. Un dernier confinement "disjoncteur" avant que le vaccin ne soit trouvé.
 
 <div class="sim">
@@ -558,15 +558,15 @@ Sans parler de toutes les *autres* actions qui peuvent être mises en place pour
 * Contrôle de la température dans les centres commerciaux et les écoles
 * Nettoyage en profondeur des espaces publics
 * [Remplacer la poignée de main par le "check des pieds"](https://twitter.com/V_actually/status/1233785527788285953)
-* Et tout ce que l'ingéniosité humaine peut approter
+* Et tout ce que l'ingéniosité humaine peut apporter
 
 . . .
 
-Nous espérons que ces plans vous donnent de l'espoir.  
+Nous espérons que ces plans vous donnent espoir.  
 
-**Même dans les cas les plus défavorables, *il est possible* de vaincre le COVID-19 tout en protégeant notre santé mentale et financière.** Utiliser le confinement comme un "bouton de remise à zéro", garder R < 1 avec isolation des cas + suivi des contacts respecteux de la vie privée + des masques *au moins* en tissus pour tous... et la vie peut reprendre son cours !
+**Même dans les cas les plus défavorables, *il est possible* de vaincre le COVID-19 tout en protégeant notre santé mentale et financière.** Utiliser le confinement comme un "bouton de remise à zéro", garder R < 1 avec isolation des cas + traçage des contacts respectueux de la vie privée + masques *au moins* en tissus pour tous... et la vie peut reprendre son cours!
 
-Bien sûr, vous aurez sans doute les mains sèches. Mais vous pourrez inviter la personne qui vous plaît à la librairie ! Vous pourrez dilapider vos économies dans les derniers film hollywoodiens avec vos amis. Vous pourrez espionner les gens à la bibliothèque, vous réjouissant de les voir s'adonner à la simple activité d'*être en vie*.
+Bien sûr, vous aurez sans doute les mains sèches. Mais vous pourrez inviter votre crush à boire un verre! Vous pourrez dilapider vos économies dans les derniers film hollywoodiens avec vos amis. Vous pourrez espionner les gens à la bibliothèque, vous réjouissant de les voir s'adonner à la simple activité d'*être en vie*.
 
 Même dans les pires scénarios... la vie continue.
 
@@ -599,7 +599,7 @@ Mais pour le COVID-19 *chez les humains*, au 1er mai 2020, "Pour combien de temp
 [^monkeys]: De [Bao et al.](https://www.biorxiv.org/content/10.1101/2020.03.13.990226v1.abstract) *Attention: Cet article est une pré-publication et n'a pas (encore) été vérifiée par une relecture par les pairs.* Aussi, pour le souligner: ils ont seulement testé la ré-infection 28 jours plus tard.
 
 Pour ces simulations, disons que c'est un an.
-**Voici une simulation commençant avec 100% de <icon r></icon>**, décroissant exponentiellement vers les Susceptibles et non-immunisés, <icon s></icon> après un an en *moyenne*, avec des variations:
+**Voici une simulation commençant avec 100% de <span class="nowrap"><icon r></icon>**,</span> décroissant exponentiellement vers les Susceptibles et non-immunisés, <icon s></icon> après un an en *moyenne*, avec des variations :
 
 
 <div class="sim">
@@ -608,7 +608,7 @@ Pour ces simulations, disons que c'est un an.
 
 Le retour du déclin exponentiel !
 
-Il s'agit du **Modèle SEIRS**. Le dernier "S" signifie Susceptible <icon s></icon>, encore une fois.
+Il s'agit du **Modèle SEIRS**. Le dernier "S" signifie Susceptible <span class="nowrap"><icon s></icon>,</span> encore une fois.
 
 ![](pics/seirs.png)
 
@@ -630,7 +630,7 @@ Heureusement, comme l'été réduit R, la situation va s'améliorer:
 
 Oh.
 
-contre toute attente, l'été rend les pics plus sévères *et* plus réguliers ! C'est parce que l'été réduit les nouveaux <icon i></icon>, mais en même temps réduit aussi les nouveaux immunisés <icon r></icon>. Ce qui veut dire que l'immunité chute durant l'été, *causant* des pics prononcés et réguliers en hiver.
+contre toute attente, l'été rend les pics plus sévères *et* plus réguliers ! C'est parce que l'été réduit les nouveaux <span class="nowrap"><icon i></icon>,</span> mais en même temps réduit aussi les nouveaux immunisés <span class="nowrap"><icon r></icon>.</span> Ce qui veut dire que l'immunité chute durant l'été, *causant* des pics prononcés et réguliers en hiver.
 
 Heureusement, la solution à ce problème est simple - vacciner les gens chaque automne/hiver, à la manière de ce que l'on fait avec le vaccin de la grippe.
 
