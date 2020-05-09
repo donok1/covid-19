@@ -274,7 +274,7 @@ La stratégie "Aplatir la courbe" a été promue par tous les organismes de sant
 
 [^yong]: “He says that the actual goal is the same as that of other countries: flatten the curve by staggering the onset of infections. As a consequence, the nation may achieve herd immunity; it’s a side effect, not an aim. [...] The government’s actual coronavirus action plan, available online, doesn’t mention herd immunity at all.”
 
-    Tiré de [The Atlantic article by Ed Yong](https://www.theatlantic.com/health/archive/2020/03/coronavirus-pandemic-herd-immunity-uk-boris-johnson/608065/) Traduction: "Il dit que l'objectif est en fait le même que les autres pays: aplatir la courbe en étalant le départ des infections. Par conséquent, le pays pourrait atteindre l'immunité collective; c'est un effet secondaire, pas un but en soi. [...] En fait, le plan d'action du gouvernement contre le coronavirus, disponible en ligne, ne mentionne pas du tout l'immunité collective."
+    Tiré de [The Atlantic article by Ed Yong](https://www.theatlantic.com/health/archive/2020/03/coronavirus-pandemic-herd-immunity-uk-boris-johnson/608065/) Traduction: "Il dit que l'objectif est en fait le même que les autres pays: aplatir la courbe en étalant le départ des infections. Par conséquent, le pays pourrait atteindre l'immunité collective; c'est un effet secondaire, pas un but en soi. [...] En vérité, le plan d'action du gouvernement contre le coronavirus, disponible en ligne, ne mentionne pas du tout l'immunité collective."
 
 Cependant, les deux plans avaient des failles fatales (littéralement).
 
@@ -379,7 +379,7 @@ Si les cas s'isolent seulement quand ils savent qu'ils sont malades (c'est-à-di
 
 ![](pics/timeline2.png)
 
-Et, en fait, 44% des transmissions ont lieu ainsi : *pré*-symptomatiquement ! [^pre_symp]
+En réalité, 44% des transmissions ont lieu en phase *pré*-symptomatique ! [^pre_symp]
 
 [^pre_symp]: “We estimated that 44% (95% confidence interval, 25–69%) of secondary cases were infected during the index cases’ presymptomatic stage” [He, X., Lau, E.H.Y., Wu, P. et al](https://www.nature.com/articles/s41591-020-0869-5) Traduction : « Nous avons estimé que 44% (intervalle de confiance de 95%, 25–69%) des cas secondaires avaient été infectés pendant l'étape présymptomatique des cas index »
 
@@ -391,7 +391,7 @@ C'est ce qu'on appelle le **traçage des contacts**. C'est une vieille idée, el
 
 [^ebola]: « Le traçage des contacts a été une intervention critique au Liberia et a représenté un des plus grands efforts de traçage de contacts de l'Histoire. » [Swanson KC, Altare C, Wesseh CS, et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6152989/)
 
-(Il nous permet aussi d'utiliser nos tests en nombre limité plus efficacement, pour trouver les <icon i></icon>s pré-symptomatiques sans avoir besoin de tester tout le monde.)
+(Il nous permet aussi d'utiliser nos tests en nombre limité plus efficacement, pour trouver les <span class="nowrap"><icon i></icon>s</span> pré-symptomatiques sans avoir besoin de tester tout le monde.)
 
 Traditionnellement, les contacts sont trouvés grâce à des entretiens physiques, mais à eux *seuls*, ils sont trop lents pour la fenêtre d'environ 48 heures du Covid-19. C'est pourquoi les traceurs de contacts ont besoin d'aide, et sont aidés par — *PAS* remplacés par — des applis de traçage de contacts.
 
@@ -415,13 +415,13 @@ Avec d'autres équipes similaires comme TCN Protocol[^tcn] et MIT PACT[^pact], i
 
 [^gapple]: [Apple et Google collaborent sur une technologies de traçage de contact pour le Covid-19](https://www.apple.com/ca/newsroom/2020/04/apple-and-google-partner-on-covid-19-contact-tracing-technology/). Notez qu'ils ne font pas les applis *eux-mêmes*, ils créent juste les systèmes qui vont *permettre* ces applis.
 
-Mais quid des gens sans smartphones ? Ou des infections par les poignées de portes ? Ou des cas « vraiment » asymptomatiques ? Les applis de traçage de contacts ne peuvent pas détecter toutes les transmissions… *et ce n'est pas un problème !* On n'a pas besoin de détecter *toutes* les transmissions, seulement 60% pour avoir R < 1.
+Mais qu'en est-il des gens sans smartphones ? Ou des infections par les poignées de portes ? Ou des cas « vraiment » asymptomatiques ? Les applis de traçage de contacts ne peuvent pas détecter toutes les transmissions… *et ce n'est pas un problème !* On n'a pas besoin de détecter *toutes* les transmissions, seulement 60% pour avoir R < 1.
 
-(Diatribe à propos du mélange entre pré-symtpomatique et « vrai » asymptomatique. Les « vrais » asymptomatiques sont rares :[^rant])
+(Diatribe à propos du mélange entre pré-symptomatique et « vrai » asymptomatique. Les « vrais » asymptomatiques sont rares :[^rant])
 
 [^rant]: Beaucoup de journaux — et franchement, beaucoup d'articles de recherche — n'ont pas fait la distinction entre « les cas qui ne montrent pas de symptômes quand on les a testés » (pré-symptomatique) et « les cas qui n'ont *jamais* montré de symptômes » (vrai asymptomatique). La seule manière de faire la différence est de suivre les cas par la suite.
    
-    C'est ce que [cette étude](https://wwwnc.cdc.gov/eid/article/26/8/20-1274_article) a fait. (Attention : « Les pré-publications ne sont pas considérées des versions finales. ») Dans un centre d'appel en Corée du Sud qui a eu une épidémie de Covid-19, « seulement 4 (1,9%) sont restés asymptomatiques pendant 14 jours de quarantaine et aucun de leurs contacts domestiques n'ont eu d'infections secondaires. »
+    C'est ce que [cette étude](https://wwwnc.cdc.gov/eid/article/26/8/20-1274_article) a fait. (Attention : « Les pré-publications ne sont pas considérées des versions finales. ») Dans un centre d'appel en Corée du Sud touché par l'épidémie de COVID-19, « seulement 4 (1,9%) sont restés asymptomatiques pendant 14 jours de quarantaine et aucun de leurs contacts domestiques n'ont eu d'infections secondaires. »
     
 	Donc ça veut dire que les « vrais asymptomatiques » sont rares et qu'attraper la maladie d'un vrai asymptomatique pourrait être encore plus rare !
 
@@ -440,30 +440,30 @@ Isoler les cas *symptomatiques* réduirait R jusqu'à 40% et mettre en quarantai
 		<iframe src="sim?stage=int-4a&format=calc" width="285" height="340"></iframe>
 </div>
 
-Ainsi, même sans mettre en quarantaine 100% des contacts, on peut obtenir R < 1 *sans confinement !* Bien mieux pour notre santé mentale et financière. (Et pour le coût pour les gens qui doivent s'auto-isoler ou se mettre en quarantaine, *les gouvernements devraient les soutenir* — payer pour les tests, la protection de l'emploi, subventionner les congés maladie, etc. C'est toujours bien moins cher que du confinement intermittent.)
+Ainsi, même sans mettre en quarantaine 100% des contacts, on peut obtenir R < 1 *sans confinement !* Bien mieux pour notre santé mentale et financière. (Quant aux coûts pour les personnes qui doivent s'isoler ou se mettre en quarantaine, *les gouvernements devraient les soutenir* — payer pour les tests, la protection de l'emploi, subventionner les congés maladie, etc. C'est toujours bien moins cher que du confinement intermittent.)
 
-On garde alors R < 1 jusqu'à ce qu'on ait un vaccin, qui transforme les susceptibles <icon s></icon>s en immunisés <icon r></icon>s. L'immunité collective, de la *bonne* manière :
+On garde alors R < 1 jusqu'à ce qu'on ait un vaccin, qui transforme les Susceptibles <icon s></icon> en immunisés <span class="nowrap"><icon r></icon>.</span> L'immunité collective, de la *bonne* manière :
 
 <div class="sim">
 		<iframe src="sim?stage=int-4b&format=calc" width="285" height="230"></iframe>
 </div>
 
-(Note : ce calculateur fait semblant que les vaccins sont efficaces à 100%. Rappelez-vous qu'en réalité, il faudrait compenser en vaccinant *plus* que « l'immunité collective », pour *vraiment* obtenir l'immunité collective)
+(Note : ce calculateur considère que les vaccins sont efficaces à 100%. Rappelez-vous qu'en réalité, il faudrait compenser en vaccinant *plus* que « l'immunité collective », pour *vraiment* obtenir l'immunité collective)
 
-OK, assez parlé. Voici une simulation de :
+OK, assez parlé. Voici une simulation pour :
 
 1. Un confinement de quelques mois, jusqu'à ce qu'on puisse…
 2. Passer à « Tester, Traçer, Isoler » jusqu'à ce qu'on puisse…
 3. Vacciner assez de gens, ce qui veut dire que…
-4. On a gagné.
+4. On a gagné !
 
 <div class="sim">
 		<iframe src="sim?stage=int-5&format=lines" width="800" height="540"></iframe>
 </div>
 
-Et c'est tout ! Voilà comment on fait un atterrissage d'urgence avec cet avion.
+Et c'est tout ! Voilà comment faire un atterrissage d'urgence avec cet avion.
 
-Voilà comment on bat le Covid-19.
+Voilà comment battre le COVID-19.
 
 …
 
