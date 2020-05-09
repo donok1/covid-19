@@ -26,15 +26,15 @@
 
 Bien sûr, on nous rappelle à raison de ne pas se ruer sur le papier toilette. Mais si les responsables politiques craignent la peur et le désordre, ils minimiseront aussi les véritables dangers pour éviter toute panique générale. La peur n'est pas un problème. Le problème est la manière dont nous la canalisons. La peur nous donne l'énergie pour faire face aux dangers de l'instant, et nous prépare aux dangers futurs.
 
-Pour être honnête, nous (Marcel - épidémiologiste et Nicky - art/code) sommes inquiets. Tu l'es aussi n'est-ce pas? C'est pourquoi de nos peurs sont nées ces **simulations interactives**, pour que *tu* puisses à ton tour canaliser tes peurs et comprendre:
+Pour être honnête, nous (Marcel - épidémiologiste et Nicky - art/code) sommes inquiets. Tu l'es aussi n'est-ce pas ? C'est pourquoi de nos peurs sont nées ces **simulations interactives**, pour que *tu* puisses à ton tour canaliser tes peurs et comprendre:
 
 * **Ces derniers mois** (initiation à l'épidémiologie, modèle SEIR, R et R<sub>0</sub>)
 * **Les mois à venir** (confinement, traçage de contacts, masques)
-* **Les années à venir** (perte d'immunité? vaccin introuvable?)
+* **Les années à venir** (perte d'immunité ? vaccin introuvable ?)
 
-Ce guide (publié le 1er Mai 2020. clique sur cette note!→[^timestamp]) est là pour vous donner espoir, *et* vous faire peur. Pour vaincre le COVID-19 **en préservant aussi nos santés mentales et financières**, nous devons faire preuve d'optimisme pour élaborer des plans, et de pessimisme pour élaborer des plans B. Comme l'a dit un jour Gladys Bronwyn Stern, *“L'optimiste invente l'avion, le pessimiste invente le parachute. »*
+Ce guide (publié le 1er Mai 2020. clique sur cette note !→[^timestamp]) est là pour vous donner espoir, *et* vous faire peur. Pour vaincre le COVID-19 **en préservant aussi nos santés mentales et financières**, nous devons faire preuve d'optimisme pour élaborer des plans, et de pessimisme pour élaborer des plans B. Comme l'a dit un jour Gladys Bronwyn Stern, *“L'optimiste invente l'avion, le pessimiste invente le parachute. »*
 
-[^timestamp]: Ces notes contiendront des sources, des liens et des commentaires bonus comme celui-ci!
+[^timestamp]: Ces notes contiendront des sources, des liens et des commentaires bonus comme celui-ci !
     
     **Ce guide a été publié le 1er Mai 2020.** De nombreux détails deviendront obsolètes, mais nous sommes convaincus que ce guide couvre 95% des futurs possibles, et que notre initiation à l'épidémiologie vous sera bien utile.
 
@@ -61,7 +61,7 @@ On estime *qu'au début* de l'épidémie de COVID-19, le virus allait d'un <icon
 
 Que se passe-t-il si nous simulons le cas « double tous les 4 jours », *et rien de plus*, sur une population qui commence avec seulement 0,001% de <span class="nowrap"><icon i></icon> ?</span> 
 
-**Cliquez sur « Lancer » pour réaliser une simulation! Vous pouvez relancer avec d'autres paramètres quand la simulation est finie:** (limites techniques: [^caveats])
+**Cliquez sur « Lancer » pour réaliser une simulation ! Vous pouvez relancer avec d'autres paramètres quand la simulation est finie:** (limites techniques: [^caveats])
 
 [^caveats]: **Attention: toutes ses simulations sont très simplificatrices, à des fins éducatives.**
     
@@ -93,7 +93,7 @@ Ceci est la **courbe de croissance logistique** « en S ». Ça commence douceme
 
 Pour autant, cette simulation est *encore* fausse. On passe à côté  du fait qu'un individu Infectieux <icon i></icon> fini par arrêter d'être infectieux, soit en étant: 1) guéri, 2) « guéri » avec des lésions pulmonaires  3) décédé.
 
-Pour faire simple, supposons que tout les individus Infectieux <icon i></icon> deviennent guéris (**R**ecovered en anglais) <span class="nowrap"><icon r></icon>.</span> (Mais gardez en tête que la réalité est bien plus dure.) Les <icon r></icon> ne peuvent plus être infectés, et supposons – *pour l'instant!* – qu'ils sont immunisés à vie.
+Pour faire simple, supposons que tout les individus Infectieux <icon i></icon> deviennent guéris (**R**ecovered en anglais) <span class="nowrap"><icon r></icon>.</span> (Mais gardez en tête que la réalité est bien plus dure.) Les <icon r></icon> ne peuvent plus être infectés, et supposons – *pour l'instant !* – qu'ils sont immunisés à vie.
 
 Pour le COVID-19, on estime qu'un individu est Infectieux <icon i></icon> pendant 10 jours, *en moyenne*.[^infectiousness] Certains guérissent en moins de 10 jours, d'autres en plus. **Voilà ce que ça donne, avec une simulation qui *commence* avec 100% de <span class="nowrap"><icon i></icon> :</span>**
 
@@ -119,7 +119,7 @@ En commencant avec seulement 0,001% de <span class="nowrap"><icon i></icon> :</s
 		<iframe src="sim?stage=epi-4" width="800" height="540"></iframe>
 </div>
 
-Et *c'est de là* que nous viens cette fameuse courbe! Ce n'est pas une courbe de Gauss, ni même une courbe « log-normale ». Ça n'a pas de nom, mais vous l'avez vue des millions de fois et vous priez pour qu'elle s'aplatisse.
+Et *c'est de là* que nous viens cette fameuse courbe ! Ce n'est pas une courbe de Gauss, ni même une courbe « log-normale ». Ça n'a pas de nom, mais vous l'avez vue des millions de fois et vous priez pour qu'elle s'aplatisse.
 
 C'est le **Modèle SIR**, [^sir]    
 (<icon s></icon>**S**usceptible <icon i></icon>**I**nfectieux <icon r></icon>**R**ecovered (guéri en anglais))      
@@ -129,7 +129,7 @@ la *deuxième* idée la plus importante de notre initiation à l'épidémiologie
 
 ![](pics/sir.png)
 
-**NB: Les simulations qui conseillent les décideurs politiques sont bien, *bien* plus sophistiquées que ça!** Néanmoins le modèle SIR suffit pour trouver un résultat global similaire, même si certaines nuances lui échappe.
+**NB: Les simulations qui conseillent les décideurs politiques sont bien, *bien* plus sophistiquées que ça !** Néanmoins le modèle SIR suffit pour trouver un résultat global similaire, même si certaines nuances lui échappe.
 
 Ajoutons donc une autre nuance: avant qu'un <icon s></icon> ne devienne un <span class="nowrap"><icon i></icon>,</span> il doit d'abord être Exposé <span class="nowrap"><icon e></icon>.</span> Cela correspond au moment où l'individu possède le virus mais ne peut pas encore le transmettre – infect**é** mais pas encore infect**ieux**.
 
@@ -150,7 +150,7 @@ Pour le COVID-19, on estime qu'un individu est infecté-mais-pas-encore-infectie
 		<iframe src="sim?stage=epi-5" width="800" height="540"></iframe>
 </div>
 
-Pas beaucoup de changement! Le temps que l'on passe en Exposé <icon e></icon> change le ratio de <span class="nowrap"><icon e></icon>-pour-<icon i></icon>,</span> et la *date* du pic de cas... mais la *hauteur* du pic, et le nombre total de cas à la fin restent les mêmes.
+Pas beaucoup de changement ! Le temps que l'on passe en Exposé <icon e></icon> change le ratio de <span class="nowrap"><icon e></icon>-pour-<icon i></icon>,</span> et la *date* du pic de cas... mais la *hauteur* du pic, et le nombre total de cas à la fin restent les mêmes.
 
 Mais pourquoi ? A cause du *premier* concepte clé de l'épidémiologie:
 
@@ -342,7 +342,7 @@ Cette solution a été suggérée en premier par le rapport du 16 mars de l'Impe
 		<iframe src="sim?stage=int-4&format=lines" width="800" height="540"></iframe>
 </div>
 
-Cela *pourrait* maintenir le nombre de cas en dessous de la capacité des soins intensifs! Et c'est *beaucoup* mieux qu'un confinement de 18 mois en attendant qu'un vaccin soit disponible. Il faut juste... tout fermer pendant quelques mois, rouvrir pendant quelques mois et répéter jusqu'à ce qu'un vaccin arrive. (Et s'il n'y a pas de vaccin, répéter jusqu'à ce que l'immunité collective soit atteinte... en 2022.)
+Cela *pourrait* maintenir le nombre de cas en dessous de la capacité des soins intensifs ! Et c'est *beaucoup* mieux qu'un confinement de 18 mois en attendant qu'un vaccin soit disponible. Il faut juste... tout fermer pendant quelques mois, rouvrir pendant quelques mois et répéter jusqu'à ce qu'un vaccin arrive. (Et s'il n'y a pas de vaccin, répéter jusqu'à ce que l'immunité collective soit atteinte... en 2022.)
 
 Enfin bon, c'est bien joli de dessiner une ligne disant « capacité des soins intensifs », mais il y a beaucoup de choses importantes qu'on *ne peut pas* simuler ici. Comme:
 
@@ -472,7 +472,7 @@ Le pessimiste invente le parachute.
 
 ###Scenario 4+ : Masques pour tous, été, « Disjoncteur » 
 
-Et si R<sub>0</sub> était bien plus grand que ce que l'on pense, et que les actions précédentes, même aidées d'une légère distanciation, n'était *toujours* pas suffisantes pour rendre R < 1?
+Et si R<sub>0</sub> était bien plus grand que ce que l'on pense, et que les actions précédentes, même aidées d'une légère distanciation, n'était *toujours* pas suffisantes pour rendre R < 1 ?
 
 Souvenez-vous, même si on ne peut rendre R < 1, minimiser R permet quand même de réduire le « débordement » du total de cas, donc de sauver des vies. Pour autant, R < 1 reste l'idéal, et voici d'autres moyens pour le réduire:
 
@@ -490,7 +490,7 @@ Et vous avez raison. Les masques n'empêchent pas de tomber malade[^incoming]...
 
 ![](pics/masks.png)
 
-Pour donner un chiffre: les masques chirugicaux *portés par la personne infectieuse* réduisent de 70% ses projections de particules virales.[^outgoing] Réduire les transmissions de 70% aurait un impact aussi important qu'un confinement!
+Pour donner un chiffre: les masques chirugicaux *portés par la personne infectieuse* réduisent de 70% ses projections de particules virales.[^outgoing] Réduire les transmissions de 70% aurait un impact aussi important qu'un confinement !
 
 Cependant, on ne connait pas encore précisément l'impact des masques sur le COVID-19 *en particulier*. En science, on ne devrait publier un résultat que si l'on en est (statistiquement) sûr à 95%. (...devrait.[^replication]) L'usage de masques, au 1er mai 2020, n'est pas « sûr à 95% ».
 
@@ -502,7 +502,7 @@ Seulement, les pandémies c'est comme le poker. **Ne pariez que lorsque vous êt
 
 Coûts: Pour des masques en tissu faits maison (qui ont environ deux tiers de l'efficacité d'un masque chirurgical[^homemade]), presque rien. Pour des masques chirurgicaux, un peu plus cher mais encore peu coûteux.
 
-Bénéfices: Même s'il y avait 50% de chances que les masques chirurgicaux réduisent la transmission de 70%, cela donnerait en moyenne 35%, autant qu'un demi-confinement! Estimons donc que les masques réduisent R jusqu'à 35%. (Encore une fois, vous pouvez changer nos hypothèses en ajustant les curseurs)
+Bénéfices: Même s'il y avait 50% de chances que les masques chirurgicaux réduisent la transmission de 70%, cela donnerait en moyenne 35%, autant qu'un demi-confinement ! Estimons donc que les masques réduisent R jusqu'à 35%. (Encore une fois, vous pouvez changer nos hypothèses en ajustant les curseurs)
 
 
 
@@ -520,11 +520,11 @@ Bénéfices: Même s'il y avait 50% de chances que les masques chirurgicaux réd
     
     
 
-Les masques *seuls* ne vont pas rendre R < 1. Mais si le lavage des mains et la méthode « Tester, tracer, isoler » ne nous amène qu'à R = 1,10, avoir ne serait-ce que deux tiers de la population portant des masques *en tissu* permettra d'atteindre R < 1, et le virus sera contenu!
+Les masques *seuls* ne vont pas rendre R < 1. Mais si le lavage des mains et la méthode « Tester, tracer, isoler » ne nous amène qu'à R = 1,10, avoir ne serait-ce que deux tiers de la population portant des masques *en tissu* permettra d'atteindre R < 1, et le virus sera contenu !
 
 **Eté:**
 
-D'accord, ce n'est pas une « intervention » que nous pouvons contrôler, mais ça va aider! Certains médias rapportent que l'été n'aura pas d'impact sur le COVID-19. Ils ont à moitié raison: l'été ne va pas rendre R < 1, mais *il va réduire* R.
+D'accord, ce n'est pas une « intervention » que nous pouvons contrôler, mais ça va aider ! Certains médias rapportent que l'été n'aura pas d'impact sur le COVID-19. Ils ont à moitié raison: l'été ne va pas rendre R < 1, mais *il va réduire* R.
 
 Pour le COVID-19, chaque degré Celsius supplémentaire (1,8° Fahrenheit) fait diminuer R de 1,2%.[^heat] La différence été-hiver à Paris est de 15°C (60°F), donc l'été devrait faire diminuer R de 18%.
 
@@ -540,7 +540,7 @@ L'été seul ne va pas rendre R < 1, mais en cas de resources limitées, permett
 
 Et si tout cela ne permet *toujours* pas d'atteindre R < 1... nous pouvons nous confiner à nouveau.
 
-Mais nous n'aurions pas à alterner 2 mois confinés/1 mois ouvert encore et encore! R ayant diminué, nous n'aurions qu'à réaliser ce confinement « disjoncteur » une ou deux fois avant que le vaccin ne soit disponible. (Singapour a procédé ainsi récemment, « même » s'ils avaient réussi à contrôler le virus pendant 4 mois. Ce n'est pas un échec: c'est *ce qu'il faut* pour réussir.)
+Mais nous n'aurions pas à alterner 2 mois confinés/1 mois ouvert encore et encore ! R ayant diminué, nous n'aurions qu'à réaliser ce confinement « disjoncteur » une ou deux fois avant que le vaccin ne soit disponible. (Singapour a procédé ainsi récemment, « même » s'ils avaient réussi à contrôler le virus pendant 4 mois. Ce n'est pas un échec: c'est *ce qu'il faut* pour réussir.)
 
 Voici une simulation d'un scenario « pas trop d'effort »:
 
@@ -564,9 +564,9 @@ Sans parler de toutes les *autres* actions qui peuvent être mises en place pour
 
 Nous espérons que ces plans vous donnent espoir.  
 
-**Même dans les cas les plus défavorables, *il est possible* de vaincre le COVID-19 tout en protégeant notre santé mentale et financière.** Utiliser le confinement comme un « bouton de remise à zéro », garder R < 1 avec isolation des cas + traçage des contacts respectueux de la vie privée + masques *au moins* en tissus pour tous... et la vie peut reprendre son cours!
+**Même dans les cas les plus défavorables, *il est possible* de vaincre le COVID-19 tout en protégeant notre santé mentale et financière.** Utiliser le confinement comme un « bouton de remise à zéro », garder R < 1 avec isolation des cas + traçage des contacts respectueux de la vie privée + masques *au moins* en tissus pour tous... et la vie peut reprendre son cours !
 
-Bien sûr, vous aurez sans doute les mains sèches. Mais vous pourrez inviter votre crush à boire un verre! Vous pourrez dilapider vos économies dans les derniers film hollywoodiens avec vos amis. Vous pourrez espionner les gens à la bibliothèque, vous réjouissant de les voir s'adonner à la simple activité d'*être en vie*.
+Bien sûr, vous aurez sans doute les mains sèches. Mais vous pourrez inviter votre crush à boire un verre ! Vous pourrez dilapider vos économies dans les derniers film hollywoodiens avec vos amis. Vous pourrez espionner les gens à la bibliothèque, vous réjouissant de les voir s'adonner à la simple activité d'*être en vie*.
 
 Même dans les pires scénarios... la vie continue.
 
@@ -581,7 +581,7 @@ Donc maintenant, faisons des plans pour quelques scénarios catastrophes. Améri
 
 Vous attrapez le COVID-19 et en guérissez. Ou vous recevez un vaccin. Dans les deux cas, vous êtes maintenant immunisé·e...
 
-...*mais pour combien de temps?*
+...*mais pour combien de temps ?*
 
 * Le COVID-19 est étroitement lié au SARS, qui rend ses survivants immunisés pour deux ans.[^SARS immunity]
 * Le coronavirus causant « le » rhume procure 8 mois d'immunité.[^cold immunity]
