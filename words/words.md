@@ -358,7 +358,6 @@ Mais attendez... Taïwan et la Corée du Sud n'ont-elles pas *déjà* contenu le
 
 Comment ?
 
-
 ###Scénario 4 : Tester, Tracer, Isoler
 
 *« Bien sûr, nous \*pourrions\* avoir fait comme Taïwan et la Corée du Sud ont fait au départ, mais c'est désormais trop tard. On a loupé le départ. »*
