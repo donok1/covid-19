@@ -647,7 +647,7 @@ Même dans le scénario catastrophe « sans vaccin », nous avons 3 échappatoir
 
 3) Intervenir pour maintenir R<1 jusqu'à que soient développés des traitements qui rendent le COVID-19 bien, bien moins probable de demander des soins critiques. (Ce qu'on devrait faire de *toute façon !*) Diviser le besoin de respirateur par 10 est équivalent à multiplier la capacité en respirateurs par 10 :
 
-**Voici une simulation *sans* immunité durable, *sans* vaccin et sans même aucune intervention - seule la capacité à survivre aux longs pics augmente lentement*:**
+**Voici une simulation *sans* immunité durable, *sans* vaccin et sans même aucune intervention - seule la capacité à survivre aux longs pics augmente lentement :**
 
 <div class="sim">
 		<iframe src="sim?stage=yrs-5&format=lines" width="800" height="540"></iframe>
