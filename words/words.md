@@ -57,9 +57,9 @@ Créons notre propre très, *très* simple « simulateur de vol épidémique �
 
 On estime *qu'au début* de l'épidémie de COVID-19, le virus allait d'un <icon i></icon> à un <icon s></icon> tous les 4 jours, *en moyenne*.[^serial_interval] (pour rappel, il y a beaucoup de variations)
 
-[^serial_interval]: “The mean [serial] interval was 3.96 days (95% CI 3.53–4.39 days)”. [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article) Traduction: « L'intervalle [sériel] moyen était de 3.96 jours (intervalle de confiance à 95% : 3.53–4.39 jours) ». (Attention: les pré-publications ne sont pas considérées comme des versions finales)
+[^serial_interval]: “The mean [serial] interval was 3,96 days (95% CI 3,53–4,39 days)”. [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article) Traduction: « L'intervalle [sériel] moyen était de 3,96 jours (intervalle de confiance à 95% : 3,53–4,39 jours) ». (Attention: les pré-publications ne sont pas considérées comme des versions finales)
 
-Que se passe-t-il si nous simulons le cas « double tous les 4 jours », *et rien de plus*, sur une population qui commence avec seulement 0.001% de <span class="nowrap"><icon i></icon> ?</span> 
+Que se passe-t-il si nous simulons le cas « double tous les 4 jours », *et rien de plus*, sur une population qui commence avec seulement 0,001% de <span class="nowrap"><icon i></icon> ?</span> 
 
 **Cliquez sur « Lancer » pour réaliser une simulation! Vous pouvez relancer avec d'autres paramètres quand la simulation est finie:** (limites techniques: [^caveats])
 
@@ -97,7 +97,7 @@ Pour faire simple, supposons que tout les individus Infectieux <icon i></icon> d
 
 Pour le COVID-19, on estime qu'un individu est Infectieux <icon i></icon> pendant 10 jours, *en moyenne*.[^infectiousness] Certains guérissent en moins de 10 jours, d'autres en plus. **Voilà ce que ça donne, avec une simulation qui *commence* avec 100% de <span class="nowrap"><icon i></icon> :</span>**
 
-[^infectiousness]: “The median communicable period \[...\] was 9.5 days.” [Hu, Z., Song, C., Xu, C. et al](https://link.springer.com/article/10.1007/s11427-020-1661-4) Traduction: « La période de contagiosité médiane \[...\] était de 9.5 jours. » Oui, nous savons qu'une « médiane » n'est pas la même chose qu'une « moyenne ». C'est suffisamment proche pour notre explication simplifiée.
+[^infectiousness]: “The median communicable period \[...\] was 9,5 days.” [Hu, Z., Song, C., Xu, C. et al](https://link.springer.com/article/10.1007/s11427-020-1661-4) Traduction: « La période de contagiosité médiane \[...\] était de 9,5 jours. » Oui, nous savons qu'une « médiane » n'est pas la même chose qu'une « moyenne ». C'est suffisamment proche pour notre explication simplifiée.
 
 <div class="sim">
 		<iframe src="sim?stage=epi-3" width="800" height="540"></iframe>
@@ -113,7 +113,7 @@ Voyons donc ça !
 
 <b style='color:#ff4040'>La courbe Rouge</b> représente les cas <icon i></icon> *actuels*,    
 <b style='color:#999999'>La courbe Grise</b> représente le *total* de cas (actuels <icon i></icon> + guéris <span class="nowrap"><icon r></icon>).</span> 
-En commencant avec seulement 0.001% de <span class="nowrap"><icon i></icon> :</span>
+En commencant avec seulement 0,001% de <span class="nowrap"><icon i></icon> :</span>
 
 <div class="sim">
 		<iframe src="sim?stage=epi-4" width="800" height="540"></iframe>
@@ -141,7 +141,7 @@ Ajoutons donc une autre nuance: avant qu'un <icon s></icon> ne devienne un <span
 
 Pour le COVID-19, on estime qu'un individu est infecté-mais-pas-encore-infectieux <icon e></icon> pendant 3 jours, *en moyenne*.[^latent] Que se passe-t-il lorsqu'on ajoute cela à la simulation ?
 
-[^latent]: “Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8–3.0 days) before symptom onset” [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5) Traduction: « En supposant que la période d'incubation est en moyenne de 5.2 jours en s'appuyant sur une autre étude des premiers cas de COVID-19, nous en déduisons que la contagiosité commence au bout de 2.3 jours (intervalle de confiance à 95% : 0.8–3.0 jours) avant l'apparition des symptômes ». (explication : En supposant que les symptômes commencent au 5ème jour, sachant que le caractère infectieux commence 2 jours avant, on devient infectieux au bout de 3 jours)
+[^latent]: “Assuming an incubation period distribution of mean 5,2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2,3 days (95% CI, 0,8–3,0 days) before symptom onset” [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5) Traduction: « En supposant que la période d'incubation est en moyenne de 5,2 jours en s'appuyant sur une autre étude des premiers cas de COVID-19, nous en déduisons que la contagiosité commence au bout de 2,3 jours (IC à 95% : 0,8–3,0 jours) avant l'apparition des symptômes ». (explication : En supposant que les symptômes commencent au 5ème jour, sachant que le caractère infectieux commence 2 jours avant, on devient infectieux au bout de 3 jours)
 
 <b style='color:#ff4040'>La courbe Rouge <b style='color:#FF9393'>+ Rose</b></b> représente les cas *actuels* (infectieux <icon i></icon> + exposés <span class="nowrap"><icon e></icon>),</span>    
 <b style='color:#888'>La courbe Grise</b> représente le *total* de cas (actuels <icon i></icon> <icon e></icon> + guéris <span class="nowrap"><icon r></icon>) :</span>
