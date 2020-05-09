@@ -176,7 +176,7 @@ Le R<sub>0</sub> pour le COVID-19 est estimé à environ 2,2[^r0_covid], bien qu
 
 [^r0_wuhan]: « we calculated a median R0 value of 5.7 (95% CI 3.8–8.9) » [Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.](https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article) Traduction : « Nous avons calculé une valeur médiane de R0 de 5,7 (IC 95% : 3,8-8,9) »
 
-Dans nos simulations - *au début et en moyenne* - un <icon i></icon> infecte quelqu'un tous les 4 jours et ce pendant 10 jours. Il y 2,5 fois « 4 jours » dans « 10 jours ». Cela signifie -*au début et en moyenne* - que chaque <icon i></icon> infecte 2,5 Susceptibles <span class="nowrap"><icon s></icon>.</span> Par conséquent, R<sub>0</sub> = 2,5.(limitations techniques :[^r0_caveats_sim])
+Dans nos simulations - *au début et en moyenne* - un <icon i></icon> infecte quelqu'un tous les 4 jours et ce pendant 10 jours. Il y 2,5 fois « 4 jours » dans « 10 jours ». Cela signifie -*au début et en moyenne* - que chaque <icon i></icon> infecte 2,5 Susceptibles <span class="nowrap"><icon s></icon>.</span> Par conséquent, R<sub>0</sub> = 2,5. (limites techniques :[^r0_caveats_sim])
 
 [^r0_caveats_sim]: Cela suppose qu'on est infectieux de manière constante tout au long de la « période infectieuse ». Encore une fois, c'est une simplification pour aider à la compréhension.
 
@@ -253,7 +253,7 @@ Environ une personne atteinte du COVID-19 sur vingt  a besoin de soins intensifs
 
 [^icu_us]: « Number of ICU beds = 96,596 ». De [the Society of Critical Care Medicine](https://sccm.org/Blog/March-2020/United-States-Resource-Availability-for-COVID-19). Tradution : « Nombre de lits en unité de soins intensifs = 96'596 » La population des États-Unis était de 328'200'000 en 2019. 96'596 sur 328'200'000 environ 1 sur 3400.
 
-Même si cette capacité était *plus que triplée* pour atteindre 2%, voici ce qui se serait passé *si on n'avait absolument rien fait :*
+Même si cette capacité était *plus que triplée* pour atteindre 2%, voici ce qui se serait passé *si on n'avait absolument rien fait* :
 
 <div class="sim">
 		<iframe src="sim?stage=int-1&format=lines" width="800" height="540"></iframe>
@@ -314,7 +314,7 @@ C'était l'autre conclusion du rapport du 16 mars de l'Imperial College de Londr
 
 Il ne faut donc pas simplement « aplatir » la courbe, il faut l'*écraser*. Par exemple, par le biais d'un...
 
-###Scenario 2 : Confinement de plusieurs moins
+###Scenario 2 : Confinement de plusieurs mois
 
 Voyons ce qu'il arrive lorsqu'on *écrase* la courbe avec un confinement de 5 mois, qu'on réduit <icon i></icon> à presque rien, et que finalement, - *finalement* - on retrouve une vie normale :
 
@@ -416,13 +416,12 @@ Mais qu'en est-il des gens sans smartphones ? Ou des infections par les poigné
 
 [^rant]: Beaucoup de journaux — et franchement, beaucoup d'articles de recherche — n'ont pas fait la distinction entre « les cas qui ne montrent pas de symptômes quand on les a testés » (pré-symptomatique) et « les cas qui n'ont *jamais* montré de symptômes » (vrai asymptomatique). La seule manière de faire la différence est de suivre les cas par la suite.
    
-    C'est ce que [cette étude](https://wwwnc.cdc.gov/eid/article/26/8/20-1274_article) a fait. (Attention : « Les pré-publications ne sont pas considérées des versions finales. ») Dans un centre d'appel en Corée du Sud touché par l'épidémie de COVID-19, « seulement 4 (1,9%) sont restés asymptomatiques pendant 14 jours de quarantaine et aucun de leurs contacts domestiques n'ont eu d'infections secondaires. »
-    
+    C'est ce que [cette étude](https://wwwnc.cdc.gov/eid/article/26/8/20-1274_article) a fait. (Attention : « Les pré-publications ne sont pas considérées des versions finales. ») Dans un centre d'appel en Corée du Sud touché par l'épidémie de COVID-19, « seulement 4 (1,9%) sont restés asymptomatiques pendant 14 jours de quarantaine et aucun de leurs contacts domestiques n'ont eu d'infections secondaires. »<br><br>
 	Donc ça veut dire que les « vrais asymptomatiques » sont rares et qu'attraper la maladie d'un vrai asymptomatique pourrait être encore plus rare !
 
 Isoler les cas *symptomatiques* réduirait R jusqu'à 40% et mettre en quarantaine leurs contact *pré/a-symptomatiques* réduirait R jusqu'à 50%[^oxford] :
 
-[^oxford]: De la même étude d'Oxford qui a recommandé en premier de combattre le COVID-19 avec des applis : [Luca Ferretti & Chris Wymant et al](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936/tab-figures-data) Regardez la Figure 2. En présumant que R<sub>0</sub> = 2,0, ils ont trouvé que :<br>* Les symptomatiques contribuent R = 0,8 (40%)<br>* Les pré-symptomatiques contribuent R = 0,9 (45%)<br>* Les asymptomatiques contribuent R = 0,1 (5%, quoique leur modèle a de l'incertitude et cela pourrait être bien plus bas)<br>* Les trucs environnementaux comme les poignées de porte contribuent R = 0,2 (10%)<br><br>Et ajoutez les contacts pré- et a-symptomatiques (45% et 5%) et vous obtenez 50% de R !
+[^oxford]: De la même étude d'Oxford qui a recommandé en premier de combattre le COVID-19 avec des applis : [Luca Ferretti & Chris Wymant et al](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936/tab-figures-data) Regardez la Figure 2. En présumant que R<sub>0</sub> = 2,0, ils ont trouvé que :<br><ul><li>Les symptomatiques contribuent R = 0,8 (40%)</li><li>Les pré-symptomatiques contribuent R = 0,9 (45%)</li><li>Les asymptomatiques contribuent R = 0,1 (5%, quoique leur modèle a de l'incertitude et cela pourrait être bien plus bas)</li><li>Les trucs environnementaux comme les poignées de porte contribuent R = 0,2 (10%)</li></ul><br>Et ajoutez les contacts pré- et a-symptomatiques (45% et 5%) et vous obtenez 50% de R !
 
 <div class="sim">
 		<iframe src="sim?stage=int-4a&format=calc" width="285" height="340"></iframe>
