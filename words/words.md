@@ -204,7 +204,7 @@ Maintenant, lançons le modèle SEIR encore une fois, mais en montrant R<sub>0</
 
 **Attention : le total des cas ne *s'arrête pas* au seuil de l'immunité collective, mais le dépasse !** Et il passe le seuil *exactement* au moment où le nombre actuel de cas est au maximum. (C'est ainsi quels que soient les réglages - essayez vous-même !)
 
-Cela est dû au fait que lorsqu'il y a plus de non-<icon s></icon> que le seuil d'immunité collective, on obtient R < 1. Et lorsque R < 1, le nombre de nouveaux cas cesse d'augmenter : c'est un pic.
+Cela est dû au fait que lorsqu'il y a plus de non-<icon s></icon> que le seuil d'immunité collective, on obtient R < 1. Et lorsque R < 1, le nombre de nouveaux cas cesse d'augmenter : c'est un pic.
 
 **Si vous ne deviez retenir qu'une seule chose de ce guide, ce serait ceci** - c'est un graphique très complexe, alors prenez le temps de l'assimiler complètement :
 
@@ -212,11 +212,11 @@ Cela est dû au fait que lorsqu'il y a plus de non-<icon s></icon> que le seuil 
 
 **Cela signifie qu'il n'y a PAS besoin d'infecter tout le monde, ou même presque tout le monde, pour stopper le COVID-19 !**
 
-C'est paradoxal. Le COVID-19 est extrêmement contagieux et pourtant, pour le contenir, il faut « seulement » éviter plus de 60% des infections. 60% ?! Si c'était une note d'école, ce serait un 12/20. Mais si R<sub>0</sub> = 2,5, alors le réduire de 61% nous donne R = 0,975, ce qui est R < 1, donc le virus est contenu ! (formule exacte :[^exact_formula])
+C'est paradoxal. Le COVID-19 est extrêmement contagieux et pourtant, pour le contenir, il faut « seulement » éviter plus de 60% des infections. 60% ?! Si c'était une note d'école, ce serait un 12/20. Mais si R<sub>0</sub> = 2,5, alors le réduire de 61% nous donne R = 0,975, ce qui est R < 1, donc le virus est contenu ! (formule exacte :[^exact_formula])
 
 [^exact_formula]: Gardez en tête que R = R<sub>0</sub> * le taux des transmissions encore possibles. Souvenez-vous aussi que le taux des transmissions possibles = 1 - le taux des transmissions *empêchées*.
 
-  Donc, pour obtenir R < 1, on a besoin d'avoir R<sub>0</sub> * TransmissionsPermises < 1.
+  Donc, pour obtenir R < 1, on a besoin d'avoir R<sub>0</sub> * TransmissionsPermises < 1.
 
   Donc, TransmissionsPermises < 1/R<sub>0</sub>
 
@@ -224,7 +224,7 @@ C'est paradoxal. Le COVID-19 est extrêmement contagieux et pourtant, pour le co
 
   Donc, TransmissionsEmpêchées > 1 - 1/R<sub>0</sub>
 
-  Par conséquent, il faut empêcher plus de **1 - 1/R<sub>0</sub>** des transmissions pour obtenir R < 1 et contenir le virus !
+  Par conséquent, il faut empêcher plus de **1 - 1/R<sub>0</sub>** des transmissions pour obtenir R < 1 et contenir le virus !
 
 ![](pics/r4.png)
 
@@ -232,9 +232,9 @@ C'est paradoxal. Le COVID-19 est extrêmement contagieux et pourtant, pour le co
 
 *Toutes* les mesures contre le COVID-19 dont vous avez entendu parler - lavage des mains, distance sociale, confinements, auto-isolation, suivi des contacts et mise en quarantaine, port du masque et même « immunité collective » - elles ont toutes le même but :
 
-Obtenir R < 1.
+Obtenir R < 1.
 
-Maintenant, utilisons notre « simulateur de vol épidémiologique » pour répondre à la question suivante : Comment peut-on obtenir R < 1 *tout en protégeant notre santé mentale et financière ?**
+Maintenant, utilisons notre « simulateur de vol épidémiologique » pour répondre à la question suivante : Comment peut-on obtenir R < 1 *tout en protégeant notre santé mentale et financière ?**
 
 Préparez-vous à un atterrissage d'urgence...
 
@@ -304,13 +304,13 @@ Maintenant, simulons ce qu'il serait arrivé à une épidémie de COVID-19 si, d
 
 Trois observations :
 
-1. Le nombre total de cas *baisse* ! **Même si on n'arrive pas à R < 1, réduire R sauve quand même des vies en réduisant le dépassement au dessus du seuil d'immunité collective.** Beaucoup de gens s'imaginent « qu'aplatir la courbe » étale les cas sans toutefois réduire leur nombre total. C'est impossible dans *n'importe lequel* des modèles de base de l'épidémiologie. Mais parce que les médias d'actualité présentaient l'affirmation « 80% seront infectés » comme inévitable, les gens ont pensé que le nombre total de cas serait le même quoi qu'on fasse. *Soupir.*
+1. Le nombre total de cas *baisse* ! **Même si on n'arrive pas à R < 1, réduire R sauve quand même des vies en réduisant le dépassement au dessus du seuil d'immunité collective.** Beaucoup de gens s'imaginent « qu'aplatir la courbe » étale les cas sans toutefois réduire leur nombre total. C'est impossible dans *n'importe lequel* des modèles de base de l'épidémiologie. Mais parce que les médias d'actualité présentaient l'affirmation « 80% seront infectés » comme inévitable, les gens ont pensé que le nombre total de cas serait le même quoi qu'on fasse. *Soupir.*
 
-2. A cause des mesures supplémentaires, le nombre de cas actuels atteint un pic *avant* que l'immunité collective ne soit atteinte. En fait, dans cette simulation, le nombre total de cas passe *un tout petit peu* au dessus du seuil d'immunité collective - le plan du Royaume Uni ! A ce moment, R < 1, on peut abandonner toutes les autres mesures d'intervention et le COVID-19 reste contenu ! Eh bien, il y a quand même un problème...
+2. A cause des mesures supplémentaires, le nombre de cas actuels atteint un pic *avant* que l'immunité collective ne soit atteinte. En fait, dans cette simulation, le nombre total de cas passe *un tout petit peu* au dessus du seuil d'immunité collective - le plan du Royaume Uni ! A ce moment, R < 1, on peut abandonner toutes les autres mesures d'intervention et le COVID-19 reste contenu ! Eh bien, il y a quand même un problème...
 
 3. On sature les unités de soins intensifs. Pour plusieurs mois. (et souvenez-vous, on a pourtant *déjà* triplé la capacité pour ces simulations)
 
-C'était l'autre conclusion du rapport du 16 mars de l'Imperial College de Londres, qui a convaincu le Royaume Uni d'abandonner sa stratégie de base. Toute tentative d'**atténuation** (réduire R, mais R > 1) échouera. Le seul échappatoire est l'**endiguement** (réduire R afin d'atteindre <span class="nowrap">R < 1).</span>
+C'était l'autre conclusion du rapport du 16 mars de l'Imperial College de Londres, qui a convaincu le Royaume Uni d'abandonner sa stratégie de base. Toute tentative d'**atténuation** (réduire R, mais R > 1) échouera. Le seul échappatoire est l'**endiguement** (réduire R afin d'atteindre R < 1).
 
 ![](pics/mitigation_vs_suppression.png)
 
@@ -413,7 +413,7 @@ Avec d'autres équipes similaires comme TCN Protocol[^tcn] et MIT PACT[^pact], i
 
 [^gapple]: [Apple et Google collaborent sur une technologies de traçage de contact pour le COVID-19](https://www.apple.com/ca/newsroom/2020/04/apple-and-google-partner-on-covid-19-contact-tracing-technology/). Notez qu'ils ne font pas les applis *eux-mêmes*, ils créent juste les systèmes qui vont *permettre* ces applis.
 
-Mais qu'en est-il des gens sans smartphones ? Ou des infections par les poignées de portes ? Ou des cas « vraiment » asymptomatiques ? Les applis de traçage de contacts ne peuvent pas détecter toutes les transmissions… *et ce n'est pas un problème !* On n'a pas besoin de détecter *toutes* les transmissions, seulement 60% pour avoir R < 1.
+Mais qu'en est-il des gens sans smartphones ? Ou des infections par les poignées de portes ? Ou des cas « vraiment » asymptomatiques ? Les applis de traçage de contacts ne peuvent pas détecter toutes les transmissions… *et ce n'est pas un problème !* On n'a pas besoin de détecter *toutes* les transmissions, seulement 60% pour avoir R < 1.
 
 (Diatribe à propos du mélange entre pré-symptomatique et « vrai » asymptomatique. Les « vrais » asymptomatiques sont rares :[^rant])
 
@@ -429,9 +429,9 @@ Isoler les cas *symptomatiques* réduirait R jusqu'à 40% et mettre en quarantai
 		<iframe src="sim?stage=int-4a&format=calc" width="285" height="340"></iframe>
 </div>
 
-Ainsi, même sans mettre en quarantaine 100% des contacts, on peut obtenir R < 1 *sans confinement !* Bien mieux pour notre santé mentale et financière. (Quant aux coûts pour les personnes qui doivent s'isoler ou se mettre en quarantaine, *les gouvernements devraient les soutenir* — payer pour les tests, la protection de l'emploi, subventionner les congés maladie, etc. C'est toujours bien moins cher que du confinement intermittent.)
+Ainsi, même sans mettre en quarantaine 100% des contacts, on peut obtenir R < 1 *sans confinement !* Bien mieux pour notre santé mentale et financière. (Quant aux coûts pour les personnes qui doivent s'isoler ou se mettre en quarantaine, *les gouvernements devraient les soutenir* — payer pour les tests, la protection de l'emploi, subventionner les congés maladie, etc. C'est toujours bien moins cher que du confinement intermittent.)
 
-On garde alors R < 1 jusqu'à ce qu'on ait un vaccin, qui transforme les Susceptibles <icon s></icon> en immunisés <span class="nowrap"><icon r></icon>.</span> L'immunité collective, de la *bonne* manière :
+On garde alors R < 1 jusqu'à ce qu'on ait un vaccin, qui transforme les Susceptibles <icon s></icon> en immunisés <span class="nowrap"><icon r></icon>.</span> L'immunité collective, de la *bonne* manière :
 
 <div class="sim">
 		<iframe src="sim?stage=int-4b&format=calc" width="285" height="230"></iframe>
@@ -462,9 +462,9 @@ Le pessimiste invente le parachute.
 
 ###Scenario 4+ : Masques pour tous, été, « Disjoncteur » 
 
-Et si R<sub>0</sub> était bien plus grand que ce que l'on pense, et que les actions précédentes, même aidées d'une légère distanciation, n'était *toujours* pas suffisantes pour rendre R < 1 ?
+Et si R<sub>0</sub> était bien plus grand que ce que l'on pense, et que les actions précédentes, même aidées d'une légère distanciation, n'était *toujours* pas suffisantes pour rendre R < 1 ?
 
-Souvenez-vous, même si on ne peut rendre R < 1, minimiser R permet quand même de réduire le « débordement » du total de cas, donc de sauver des vies. Pour autant, R < 1 reste l'idéal, et voici d'autres moyens pour le réduire :
+Souvenez-vous, même si on ne peut rendre R < 1, minimiser R permet quand même de réduire le « débordement » du total de cas, donc de sauver des vies. Pour autant, R < 1 reste l'idéal, et voici d'autres moyens pour le réduire :
 
 **Masques pour tous :**
 
@@ -510,11 +510,11 @@ Bénéfices : Même s'il y avait 50% de chances que les masques chirurgicaux r�
     
     
 
-Les masques *seuls* ne vont pas rendre R < 1. Mais si le lavage des mains et la méthode « Tester, tracer, isoler » ne nous amène qu'à R = 1,10, avoir ne serait-ce que deux tiers de la population portant des masques *en tissu* permettra d'atteindre R < 1, et le virus sera contenu !
+Les masques *seuls* ne vont pas rendre R < 1. Mais si le lavage des mains et la méthode « Tester, tracer, isoler » ne nous amène qu'à R = 1,10, avoir ne serait-ce que deux tiers de la population portant des masques *en tissu* permettra d'atteindre R < 1, et le virus sera contenu !
 
 **Eté:**
 
-D'accord, ce n'est pas une « intervention » que nous pouvons contrôler, mais ça va aider ! Certains médias rapportent que l'été n'aura pas d'impact sur le COVID-19. Ils ont à moitié raison : l'été ne va pas rendre R < 1, mais *il va réduire* R.
+D'accord, ce n'est pas une « intervention » que nous pouvons contrôler, mais ça va aider ! Certains médias rapportent que l'été n'aura pas d'impact sur le COVID-19. Ils ont à moitié raison : l'été ne va pas rendre R < 1, mais *il va réduire* R.
 
 Pour le COVID-19, chaque degré Celsius supplémentaire (1,8° Fahrenheit) fait diminuer R de 1,2%.[^heat] La différence été-hiver à Paris est de 15°C (60°F), donc l'été devrait faire diminuer R de 18%.
 
@@ -524,11 +524,11 @@ Pour le COVID-19, chaque degré Celsius supplémentaire (1,8° Fahrenheit) fait 
 		<iframe src="sim?stage=int-6b&format=calc" width="285" height="220"></iframe>
 </div>
 
-L'été seul ne va pas rendre R < 1, mais en cas de resources limitées, permettra de réduire certaines interventions en été – afin de pouvoir les *intensifier* en hiver.
+L'été seul ne va pas rendre R < 1, mais en cas de resources limitées, permettra de réduire certaines interventions en été – afin de pouvoir les *intensifier* en hiver.
 
 **Un confinement « disjoncteur »:**
 
-Et si tout cela ne permet *toujours* pas d'atteindre R < 1... nous pouvons nous confiner à nouveau.
+Et si tout cela ne permet *toujours* pas d'atteindre R < 1... nous pouvons nous confiner à nouveau.
 
 Mais nous n'aurions pas à alterner 2 mois confinés/1 mois ouvert encore et encore ! R ayant diminué, nous n'aurions qu'à réaliser ce confinement « disjoncteur » une ou deux fois avant que le vaccin ne soit disponible. (Singapour a procédé ainsi récemment, « même » s'ils avaient réussi à contrôler le virus pendant 4 mois. Ce n'est pas un échec : c'est *ce qu'il faut* pour réussir.)
 
@@ -554,7 +554,7 @@ Sans parler de toutes les *autres* actions qui peuvent être mises en place pour
 
 Nous espérons que ces plans vous donnent espoir.  
 
-**Même dans les cas les plus défavorables, *il est possible* de vaincre le COVID-19 tout en protégeant notre santé mentale et financière.** Utiliser le confinement comme un « bouton de remise à zéro », garder R < 1 avec isolation des cas + traçage des contacts respectueux de la vie privée + masques *au moins* en tissus pour tous... et la vie peut reprendre son cours !
+**Même dans les cas les plus défavorables, *il est possible* de vaincre le COVID-19 tout en protégeant notre santé mentale et financière.** Utiliser le confinement comme un « bouton de remise à zéro », garder R < 1 avec isolation des cas + traçage des contacts respectueux de la vie privée + masques *au moins* en tissus pour tous... et la vie peut reprendre son cours !
 
 Bien sûr, vous aurez sans doute les mains sèches. Mais vous pourrez inviter votre crush à boire un verre ! Vous pourrez dilapider vos économies dans les derniers film hollywoodiens avec vos amis. Vous pourrez espionner les gens à la bibliothèque, vous réjouissant de les voir s'adonner à la simple activité d'*être en vie*.
 
@@ -644,11 +644,11 @@ Mais quand même, des chercheurs des maladies infectieuses ont exprimé des inqu
 
 Même dans le scénario catastrophe « sans vaccin », nous avons 3 échappatoires. Du plus au moins terrible :
 
-1) Intervenir temporairement ou modérément pour garantir R<1 dans le but d'atteindre « l'immunité collective naturelle ». (Attention : cela va provoquer de nombreuses morts et séquelles pulmonaires. *Et* ça ne fonctionne pas si l'immunité ne dure pas.)
+1) Intervenir temporairement ou modérément pour garantir R < 1 dans le but d'atteindre « l'immunité collective naturelle ». (Attention : cela va provoquer de nombreuses morts et séquelles pulmonaires. *Et* ça ne fonctionne pas si l'immunité ne dure pas.)
 
-2) Intevenir de manière permanente pour maintenir R<1. Les suivis des contacts et le port du masque deviennent alors la nouvelle norme du monde post-COVID-19, tout comme les tests de MST et le port du préservatif sont devenus la nouvelle norme dans le monde post-VIH.
+2) Intevenir de manière permanente pour maintenir R < 1. Les suivis des contacts et le port du masque deviennent alors la nouvelle norme du monde post-COVID-19, tout comme les tests de MST et le port du préservatif sont devenus la nouvelle norme dans le monde post-VIH.
 
-3) Intervenir pour maintenir R<1 jusqu'à que soient développés des traitements qui rendent le COVID-19 bien, bien moins probable de demander des soins critiques. (Ce qu'on devrait faire de *toute façon !*) Diviser le besoin de respirateur par 10 est équivalent à multiplier la capacité en respirateurs par 10 :
+3) Intervenir pour maintenir R < 1 jusqu'à que soient développés des traitements qui rendent le COVID-19 bien, bien moins probable de demander des soins critiques. (Ce qu'on devrait faire de *toute façon !*) Diviser le besoin de respirateur par 10 est équivalent à multiplier la capacité en respirateurs par 10 :
 
 **Voici une simulation *sans* immunité durable, *sans* vaccin et sans même aucune intervention - seule la capacité à survivre aux longs pics augmente lentement :**
 
