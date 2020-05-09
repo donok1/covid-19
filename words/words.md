@@ -2,7 +2,7 @@
     <div>
     	<iframe id="splash" width="960" height="480" src="banners/splash.html"></iframe>
         <div style="top: 70px;font-size: 75px;font-weight: bold;">
-        	Ce qui nous attend.
+        	Et ensuite ?
        	</div>
 		<div style="font-weight: 500;top: 140px;left: 10px;font-size: 29px;">
 			Les futurs du COVID-19, expliqués par des simulations interactives
@@ -22,7 +22,7 @@
 	</div>
 </div>
 
-"La seule chose dont il faille avoir peur est la peur elle-même" - Franklin D. Roosevelt. Conseil douteux.
+« La seule chose dont il faille avoir peur est la peur elle-même » - Franklin D. Roosevelt. Conseil douteux.
 
 Bien sûr, on nous rappelle à raison de ne pas se ruer sur le papier toilette. Mais si les responsables politiques craignent la peur et le désordre, ils minimiseront aussi les véritables dangers pour éviter toute panique générale. La peur n'est pas un problème. Le problème est la manière dont nous la canalisons. La peur nous donne l'énergie pour faire face aux dangers de l'instant, et nous prépare aux dangers futurs.
 
@@ -32,11 +32,11 @@ Pour être honnête, nous (Marcel - épidémiologiste et Nicky - art/code) somme
 * **Les mois à venir** (confinement, traçage de contacts, masques)
 * **Les années à venir** (perte d'immunité? vaccin introuvable?)
 
-Ce guide (publié le 1er Mai 2020. clique sur cette note!→[^timestamp]) est là pour vous donner espoir, *et* vous faire peur. Pour vaincre le COVID-19 **en préservant aussi nos santés mentales et financières**, nous devons faire preuve d'optimisme pour élaborer des plans, et de pessimisme pour élaborer des plans B. Comme l'a dit un jour Gladys Bronwyn Stern, *“L'optimiste invente l'avion, le pessimiste invente le parachute.”*
+Ce guide (publié le 1er Mai 2020. clique sur cette note!→[^timestamp]) est là pour vous donner espoir, *et* vous faire peur. Pour vaincre le COVID-19 **en préservant aussi nos santés mentales et financières**, nous devons faire preuve d'optimisme pour élaborer des plans, et de pessimisme pour élaborer des plans B. Comme l'a dit un jour Gladys Bronwyn Stern, *« L'optimiste invente l'avion, le pessimiste invente le parachute. »*
 
 [^timestamp]: Ces notes contiendront des sources, des liens et des commentaires bonus comme celui-ci!
     
-    **Ce guide a été publié le 1er Mai 2020.** De nombreux détails deviendront obsolètes, mais nous sommes convaincus que ce guide couvre 95% des futurs possibles, et que notre initiation à l'épidémiologie vous sera bien utile.
+    **Ce guide a été publié le 1er Mai 2020. Traduction française publiée le TBD Mai 2020.** De nombreux détails deviendront obsolètes, mais nous sommes convaincus que ce guide couvre 95% des futurs possibles, et que notre initiation à l'épidémiologie vous sera bien utile.
 
 Alors accrochez-vous: nous entrons dans une zone de turbulences.
 
@@ -51,21 +51,21 @@ Les pilotes utilisent des simulateurs de vol pour apprendre comment ne pas crash
 
 **Les épidémiologistes utilisent des simulateurs d'épidémie pour apprendre comment ne pas crasher l'humanité.**
 
-Créons notre propre très, *très* simple "simulateur de vol épidémique" ! Dans cette simulation, les individus Infectieux <icon i></icon> peuvent transformer les individus Susceptibles de contracter la maladie <icon s></icon> en encore plus d'individus <span class="nowrap">Infectieux <icon i></icon> :</span>
+Créons notre propre très, *très* simple « simulateur de vol épidémique » ! Dans cette simulation, les individus Infectieux <icon i></icon> peuvent transformer les individus Susceptibles de contracter la maladie <icon s></icon> en encore plus d'individus <span class="nowrap">Infectieux <icon i></icon> :</span>
 
 ![](pics/spread.png)
 
 On estime *qu'au début* de l'épidémie de COVID-19, le virus allait d'un <icon i></icon> à un <icon s></icon> tous les 4 jours, *en moyenne*.[^serial_interval] (pour rappel, il y a beaucoup de variations)
 
-[^serial_interval]: “The mean [serial] interval was 3.96 days (95% CI 3.53–4.39 days)”. [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article) Traduction : "L'intervalle [sériel] moyen était de 3.96 jours (intervalle de confiance à 95% : 3.53–4.39 jours)". (Attention: les pré-publications ne sont pas considérées comme des versions finales)
+[^serial_interval]: “The mean [serial] interval was 3.96 days (95% CI 3.53–4.39 days)”. [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article) Traduction: « L'intervalle [sériel] moyen était de 3.96 jours (intervalle de confiance à 95% : 3.53–4.39 jours) ». (Attention: les pré-publications ne sont pas considérées comme des versions finales)
 
-Que se passe-t-il si nous simulons le cas "double tous les 4 jours", *et rien de plus*, sur une population qui commence avec seulement 0.001% de <span class="nowrap"><icon i></icon> ?</span> 
+Que se passe-t-il si nous simulons le cas « double tous les 4 jours », *et rien de plus*, sur une population qui commence avec seulement 0.001% de <span class="nowrap"><icon i></icon> ?</span> 
 
-**Cliquez sur "Lancer" pour réaliser une simulation! Vous pouvez relancer avec d'autres paramètres quand la simulation est finie:** (limites techniques: [^caveats])
+**Cliquez sur « Lancer » pour réaliser une simulation! Vous pouvez relancer avec d'autres paramètres quand la simulation est finie:** (limites techniques: [^caveats])
 
 [^caveats]: **Attention: toutes ses simulations sont très simplificatrices, à des fins éducatives.**
     
-    Une simplification: Quand la simulation est parametrée pour "Infecter 1 nouvelle personne tous les X jours", elle va en réalité augmenter le nombre d'infectés d'1/X chaque jour. De même pour les prochains paramètres dans ces simulations: "Guérir tous les X jours" est simulé en "réduit le nombre d'infectés d'1/X chaque jour".
+    Une simplification: Quand la simulation est parametrée pour « Infecter 1 nouvelle personne tous les X jours », elle va en réalité augmenter le nombre d'infectés d'1/X chaque jour. De même pour les prochains paramètres dans ces simulations: « Guérir tous les X jours » est simulé en « réduit le nombre d'infectés d'1/X chaque jour ».
     
     Ce n'est *pas* exactement la même chose, mais c'est assez proche de la réalité, et plus compréhensible que de paramétrer les taux de transmission/guérison directement.
 
@@ -73,11 +73,11 @@ Que se passe-t-il si nous simulons le cas "double tous les 4 jours", *et rien de
 		<iframe src="sim?stage=epi-1" width="800" height="540"></iframe>
 </div>
 
-Ceci est la *courbe de croissance exponentielle.** Ça commence petit, puis ça explose. De "Oh ce n'est juste qu'une grippe" à "Ah oui, les grippes n'engendrent pas de *fosses communes dans New-York*". 
+Ceci est la **courbe de croissance exponentielle.** Ça commence petit, puis ça explose. De « Oh ce n'est juste qu'une grippe » à « Ah oui, les grippes n'engendrent pas de *fosses communes dans New-York* ». 
 
 ![](pics/exponential.png)
 
-Pour autant, cette simulation est fausse. La  croissance exponentielle, heureusement, ne peut pas durer. Si une partie de la population a *déjà*, le virus, cela empêche sa diffusion:
+Pour autant, cette simulation est fausse. La croissance exponentielle, heureusement, ne peut pas durer. Si une partie de la population a *déjà* le virus, cela empêche sa diffusion:
 
 ![](pics/susceptibles.png)
 
@@ -89,15 +89,15 @@ En quoi cela change la croissance d'une épidémie ? Il n'y a qu'à le simuler:
 		<iframe src="sim?stage=epi-2" width="800" height="540"></iframe>
 </div>
 
-Ceci est la **courbe de croissance logistique** "en S". Ça commence doucement, ça explose, puis ça ralenti à nouveau.
+Ceci est la **courbe de croissance logistique** « en S ». Ça commence doucement, ça explose, puis ça ralenti à nouveau.
 
-Pour autant, cette simulation est *encore* fausse. On passe à côté  du fait qu'un individu Infectieux <icon i></icon> fini par arrêter d'être infectieux, soit en étant: 1) guéri, 2) "guéri" avec des lésions pulmonaires  3) décédé.
+Pour autant, cette simulation est *encore* fausse. On passe à côté  du fait qu'un individu Infectieux <icon i></icon> fini par arrêter d'être infectieux, soit en étant: 1) guéri, 2) « guéri » avec des lésions pulmonaires  3) décédé.
 
 Pour faire simple, supposons que tout les individus Infectieux <icon i></icon> deviennent guéris (**R**ecovered en anglais) <span class="nowrap"><icon r></icon>.</span> (Mais gardez en tête que la réalité est bien plus dure.) Les <icon r></icon> ne peuvent plus être infectés, et supposons – *pour l'instant!* – qu'ils sont immunisés à vie.
 
 Pour le COVID-19, on estime qu'un individu est Infectieux <icon i></icon> pendant 10 jours, *en moyenne*.[^infectiousness] Certains guérissent en moins de 10 jours, d'autres en plus. **Voilà ce que ça donne, avec une simulation qui *commence* avec 100% de <span class="nowrap"><icon i></icon> :</span>**
 
-[^infectiousness]: “The median communicable period \[...\] was 9.5 days.” [Hu, Z., Song, C., Xu, C. et al](https://link.springer.com/article/10.1007/s11427-020-1661-4) Traduction : "La période de contagiosité médiane \[...\] était de 9.5 jours.". Oui, nous savons qu'une "médiane" n'est pas la même chose qu'une "moyenne". C'est suffisamment proche pour notre explication simplifiée.
+[^infectiousness]: “The median communicable period \[...\] was 9.5 days.” [Hu, Z., Song, C., Xu, C. et al](https://link.springer.com/article/10.1007/s11427-020-1661-4) Traduction: « La période de contagiosité médiane \[...\] était de 9.5 jours. » Oui, nous savons qu'une « médiane » n'est pas la même chose qu'une « moyenne ». C'est suffisamment proche pour notre explication simplifiée.
 
 <div class="sim">
 		<iframe src="sim?stage=epi-3" width="800" height="540"></iframe>
@@ -119,10 +119,10 @@ En commencant avec seulement 0.001% de <span class="nowrap"><icon i></icon> :</s
 		<iframe src="sim?stage=epi-4" width="800" height="540"></iframe>
 </div>
 
-Et *c'est de là* que nous viens cette fameuse courbe! Ce n'est pas une courbe de Gauss, ni même une courbe "log-normale". Ça n'a pas de nom, mais vous l'avez vue des millions de fois et vous priez pour qu'elle s'aplatisse.
+Et *c'est de là* que nous viens cette fameuse courbe! Ce n'est pas une courbe de Gauss, ni même une courbe « log-normale ». Ça n'a pas de nom, mais vous l'avez vue des millions de fois et vous priez pour qu'elle s'aplatisse.
 
 C'est le **Modèle SIR**, [^sir]    
-(<icon s></icon>**S**usceptible <icon i></icon>**I**nfectieux <icon r></icon>**R**ecovered (guéri en anglais))      
+(<icon s></icon>**S**usceptible <icon i></icon>**I**nfectieux <icon r></icon>**R**ecovered (guéri en anglais))
 la *deuxième* idée la plus importante de notre initiation à l'épidémiologie:
 
 [^sir]: Pour plus d'explications techniques sur le modèle SIR, voir [the Institute for Disease Modeling](https://www.idmod.org/docs/hiv/model-sir.html#) et [Wikipedia](https://fr.wikipedia.org/wiki/Mod%C3%A8les_compartimentaux_en_%C3%A9pid%C3%A9miologie)
@@ -135,13 +135,13 @@ Ajoutons donc une autre nuance: avant qu'un <icon s></icon> ne devienne un <span
 
 ![](pics/seir.png)
 
-(Cette variante est appellée le **Modèle SEIR**[^seir], avec "E" pour "Exposé" <span class="nowrap"><icon e></icon>.</span> Notez que *ça ne correspond pas* au sens du mot "exposé" de tous les jours: quand il est possible d'avoir *ou non* le virus. La définition technique d'"Exposé" signifie que le virus est bel et bien porté. La terminologie en science est pleine d'absurdité.)
+(Cette variante est appellée le **Modèle SEIR**[^seir], avec « E » pour « Exposé » <span class="nowrap"><icon e></icon>.</span> Notez que *ça ne correspond pas* au sens du mot « exposé » de tous les jours: quand il est possible d'avoir *ou non* le virus. La définition technique d'« Exposé » signifie que le virus est bel et bien porté. La terminologie en science est pleine d'absurdité.)
 
 [^seir]: Pour plus d'explications techniques sur le modèle SEIR, voir [the Institute for Disease Modeling](https://www.idmod.org/docs/hiv/model-seir.html) et [Wikipedia](https://fr.wikipedia.org/wiki/Mod%C3%A8les_compartimentaux_en_%C3%A9pid%C3%A9miologie)
 
 Pour le COVID-19, on estime qu'un individu est infecté-mais-pas-encore-infectieux <icon e></icon> pendant 3 jours, *en moyenne*.[^latent] Que se passe-t-il lorsqu'on ajoute cela à la simulation ?
 
-[^latent]: “Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8–3.0 days) before symptom onset” Traduction : "En supposant que la période d'incubation est en moyenne de 5.2 jours en s'appuyant sur une autre étude des premiers cas de COVID-19, nous en déduisons que la contagiosité commence au bout de 2.3 jours (intervalle de confiance à 95% : 0.8–3.0 jours) avant l'apparition des symptômes". (explication : En supposant que les symptômes commencent au 5ème jour, sachant que le caractère infectieux commence 2 jours avant, on devient infectieux au bout de 3 jours) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)
+[^latent]: “Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8–3.0 days) before symptom onset” [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5) Traduction: « En supposant que la période d'incubation est en moyenne de 5.2 jours en s'appuyant sur une autre étude des premiers cas de COVID-19, nous en déduisons que la contagiosité commence au bout de 2.3 jours (intervalle de confiance à 95% : 0.8–3.0 jours) avant l'apparition des symptômes ». (explication : En supposant que les symptômes commencent au 5ème jour, sachant que le caractère infectieux commence 2 jours avant, on devient infectieux au bout de 3 jours)
 
 <b style='color:#ff4040'>La courbe Rouge <b style='color:#FF9393'>+ Rose</b></b> représente les cas *actuels* (infectieux <icon i></icon> + exposés <span class="nowrap"><icon e></icon>),</span>    
 <b style='color:#888'>La courbe Grise</b> représente le *total* de cas (actuels <icon i></icon> <icon e></icon> + guéris <span class="nowrap"><icon r></icon>) :</span>
@@ -666,7 +666,7 @@ Même dans le scénario catastrophe "sans vaccin", nous avons 3 échappatoires. 
 		<iframe src="sim?stage=yrs-5&format=lines" width="800" height="540"></iframe>
 </div>
 
-Même dans *le pire* des pires scénarios... La vie continue.
+Même dans *le pire* des pires scénarios... La vie continue. 
 
 . . .
 

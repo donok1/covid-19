@@ -6,8 +6,8 @@ Si vous souhaitez aider à traduire, vous pouvez:
 
 |   | Traduit | Relecture  | Check qualité final |
 |---|---------|---|----|
-| index.html head  | [X] @cyrilou242  |   | |
-| index.html  footers | [X] @e-guenat |   | |
+| index.html head  | [X] @cyrilou242  |   | [X] @donok1  |
+| index.html  footers | [X] @e-guenat |   | [X] @donok1  |
 | index.html sidebars  |    |   | |
 | /pics  |     |   | |
 | sharing/thumbnail.png  |     |   | |
@@ -20,9 +20,9 @@ Ne pas changer le nombre de lignes en traduisant. (ie ne pas rajouter/supprimer 
 
 |   |Lignes | Traduit | Relu  |Check qualité |
 |---|---|------|---|----|
-| Misc |[L1-L23](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L1-L23) |[X] @cyrilou242  |   | |
-| Intro |[L25-L41](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L25-L41) | [X] @cyrilou242  | [X] @donok1  | |
-| LastMonths: Curves | [L43-L153](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L43-L153) | [X] @cyrilou242   | [X] @e-guenat  | |
+| Misc |[L1-L23](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L1-L23) |[X] @cyrilou242  |   | [X] @donok1  |
+| Intro |[L25-L41](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L25-L41) | [X] @cyrilou242  | [X] @donok1  | [X] @donok1  |
+| LastMonths: Curves | [L43-L153](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L43-L153) | [X] @cyrilou242   | [X] @e-guenat  | [X] @donok1  |
 | LastMonths: R | [L155-L237](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L155-L237)| [X] @e-guenat | [X] @cyrilou242  | |
 | NextMonths: Scenario 0-3  | [L239-L359](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L239-L359) | **WIP** @e-guenat | [X] @maximebedoin  | |
 | NextMonths: Scenario 4  | [L361-L471](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L361-L471) |  |   | |
@@ -72,17 +72,25 @@ Cela devrait être fait dès que possible en repérant les expressions spécifiq
 - Infectious people: les individus Infectieux 
 - Suspectible people: les individus Susceptibles (de contracter la maladie) 
 - Start (for simulations images): Lancer. Utiliser *réaliser* ou *lancer* en fonction.  
-- technical caveats: limites techniques **TO VALIDATE ** 
-- Epidémiologie 101 : **traduction compréhensible en français**
+- technical caveats: limites techniques
+- Epidémiologie 101 : Initiation à l'épidémiologie
 - <icon i></icon> Infectious people --> les individus Infectieux <icon i></icon> . Noter l'inversion de l'ordre pour l'image.
-- contact tracing  : suivi des contacts
-- ICU : respirateurs
+- contact tracing  : traçage des contacts
+- ICU : [unité(s) de] soins intensifs
 - ventilators : respirateurs
 - privacy-protecting [as an ADJ] : respectueuse de vos données personnelles / respectueuse de votre vie privée [TO DECIDE] 
 - Exponential decay: décroissance exponentielle 
 
 - contextual notes: If title of an article or quote, I leave it in English and added a translation as the end of the note, as follows:
-[^keyword]: “quote EN” [from REF](URL) Traduction: "quote FR "
+[^keyword]: “quote EN” [from REF](URL) Traduction: « quote FR »
+
+- What happens next ? : Et ensuite ?
+- COVID-19 : COVID-19
+- Test, Trace, Isolate : Tester, Tracer, Isoler
+- 2 tiers : deux tiers
+- virgule comme séparateurs décimal
+- interval de confiance: IC
+- Guillemets à la française à travers tout le document: "" : «∙Ceci est une citation∙», avec des espace insecable entre la citation et les guillemets 
 
 ## Get last update from nicky
 TODO On May 4th: get last updates from nickys project and stop at this version.
