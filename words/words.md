@@ -32,7 +32,7 @@ Pour être honnête, nous (Marcel - épidémiologiste et Nicky - art/code) somme
 * **Les mois à venir** (confinement, traçage de contacts, masques)
 * **Les années à venir** (perte d'immunité ? vaccin introuvable ?)
 
-Ce guide (publié le 1er Mai 2020. clique sur cette note !→[^timestamp]) est là pour vous donner espoir, *et* vous faire peur. Pour vaincre le COVID-19 **en préservant aussi nos santés mentales et financières**, nous devons faire preuve d'optimisme pour élaborer des plans, et de pessimisme pour élaborer des plans B. Comme l'a dit un jour Gladys Bronwyn Stern, *“L'optimiste invente l'avion, le pessimiste invente le parachute. »*
+Ce guide (publié le 1er Mai 2020. clique sur cette note !→[^timestamp]) est là pour vous donner espoir, *et* vous faire peur. Pour vaincre le COVID-19 **en préservant aussi nos santés mentales et financières**, nous devons faire preuve d'optimisme pour élaborer des plans, et de pessimisme pour élaborer des plans B. Comme l'a dit un jour Gladys Bronwyn Stern, *« L'optimiste invente l'avion, le pessimiste invente le parachute. »*
 
 [^timestamp]: Ces notes contiendront des sources, des liens et des commentaires bonus comme celui-ci !
     
@@ -57,7 +57,7 @@ Créons notre propre très, *très* simple « simulateur de vol épidémique » 
 
 On estime *qu'au début* de l'épidémie de COVID-19, le virus allait d'un <icon i></icon> à un <icon s></icon> tous les 4 jours, *en moyenne*.[^serial_interval] (pour rappel, il y a beaucoup de variations)
 
-[^serial_interval]: “The mean [serial] interval was 3.96 days (95% CI 3.53–4.39 days) ». [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article) Traduction : « L'intervalle [sériel] moyen était de 3,96 jours (IC 95% : 3,53–4,39 jours) ». (Attention : les pré-publications ne sont pas considérées comme des versions finales)
+[^serial_interval]: "The mean [serial] interval was 3.96 days (95% CI 3.53–4.39 days)." [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article) Traduction : « L'intervalle [sériel] moyen était de 3,96 jours (IC 95% : 3,53–4,39 jours) ». (Attention : les pré-publications ne sont pas considérées comme des versions finales)
 
 Que se passe-t-il si nous simulons le cas « double tous les 4 jours », *et rien de plus*, sur une population qui commence avec seulement 0,001% de <span class="nowrap"><icon i></icon> ?</span> 
 
