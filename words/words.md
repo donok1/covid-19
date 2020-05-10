@@ -153,7 +153,7 @@ Pour le COVID-19, on estime qu'un individu est infecté-mais-pas-encore-infectie
 
 Pas beaucoup de changement ! Le temps que l'on passe en Exposé <icon e></icon> change le ratio de <span class="nowrap"><icon e></icon>-pour-<icon i></icon>,</span> et la *date* du pic de cas... mais la *hauteur* du pic, et le nombre total de cas à la fin restent les mêmes.
 
-Mais pourquoi ? A cause du *premier* concepte clé de l'épidémiologie :
+Mais pourquoi ? À cause du *premier* concepte clé de l'épidémiologie :
 
 ![](pics/r.png)
 
@@ -247,7 +247,7 @@ Préparez-vous à un atterrissage d'urgence...
 
 ... ça aurait pu être pire. Voici un univers parallèle que l'on a <span class="nowrap">évité :</span>
 
-###Scenario 0 : On ne fait absolument rien
+###Scénario 0 : On ne fait absolument rien
 
 Environ une personne atteinte du COVID-19 sur vingt a besoin de soins intensifs.[^icu_covid] Dans un pays développé comme les États-Unis, il y a une place en soins intensifs pour 3400 personnes.[^icu_us] Dès lors, pour 3400 personnes atteintes *en même temps*, les États-Unis peuvent en gérer 20 - soit 0,6% de la population.
 
@@ -270,7 +270,7 @@ Même si seulement 0,5% des personnes infectées meurent - une estimation optimi
 
 (Beaucoup de médias et de réseaux sociaux annonçaient « 80% des gens vont être infectés » *sans* préciser « SI l'on ne fait rien ». La peur a été transformée en clics, pas en compréhension. *Soupir.*)
 
-###Scenario 1 : Aplatir la courbe / Immunité collective
+###Scénario 1 : Aplatir la courbe / Immunité collective
 
 La stratégie « Aplatir la courbe » a été promue par tous les organismes de santé publique, pendant que le plan de base « d'immunité collective » du Royaume Uni était universellement décrié. Ces deux plans ont *le même objectif*. Le Royaume Uni a juste mal communiqué le sien.[^yong]
 
@@ -306,7 +306,7 @@ Trois observations :
 
 1. Le nombre total de cas *baisse* ! **Même si on n'arrive pas à R < 1, réduire R sauve quand même des vies en réduisant le dépassement au dessus du seuil d'immunité collective.** Beaucoup de gens s'imaginent « qu'aplatir la courbe » étale les cas sans toutefois réduire leur nombre total. C'est impossible dans *n'importe lequel* des modèles de base de l'épidémiologie. Mais parce que les médias d'actualité présentaient l'affirmation « 80% seront infectés » comme inévitable, les gens ont pensé que le nombre total de cas serait le même quoi qu'on fasse. *Soupir.*
 
-2. A cause des mesures supplémentaires, le nombre de cas actuels atteint un pic *avant* que l'immunité collective ne soit atteinte. En fait, dans cette simulation, le nombre total de cas passe *un tout petit peu* au dessus du seuil d'immunité collective - le plan du Royaume Uni ! A ce moment, R < 1, on peut abandonner toutes les autres mesures d'intervention et le COVID-19 reste contenu ! Eh bien, il y a quand même un problème...
+2. À cause des mesures supplémentaires, le nombre de cas actuels atteint un pic *avant* que l'immunité collective ne soit atteinte. En fait, dans cette simulation, le nombre total de cas passe *un tout petit peu* au dessus du seuil d'immunité collective - le plan du Royaume Uni ! À ce moment, R < 1, on peut abandonner toutes les autres mesures d'intervention et le COVID-19 reste contenu ! Eh bien, il y a quand même un problème...
 
 3. On sature les unités de soins intensifs. Pour plusieurs mois. (et souvenez-vous, on a pourtant *déjà* triplé la capacité pour ces simulations)
 
@@ -317,7 +317,7 @@ C'était l'autre conclusion du rapport du 16 mars de l'Imperial College de Londr
 Il ne faut donc pas simplement « aplatir » la courbe, il faut l'*écraser*. Par exemple, par le biais d'un...
 
 
-###Scenario 2 : Confinement de plusieurs moins
+###Scénario 2 : Confinement de plusieurs moins
 
 Voyons ce qu'il arrive lorsqu'on *écrase* la courbe avec un confinement de 5 mois, qu'on réduit <icon i></icon> à presque rien, et que finalement, - *finalement* - on retrouve une vie normale :
 
@@ -327,13 +327,13 @@ Voyons ce qu'il arrive lorsqu'on *écrase* la courbe avec un confinement de 5 mo
 
 Oh.
 
-Voici la « seconde vague » dont tout le monde parle. Aussitôt le confinement levé, on repasse à R > 1. Un seul <icon i></icon> (ou un <icon i></icon> importé) peut provoquer un sursaut aussi grave que si nous avions suivi le Scenario 0 : « On ne fait absolument rien ».
+Voici la « seconde vague » dont tout le monde parle. Aussitôt le confinement levé, on repasse à R > 1. Un seul <icon i></icon> (ou un <icon i></icon> importé) peut provoquer un sursaut aussi grave que si nous avions suivi le Scénario 0 : « On ne fait absolument rien ».
 
 **Un confinement n'est pas un remède, c'est juste un nouveau départ.**
 
 Alors quoi, on se confine encore et toujours ?
 
-###Scenario 3 : Confinement intermittent
+###Scénario 3 : Confinement intermittent
 
 Cette solution a été suggérée en premier par le rapport du 16 mars de l'Imperial College London et plus tard dans un article de Harvard.[^lockdown_harvard]
 
@@ -460,7 +460,7 @@ Mais si les choses se passent *quand même* mal ? Les choses se sont déjà hor
 
 Le pessimiste invente le parachute.
 
-###Scenario 4+ : Masques pour tous, été, « Disjoncteur » 
+###Scénario 4+ : Masques pour tous, été, « Disjoncteur » 
 
 Et si R<sub>0</sub> était bien plus grand que ce que l'on pense, et que les actions précédentes, même aidées d'une légère distanciation, n'était *toujours* pas suffisantes pour rendre R < 1 ?
 
@@ -532,7 +532,7 @@ Et si tout cela ne permet *toujours* pas d'atteindre R < 1... nous pouvons nou
 
 Mais nous n'aurions pas à alterner 2 mois confinés/1 mois ouvert encore et encore ! R ayant diminué, nous n'aurions qu'à réaliser ce confinement « disjoncteur » une ou deux fois avant que le vaccin ne soit disponible. (Singapour a procédé ainsi récemment, « même » s'ils avaient réussi à contrôler le virus pendant 4 mois. Ce n'est pas un échec : c'est *ce qu'il faut* pour réussir.)
 
-Voici une simulation d'un scenario « pas trop d'effort »:
+Voici une simulation d'un scénario « pas trop d'effort »:
 
 1. Confinement, puis
 2. Un niveau correct d'hygiène + « Tester, tracer, isoler » + un soupçon de « Masques pour tous », et...
@@ -646,7 +646,7 @@ Même dans le scénario catastrophe « sans vaccin », nous avons 3 échappato
 
 1) Intervenir temporairement ou modérément pour garantir R < 1 dans le but d'atteindre « l'immunité collective naturelle ». (Attention : cela va provoquer de nombreuses morts et séquelles pulmonaires. *Et* ça ne fonctionne pas si l'immunité ne dure pas.)
 
-2) Intevenir de manière permanente pour maintenir R < 1. Les suivis des contacts et le port du masque deviennent alors la nouvelle norme du monde post-COVID-19, tout comme les tests de MST et le port du préservatif sont devenus la nouvelle norme dans le monde post-VIH.
+2) Intevenir de manière permanente pour maintenir R < 1. Le traçage des contacts et le port du masque deviennent alors la nouvelle norme du monde post-COVID-19, tout comme les tests de MST et le port du préservatif sont devenus la nouvelle norme dans le monde post-VIH.
 
 3) Intervenir pour maintenir R < 1 jusqu'à que soient développés des traitements qui rendent le COVID-19 bien, bien moins probable de demander des soins critiques. (Ce qu'on devrait faire de *toute façon !*) Diviser le besoin de respirateur par 10 est équivalent à multiplier la capacité en respirateurs par 10 :
 
@@ -692,11 +692,11 @@ Voilà grossièrement l'idée, avec quelques plans de rechange (moins consensuel
 
 Qu'est ce que ça veut dire pour vous maintenant ?
 
-**Pour tout le monde :** Respectez le confinement pour qu'on puisse sortir de la Phase I aussi vite que possible. Lavez-vous les mains. Fabriquez vos propres masques. Téléchargez une application de suivi des contacts *respectueuse de vos données personnelles* lorsqu'elles seront disponibles le mois prochain. Restez en forme, physiquement et mentalement ! Et écrivez à votre décideur local de bouger ses fesses et...
+**Pour tout le monde :** Respectez le confinement pour qu'on puisse sortir de la Phase I aussi vite que possible. Lavez-vous les mains. Fabriquez vos propres masques. Téléchargez une application de traçage des contacts *respectueuse de vos données personnelles* lorsqu'elles seront disponibles le mois prochain. Restez en forme, physiquement et mentalement ! Et écrivez à votre décideur local de bouger ses fesses et...
 
-**Pour les décideurs :** Faites des lois qui supportent ceux qui doivent se mettre en auto-isolement/quarantaine. Engagez plus d'agents de suivi manuel des contacts, *supportés** par des applications de suivi des contacts qui respectent la vie privée. Dirigez plus de fonds vers les trucs qu'on devrait fabriquer, comme...
+**Pour les décideurs :** Faites des lois qui supportent ceux qui doivent se mettre en auto-isolement/quarantaine. Engagez plus d'agents de traçage manuel des contacts, *supportés** par des applications de traçage des contacts qui respectent la vie privée. Dirigez plus de fonds vers les trucs qu'on devrait fabriquer, comme...
 
-**Pour les fabriquants :** Fabriquez des tests. Fabriquez des respirateurs. Fabriquez de l'équipement de protection personnel pour les hôpitaux. Fabriquez des tests. Fabriquez des masques. Fabriquez des applications. Fabriquez des antiviraux, des prophylactiques et autres traitements qui ne sont pas vaccins. Fabriquez des vaccins. Fabriquez des tests. Fabriquez des tests. Fabriquez de l'espoir.
+**Pour les fabriquants :** Fabriquez des tests. Fabriquez des respirateurs. Fabriquez des équipements de protection personnel pour les hôpitaux. Fabriquez des tests. Fabriquez des masques. Fabriquez des applications. Fabriquez des antiviraux, des prophylactiques et autres traitements qui ne sont pas des vaccins. Fabriquez des vaccins. Fabriquez des tests. Fabriquez des tests. Fabriquez de l'espoir.
 
 Ne minimisez pas la peur pour fabriquer de l'espoir. Notre peur devrait faire *équipe* avec notre espoir, comme les inventeurs de l'avions et du parachute. C'est en se préparant à des futurs épouvantables qu'on *crée* un futur plein d'espérance.
 
