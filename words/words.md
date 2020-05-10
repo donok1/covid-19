@@ -142,16 +142,16 @@ Ajoutons donc une autre nuance : avant qu'un <icon s></icon> ne devienne un <sp
 
 Pour le COVID-19, on estime qu'un individu est infecté-mais-pas-encore-infectieux <icon e></icon> pendant 3 jours, *en moyenne*.[^latent] Que se passe-t-il lorsqu'on ajoute cela à la simulation ?
 
-[^latent]: « Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8–3.0 days) before symptom onset » Traduction : « En supposant que la période d'incubation est en moyenne de 5,2 jours en s'appuyant sur une autre étude des premiers cas de COVID-19, nous en déduisons que la contagiosité commence au bout de 2,3 jours (IC 95% : 0,8–3,0 jours) avant l'apparition des symptômes ». (explication : En supposant que les symptômes commencent au 5ème jour, sachant que le caractère infectieux commence 2 jours avant, on devient infectieux au bout de 3 jours) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)
+[^latent]: « Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8–3.0 days) before symptom onset » [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5) Traduction : « En supposant que la période d'incubation est en moyenne de 5,2 jours en s'appuyant sur une autre étude des premiers cas de COVID-19, nous en déduisons que la contagiosité commence au bout de 2,3 jours (IC 95% : 0,8–3,0 jours) avant l'apparition des symptômes ». (explication : En supposant que les symptômes commencent au 5ème jour, sachant que le caractère infectieux commence 2 jours avant, on devient infectieux au bout de 3 jours)
 
 <b style='color:#ff4040'>La courbe Rouge <b style='color:#FF9393'>+ Rose</b></b> représente les cas *actuels* (infectieux <icon i></icon> + exposés <span class="nowrap"><icon e></icon>),</span>    
-<b style='color:#888'>La courbe Grise</b> représente le *total* de cas (actuels <icon i></icon> <icon e></icon> + guéris <span class="nowrap"><icon r></icon>) :</span>
+<b style='color:#888'>La courbe Grise</b> représente le *total* de cas (actuels <icon i></icon> <icon e></icon> + <span class="nowrap">guéris <icon r></icon>) :</span>
 
 <div class="sim">
 		<iframe src="sim?stage=epi-5" width="800" height="540"></iframe>
 </div>
 
-Pas beaucoup de changement ! Le temps que l'on passe en Exposé <icon e></icon> change le ratio de <span class="nowrap"><icon e></icon>-pour-<icon i></icon>,</span> et la *date* du pic de cas... mais la *hauteur* du pic, et le nombre total de cas à la fin restent les mêmes.
+Pas beaucoup de changement ! Le temps que l'on passe en Exposé <icon e></icon> change le ratio de <span class="nowrap"><icon e></icon>-pour-<icon i></icon>,</span> et la *date* du pic de cas... mais la *hauteur* du pic, et le nombre total de cas à la fin restent les mêmes.
 
 Mais pourquoi ? A cause du *premier* concepte clé de l'épidémiologie :
 
@@ -173,9 +173,9 @@ Le R<sub>0</sub> pour « la » grippe saisonnière tourne autour de 1,28[^r0_f
 
 Le R<sub>0</sub> pour le COVID-19 est estimé à environ 2,2[^r0_covid], bien qu'une étude *pas encore finalisée* estime qu'il était de 5,7(!) à Wuhan.[^r0_wuhan]
 
-[^r0_covid]: « We estimated the basic reproduction number R0 of 2019-nCoV to be around 2.2 (90% high density interval: 1.4–3.8) » [Riou J, Althaus CL.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/) Traduction : « Nous avons estimé le nombre de reproduction de base R0 de 2019-nCoV à environ 2,2 (IC 90%: 1,4-3,8) »
+[^r0_covid]: « We estimated the basic reproduction number R0 of 2019-nCoV to be around 2.2 (90% high density interval: 1.4–3.8) » [Riou J, Althaus CL.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/) Traduction : « Nous avons estimé le nombre de reproduction de base R<sub>0</sub> de 2019-nCoV à environ 2,2 (IC 90%: 1,4-3,8) »
 
-[^r0_wuhan]: « we calculated a median R0 value of 5.7 (95% CI 3.8–8.9) » [Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.](https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article) Traduction : « Nous avons calculé une valeur médiane de R0 de 5,7 (IC 95% : 3,8-8,9) »
+[^r0_wuhan]: « we calculated a median R0 value of 5.7 (95% CI 3.8–8.9) » [Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.](https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article) Traduction : « Nous avons calculé une valeur médiane de R<sub>0</sub> de 5,7 (IC 95% : 3,8-8,9) »
 
 
 Dans nos simulations - *au début et en moyenne* - un <icon i></icon> infecte quelqu'un tous les 4 jours et ce pendant 10 jours. Il y 2,5 fois « 4 jours » dans « 10 jours ». Cela signifie -*au début et en moyenne* - que chaque <icon i></icon> infecte 2,5 Susceptibles <span class="nowrap"><icon s></icon>.</span> Par conséquent, R<sub>0</sub> = 2,5. (limites techniques :[^r0_caveats_sim])
@@ -188,7 +188,7 @@ Dans nos simulations - *au début et en moyenne* - un <icon i></icon> infecte qu
 		<iframe src="sim?stage=epi-6a&format=calc" width="285" height="255"></iframe>
 </div>
 
-Mais souvenez-vous, moins il y a de <span class="nowrap"><icon s></icon>,</span> plus les <icon s></icon> deviennent <icon i></icon> *lentement*. Le nombre de reproduction *actuel* (R) dépend non-seulement du nombre de reproduction *de base* (R<sub>0</sub>), mais *aussi* de combien de personnes ne sont plus Susceptibles  <span class="nowrap"><icon s></icon>.</span> (Par exemple, en guérissant et en devenant naturellement immunisées.)
+Mais souvenez-vous, moins il y a de <span class="nowrap"><icon s></icon>,</span> plus les <icon s></icon> deviennent <icon i></icon> *lentement*. Le nombre de reproduction *actuel* (R) dépend non-seulement du nombre de reproduction *de base* (R<sub>0</sub>), mais *aussi* de combien de personnes ne sont plus Susceptibles <span class="nowrap"><icon s></icon>.</span> (Par exemple, en guérissant et en devenant naturellement immunisées.)
 
 <div class="sim">
 		<iframe src="sim?stage=epi-6b&format=calc" width="285" height="390"></iframe>
@@ -214,7 +214,7 @@ Cela est dû au fait que lorsqu'il y a plus de non-<icon s></icon> que le seuil 
 
 C'est paradoxal. Le COVID-19 est extrêmement contagieux et pourtant, pour le contenir, il faut « seulement » éviter plus de 60% des infections. 60% ?! Si c'était une note d'école, ce serait un 12/20. Mais si R<sub>0</sub> = 2,5, alors le réduire de 61% nous donne R = 0,975, ce qui est R < 1, donc le virus est contenu ! (formule exacte :[^exact_formula])
 
-[^exact_formula]: Gardez en tête que R = R<sub>0</sub> * le taux des transmissions encore possibles. Souvenez-vous aussi que le taux des transmissions possibles = 1 - le taux des transmissions *empêchées*.
+[^exact_formula]: Gardez en tête que R = R<sub>0</sub> * le taux des transmissions encore possibles. Souvenez-vous aussi que le taux des transmissions possibles = 1 - le taux des transmissions *empêchées*.
 
   Donc, pour obtenir R < 1, on a besoin d'avoir R<sub>0</sub> * TransmissionsPermises < 1.
 
@@ -224,13 +224,13 @@ C'est paradoxal. Le COVID-19 est extrêmement contagieux et pourtant, pour le co
 
   Donc, TransmissionsEmpêchées > 1 - 1/R<sub>0</sub>
 
-  Par conséquent, il faut empêcher plus de **1 - 1/R<sub>0</sub>** des transmissions pour obtenir R < 1 et contenir le virus !
+  Par conséquent, il faut empêcher plus de **1 - 1/R<sub>0</sub>** des transmissions pour obtenir R < 1 et contenir le virus !
 
 ![](pics/r4.png)
 
 (Si vous pensez que R<sub>0</sub> ou d'autres paramètres dans vos simulations sont trop haut/bas, c'est bien, vous défiez nos hypothèses ! Il y aura un mode « bac à sable » à la fin de ce guide, où vous pourrez entrer vos *propres* paramètres et voir ce que ça donne.)
 
-*Toutes* les mesures contre le COVID-19 dont vous avez entendu parler - lavage des mains, distance sociale, confinements, auto-isolation, suivi des contacts et mise en quarantaine, port du masque et même « immunité collective » - elles ont toutes le même but :
+*Toutes* les mesures contre le COVID-19 dont vous avez entendu parler - lavage des mains, distance sociale, confinements, auto-isolation, traçage des contacts et mise en quarantaine, port du masque et même « immunité collective » - elles ont toutes le même but :
 
 Obtenir R < 1.
 
@@ -245,13 +245,13 @@ Préparez-vous à un atterrissage d'urgence...
     </div>
 </div>
 
-... ça aurait pu être pire. Voici un univers parallèle que l'on a <span class="nowrap">évité :</span>
+... ça aurait pu être pire. Voici un univers parallèle que l'on a <span class="nowrap">évité :</span>
 
 ###Scenario 0 : On ne fait absolument rien
 
 Environ une personne atteinte du COVID-19 sur vingt a besoin de soins intensifs.[^icu_covid] Dans un pays développé comme les États-Unis, il y a une place en soins intensifs pour 3400 personnes.[^icu_us] Dès lors, pour 3400 personnes atteintes *en même temps*, les États-Unis peuvent en gérer 20 - soit 0,6% de la population.
 
-[^icu_covid]: « Percentage of COVID-19 cases in the United States from February 12 to March 16, 2020 that required intensive care unit (ICU) admission, by age group »](https://www.statista.com/statistics/1105420/covid-icu-admission-rates-us-by-age-group/).Traduction : « Pourcentage de cas de COVID-19 aux États-Unis du 12 février au 26 mars 2020 nécéssitant une admission en unité de soins intesifs, par groupe d'âge ». Entre 4,9% et 11,5% de *tous* les cas de COVID-19 ont eu besoin de soins intensifs. En choisissant généreusement l'estimation basse, cela nous fait 5%, soit 1 sur 20. Notez que cette proportion est propre à la pyramide des âges de ce pays. Elle sera plus haute dans les pays avec une population âgée et plus basse dans les pays avec une population jeune.
+[^icu_covid]: [« Percentage of COVID-19 cases in the United States from February 12 to March 16, 2020 that required intensive care unit (ICU) admission, by age group »](https://www.statista.com/statistics/1105420/covid-icu-admission-rates-us-by-age-group/).Traduction : « Pourcentage de cas de COVID-19 aux États-Unis du 12 février au 26 mars 2020 nécéssitant une admission en unité de soins intesifs, par groupe d'âge ». Entre 4,9% et 11,5% de *tous* les cas de COVID-19 ont eu besoin de soins intensifs. En choisissant généreusement l'estimation basse, cela nous fait 5%, soit 1 sur 20. Notez que cette proportion est propre à la pyramide des âges de ce pays. Elle sera plus haute dans les pays avec une population âgée et plus basse dans les pays avec une population jeune.
 
 [^icu_us]: « Number of ICU beds = 96,596 ». De [the Society of Critical Care Medicine](https://sccm.org/Blog/March-2020/United-States-Resource-Availability-for-COVID-19). Tradution : « Nombre de lits en unité de soins intensifs = 96'596 » La population des États-Unis était de 328'200'000 en 2019. 96'596 sur 328'200'000 environ 1 sur 3400.
 
@@ -261,7 +261,7 @@ Même si cette capacité était *plus que triplée* pour atteindre 2%, voici ce 
 		<iframe src="sim?stage=int-1&format=lines" width="800" height="540"></iframe>
 </div>
 
-Pas bon.
+Pas bien.
 
 C'est ce que [Le rapport du 16 mars de l'Imperial College London](http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/covid-19/report-9-impact-of-npis-on-covid-19/) décrit : si on ne fait rien, on sature les soins intensifs, avec plus de 80% de la population tombant malade.
 (Souvenez-vous : le nombre total de cas *dépasse* le seuil d'immunité collective)
@@ -272,7 +272,7 @@ Même si seulement 0,5% des personnes infectées meurent - une estimation optimi
 
 ###Scenario 1 : Aplatir la courbe / Immunité collective
 
-La stratégie « Aplatir la courbe » a été promue par tous les organismes de santé publique, pendant que le plan de base « d'immunité collective » du Royaume Uni était universellement décrié. Ces deux plans *le même objectif*. Le Royaume Uni a juste mal communiqué le sien.[^yong]
+La stratégie « Aplatir la courbe » a été promue par tous les organismes de santé publique, pendant que le plan de base « d'immunité collective » du Royaume Uni était universellement décrié. Ces deux plans ont *le même objectif*. Le Royaume Uni a juste mal communiqué le sien.[^yong]
 
 [^yong]: « He says that the actual goal is the same as that of other countries: flatten the curve by staggering the onset of infections. As a consequence, the nation may achieve herd immunity; it’s a side effect, not an aim. [...] The government’s actual coronavirus action plan, available online, doesn’t mention herd immunity at all. »
 
@@ -286,7 +286,7 @@ Intensifier le lavage des mains réduit les grippes et les rhumes, dans les pays
 
 [^handwashing]: « All eight eligible studies reported that handwashing lowered risks of respiratory infection, with risk reductions ranging from 6% to 44% [pooled value 24% (95% CI 6–40%)]. » [Rabie, T. and Curtis, V.](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-3156.2006.01568.x) Traduction : « Les huit études valables ont rapporté que le lavage des mains réduisait le risque d'infections respiratoires, avec une réduction des risques allant de 6% à 44% [valeur moyenne 24% (IC 95% : 6-40%)]. » Note : Par simplicité, la valeur a été arrondie à 25% dans les simulations. On notera que, comme le pointe cette méta-analyse, la qualité des études sur le lavage des main (du moins dans les pays riches) est exécrable.
 
-[^london]: « We found a 73% reduction in the average daily number of contacts observed per participant. This would be sufficient to reduce R0 from a value from 2.6 before the lockdown to 0.62 (0.37 - 0.89) during the lockdown ».  [Jarvis and Zandvoort et al](https://cmmid.github.io/topics/covid19/comix-impact-of-physical-distance-measures-on-transmission-in-the-UK.html) Traduction : « Nous avons trouvé une réduction de 73% du nombre de contacts journaliers observés par participant. Cela serait suffisant pour réduire R0 de 2,6 avant le confinement à 0,62 (IC 0,37 - 0,89) pendant le confinement ». Pour faire simple, le taux a été arrondi à 70% dans les simulations.
+[^london]: « We found a 73% reduction in the average daily number of contacts observed per participant. This would be sufficient to reduce R0 from a value from 2.6 before the lockdown to 0.62 (0.37 - 0.89) during the lockdown ».  [Jarvis and Zandvoort et al](https://cmmid.github.io/topics/covid19/comix-impact-of-physical-distance-measures-on-transmission-in-the-UK.html) Traduction : « Nous avons trouvé une réduction de 73% du nombre de contacts journaliers observés par participant. Cela serait suffisant pour réduire R<sub>0</sub> de 2,6 avant le confinement à 0,62 (IC 0,37 - 0,89) pendant le confinement ». Pour faire simple, le taux a été arrondi à 70% dans les simulations.
 
 **Jouez avec ce calculateur pour voir comment le pourcentage de <span class="nowrap">non-<icon s></icon>,</span> le lavage des mains et la distanciation sociale réduisent R :** (ce calculateur visualise leurs effets *relatifs*, c'est pourquoi lorsqu'un l'un d'eux est augmenté, les autres semblent diminuer.[^log_caveat])
 
@@ -327,7 +327,7 @@ Voyons ce qu'il arrive lorsqu'on *écrase* la courbe avec un confinement de 5 mo
 
 Oh.
 
-Voici la « seconde vague » dont tout le monde parle. Aussitôt le confinement levé, on repasse à R > 1. Un seul <icon i></icon> (ou un <icon i></icon> importé) peut provoquer un sursaut aussi grave que si nous avions suivi le 0 : « On ne fait absolument rien ».
+Voici la « seconde vague » dont tout le monde parle. Aussitôt le confinement levé, on repasse à R > 1. Un seul <icon i></icon> (ou un <icon i></icon> importé) peut provoquer un sursaut aussi grave que si nous avions suivi le Scenario 0 : « On ne fait absolument rien ».
 
 **Un confinement n'est pas un remède, c'est juste un nouveau départ.**
 
