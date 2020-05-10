@@ -37,7 +37,7 @@ Ce guide (publié le 1er Mai 2020. clique sur cette note !→[^timestamp]) est 
 
 [^timestamp]: Ces notes contiendront des sources, des liens et des commentaires bonus comme celui-ci !
     
-    **Ce guide a été publié le 1er Mai 2020. Traduction française publiée le TBD Mai 2020.** De nombreux détails deviendront obsolètes, mais nous sommes convaincus que ce guide couvre 95% des futurs possibles, et que notre initiation à l'épidémiologie vous sera bien utile.
+    **Ce guide a été publié le 1er Mai 2020 et sa traduction en français le TBD Mai 2020.** De nombreux détails deviendront obsolètes, mais nous sommes convaincus que ce guide couvre 95% des futurs possibles, et que notre initiation à l'épidémiologie vous sera bien utile.
 
 Alors accrochez-vous : nous entrons dans une zone de turbulences.
 
@@ -142,18 +142,18 @@ Ajoutons donc une autre nuance : avant qu'un <icon s></icon> ne devienne un <sp
 
 Pour le COVID-19, on estime qu'un individu est infecté-mais-pas-encore-infectieux <icon e></icon> pendant 3 jours, *en moyenne*.[^latent] Que se passe-t-il lorsqu'on ajoute cela à la simulation ?
 
-[^latent]: « Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8–3.0 days) before symptom onset » Traduction : « En supposant que la période d'incubation est en moyenne de 5,2 jours en s'appuyant sur une autre étude des premiers cas de COVID-19, nous en déduisons que la contagiosité commence au bout de 2,3 jours (IC 95% : 0,8–3,0 jours) avant l'apparition des symptômes ». (explication : En supposant que les symptômes commencent au 5ème jour, sachant que le caractère infectieux commence 2 jours avant, on devient infectieux au bout de 3 jours) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)
+[^latent]: « Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8–3.0 days) before symptom onset » [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5) Traduction : « En supposant que la période d'incubation est en moyenne de 5,2 jours en s'appuyant sur une autre étude des premiers cas de COVID-19, nous en déduisons que la contagiosité commence au bout de 2,3 jours (IC 95% : 0,8–3,0 jours) avant l'apparition des symptômes ». (explication : En supposant que les symptômes commencent au 5ème jour, sachant que le caractère infectieux commence 2 jours avant, on devient infectieux au bout de 3 jours)
 
 <b style='color:#ff4040'>La courbe Rouge <b style='color:#FF9393'>+ Rose</b></b> représente les cas *actuels* (infectieux <icon i></icon> + exposés <span class="nowrap"><icon e></icon>),</span>    
-<b style='color:#888'>La courbe Grise</b> représente le *total* de cas (actuels <icon i></icon> <icon e></icon> + guéris <span class="nowrap"><icon r></icon>) :</span>
+<b style='color:#888'>La courbe Grise</b> représente le *total* de cas (actuels <icon i></icon> <icon e></icon> + <span class="nowrap">guéris <icon r></icon>) :</span>
 
 <div class="sim">
 		<iframe src="sim?stage=epi-5" width="800" height="540"></iframe>
 </div>
 
-Pas beaucoup de changement ! Le temps que l'on passe en Exposé <icon e></icon> change le ratio de <span class="nowrap"><icon e></icon>-pour-<icon i></icon>,</span> et la *date* du pic de cas... mais la *hauteur* du pic, et le nombre total de cas à la fin restent les mêmes.
+Pas beaucoup de changement ! Le temps que l'on passe en Exposé <icon e></icon> change le ratio de <span class="nowrap"><icon e></icon>-pour-<icon i></icon>,</span> et la *date* du pic de cas... mais la *hauteur* du pic, et le nombre total de cas à la fin restent les mêmes.
 
-Mais pourquoi ? A cause du *premier* concepte clé de l'épidémiologie :
+Mais pourquoi ? À cause du *premier* concepte clé de l'épidémiologie :
 
 ![](pics/r.png)
 
@@ -173,9 +173,9 @@ Le R<sub>0</sub> pour « la » grippe saisonnière tourne autour de 1,28[^r0_f
 
 Le R<sub>0</sub> pour le COVID-19 est estimé à environ 2,2[^r0_covid], bien qu'une étude *pas encore finalisée* estime qu'il était de 5,7(!) à Wuhan.[^r0_wuhan]
 
-[^r0_covid]: « We estimated the basic reproduction number R0 of 2019-nCoV to be around 2.2 (90% high density interval: 1.4–3.8) » [Riou J, Althaus CL.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/) Traduction : « Nous avons estimé le nombre de reproduction de base R0 de 2019-nCoV à environ 2,2 (IC 90%: 1,4-3,8) »
+[^r0_covid]: « We estimated the basic reproduction number R0 of 2019-nCoV to be around 2.2 (90% high density interval: 1.4–3.8) » [Riou J, Althaus CL.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/) Traduction : « Nous avons estimé le nombre de reproduction de base R<sub>0</sub> de 2019-nCoV à environ 2,2 (IC 90%: 1,4-3,8) »
 
-[^r0_wuhan]: « we calculated a median R0 value of 5.7 (95% CI 3.8–8.9) » [Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.](https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article) Traduction : « Nous avons calculé une valeur médiane de R0 de 5,7 (IC 95% : 3,8-8,9) »
+[^r0_wuhan]: « we calculated a median R0 value of 5.7 (95% CI 3.8–8.9) » [Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.](https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article) Traduction : « Nous avons calculé une valeur médiane de R<sub>0</sub> de 5,7 (IC 95% : 3,8-8,9) »
 
 
 Dans nos simulations - *au début et en moyenne* - un <icon i></icon> infecte quelqu'un tous les 4 jours et ce pendant 10 jours. Il y 2,5 fois « 4 jours » dans « 10 jours ». Cela signifie -*au début et en moyenne* - que chaque <icon i></icon> infecte 2,5 Susceptibles <span class="nowrap"><icon s></icon>.</span> Par conséquent, R<sub>0</sub> = 2,5. (limites techniques :[^r0_caveats_sim])
@@ -188,7 +188,7 @@ Dans nos simulations - *au début et en moyenne* - un <icon i></icon> infecte qu
 		<iframe src="sim?stage=epi-6a&format=calc" width="285" height="255"></iframe>
 </div>
 
-Mais souvenez-vous, moins il y a de <span class="nowrap"><icon s></icon>,</span> plus les <icon s></icon> deviennent <icon i></icon> *lentement*. Le nombre de reproduction *actuel* (R) dépend non-seulement du nombre de reproduction *de base* (R<sub>0</sub>), mais *aussi* de combien de personnes ne sont plus Susceptibles  <span class="nowrap"><icon s></icon>.</span> (Par exemple, en guérissant et en devenant naturellement immunisées.)
+Mais souvenez-vous, moins il y a de <span class="nowrap"><icon s></icon>,</span> plus les <icon s></icon> deviennent <icon i></icon> *lentement*. Le nombre de reproduction *actuel* (R) dépend non-seulement du nombre de reproduction *de base* (R<sub>0</sub>), mais *aussi* de combien de personnes ne sont plus Susceptibles <span class="nowrap"><icon s></icon>.</span> (Par exemple, en guérissant et en devenant naturellement immunisées.)
 
 <div class="sim">
 		<iframe src="sim?stage=epi-6b&format=calc" width="285" height="390"></iframe>
@@ -214,7 +214,7 @@ Cela est dû au fait que lorsqu'il y a plus de non-<icon s></icon> que le seuil 
 
 C'est paradoxal. Le COVID-19 est extrêmement contagieux et pourtant, pour le contenir, il faut « seulement » éviter plus de 60% des infections. 60% ?! Si c'était une note d'école, ce serait un 12/20. Mais si R<sub>0</sub> = 2,5, alors le réduire de 61% nous donne R = 0,975, ce qui est R < 1, donc le virus est contenu ! (formule exacte :[^exact_formula])
 
-[^exact_formula]: Gardez en tête que R = R<sub>0</sub> * le taux des transmissions encore possibles. Souvenez-vous aussi que le taux des transmissions possibles = 1 - le taux des transmissions *empêchées*.
+[^exact_formula]: Gardez en tête que R = R<sub>0</sub> * le taux des transmissions encore possibles. Souvenez-vous aussi que le taux des transmissions possibles = 1 - le taux des transmissions *empêchées*.
 
   Donc, pour obtenir R < 1, on a besoin d'avoir R<sub>0</sub> * TransmissionsPermises < 1.
 
@@ -224,13 +224,13 @@ C'est paradoxal. Le COVID-19 est extrêmement contagieux et pourtant, pour le co
 
   Donc, TransmissionsEmpêchées > 1 - 1/R<sub>0</sub>
 
-  Par conséquent, il faut empêcher plus de **1 - 1/R<sub>0</sub>** des transmissions pour obtenir R < 1 et contenir le virus !
+  Par conséquent, il faut empêcher plus de **1 - 1/R<sub>0</sub>** des transmissions pour obtenir R < 1 et contenir le virus !
 
 ![](pics/r4.png)
 
 (Si vous pensez que R<sub>0</sub> ou d'autres paramètres dans vos simulations sont trop haut/bas, c'est bien, vous défiez nos hypothèses ! Il y aura un mode « bac à sable » à la fin de ce guide, où vous pourrez entrer vos *propres* paramètres et voir ce que ça donne.)
 
-*Toutes* les mesures contre le COVID-19 dont vous avez entendu parler - lavage des mains, distance sociale, confinements, auto-isolation, suivi des contacts et mise en quarantaine, port du masque et même « immunité collective » - elles ont toutes le même but :
+*Toutes* les mesures contre le COVID-19 dont vous avez entendu parler - lavage des mains, distance sociale, confinements, auto-isolation, traçage des contacts et mise en quarantaine, port du masque et même « immunité collective » - elles ont toutes le même but :
 
 Obtenir R < 1.
 
@@ -245,13 +245,13 @@ Préparez-vous à un atterrissage d'urgence...
     </div>
 </div>
 
-... ça aurait pu être pire. Voici un univers parallèle que l'on a <span class="nowrap">évité :</span>
+... ça aurait pu être pire. Voici un univers parallèle que l'on a <span class="nowrap">évité :</span>
 
-###Scenario 0 : On ne fait absolument rien
+###Scénario 0 : On ne fait absolument rien
 
 Environ une personne atteinte du COVID-19 sur vingt a besoin de soins intensifs.[^icu_covid] Dans un pays développé comme les États-Unis, il y a une place en soins intensifs pour 3400 personnes.[^icu_us] Dès lors, pour 3400 personnes atteintes *en même temps*, les États-Unis peuvent en gérer 20 - soit 0,6% de la population.
 
-[^icu_covid]: « Percentage of COVID-19 cases in the United States from February 12 to March 16, 2020 that required intensive care unit (ICU) admission, by age group »](https://www.statista.com/statistics/1105420/covid-icu-admission-rates-us-by-age-group/).Traduction : « Pourcentage de cas de COVID-19 aux États-Unis du 12 février au 26 mars 2020 nécéssitant une admission en unité de soins intesifs, par groupe d'âge ». Entre 4,9% et 11,5% de *tous* les cas de COVID-19 ont eu besoin de soins intensifs. En choisissant généreusement l'estimation basse, cela nous fait 5%, soit 1 sur 20. Notez que cette proportion est propre à la pyramide des âges de ce pays. Elle sera plus haute dans les pays avec une population âgée et plus basse dans les pays avec une population jeune.
+[^icu_covid]: [« Percentage of COVID-19 cases in the United States from February 12 to March 16, 2020 that required intensive care unit (ICU) admission, by age group »](https://www.statista.com/statistics/1105420/covid-icu-admission-rates-us-by-age-group/).Traduction : « Pourcentage de cas de COVID-19 aux États-Unis du 12 février au 26 mars 2020 nécéssitant une admission en unité de soins intesifs, par groupe d'âge ». Entre 4,9% et 11,5% de *tous* les cas de COVID-19 ont eu besoin de soins intensifs. En choisissant généreusement l'estimation basse, cela nous fait 5%, soit 1 sur 20. Notez que cette proportion est propre à la pyramide des âges de ce pays. Elle sera plus haute dans les pays avec une population âgée et plus basse dans les pays avec une population jeune.
 
 [^icu_us]: « Number of ICU beds = 96,596 ». De [the Society of Critical Care Medicine](https://sccm.org/Blog/March-2020/United-States-Resource-Availability-for-COVID-19). Tradution : « Nombre de lits en unité de soins intensifs = 96'596 » La population des États-Unis était de 328'200'000 en 2019. 96'596 sur 328'200'000 environ 1 sur 3400.
 
@@ -261,7 +261,7 @@ Même si cette capacité était *plus que triplée* pour atteindre 2%, voici ce 
 		<iframe src="sim?stage=int-1&format=lines" width="800" height="540"></iframe>
 </div>
 
-Pas bon.
+Pas bien.
 
 C'est ce que [Le rapport du 16 mars de l'Imperial College London](http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/covid-19/report-9-impact-of-npis-on-covid-19/) décrit : si on ne fait rien, on sature les soins intensifs, avec plus de 80% de la population tombant malade.
 (Souvenez-vous : le nombre total de cas *dépasse* le seuil d'immunité collective)
@@ -270,9 +270,9 @@ Même si seulement 0,5% des personnes infectées meurent - une estimation optimi
 
 (Beaucoup de médias et de réseaux sociaux annonçaient « 80% des gens vont être infectés » *sans* préciser « SI l'on ne fait rien ». La peur a été transformée en clics, pas en compréhension. *Soupir.*)
 
-###Scenario 1 : Aplatir la courbe / Immunité collective
+###Scénario 1 : Aplatir la courbe / Immunité collective
 
-La stratégie « Aplatir la courbe » a été promue par tous les organismes de santé publique, pendant que le plan de base « d'immunité collective » du Royaume Uni était universellement décrié. Ces deux plans *le même objectif*. Le Royaume Uni a juste mal communiqué le sien.[^yong]
+La stratégie « Aplatir la courbe » a été promue par tous les organismes de santé publique, pendant que le plan de base « d'immunité collective » du Royaume Uni était universellement décrié. Ces deux plans ont *le même objectif*. Le Royaume Uni a juste mal communiqué le sien.[^yong]
 
 [^yong]: « He says that the actual goal is the same as that of other countries: flatten the curve by staggering the onset of infections. As a consequence, the nation may achieve herd immunity; it’s a side effect, not an aim. [...] The government’s actual coronavirus action plan, available online, doesn’t mention herd immunity at all. »
 
@@ -286,7 +286,7 @@ Intensifier le lavage des mains réduit les grippes et les rhumes, dans les pays
 
 [^handwashing]: « All eight eligible studies reported that handwashing lowered risks of respiratory infection, with risk reductions ranging from 6% to 44% [pooled value 24% (95% CI 6–40%)]. » [Rabie, T. and Curtis, V.](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-3156.2006.01568.x) Traduction : « Les huit études valables ont rapporté que le lavage des mains réduisait le risque d'infections respiratoires, avec une réduction des risques allant de 6% à 44% [valeur moyenne 24% (IC 95% : 6-40%)]. » Note : Par simplicité, la valeur a été arrondie à 25% dans les simulations. On notera que, comme le pointe cette méta-analyse, la qualité des études sur le lavage des main (du moins dans les pays riches) est exécrable.
 
-[^london]: « We found a 73% reduction in the average daily number of contacts observed per participant. This would be sufficient to reduce R0 from a value from 2.6 before the lockdown to 0.62 (0.37 - 0.89) during the lockdown ».  [Jarvis and Zandvoort et al](https://cmmid.github.io/topics/covid19/comix-impact-of-physical-distance-measures-on-transmission-in-the-UK.html) Traduction : « Nous avons trouvé une réduction de 73% du nombre de contacts journaliers observés par participant. Cela serait suffisant pour réduire R0 de 2,6 avant le confinement à 0,62 (IC 0,37 - 0,89) pendant le confinement ». Pour faire simple, le taux a été arrondi à 70% dans les simulations.
+[^london]: « We found a 73% reduction in the average daily number of contacts observed per participant. This would be sufficient to reduce R0 from a value from 2.6 before the lockdown to 0.62 (0.37 - 0.89) during the lockdown ».  [Jarvis and Zandvoort et al](https://cmmid.github.io/topics/covid19/comix-impact-of-physical-distance-measures-on-transmission-in-the-UK.html) Traduction : « Nous avons trouvé une réduction de 73% du nombre de contacts journaliers observés par participant. Cela serait suffisant pour réduire R<sub>0</sub> de 2,6 avant le confinement à 0,62 (IC 0,37 - 0,89) pendant le confinement ». Pour faire simple, le taux a été arrondi à 70% dans les simulations.
 
 **Jouez avec ce calculateur pour voir comment le pourcentage de <span class="nowrap">non-<icon s></icon>,</span> le lavage des mains et la distanciation sociale réduisent R :** (ce calculateur visualise leurs effets *relatifs*, c'est pourquoi lorsqu'un l'un d'eux est augmenté, les autres semblent diminuer.[^log_caveat])
 
@@ -306,7 +306,7 @@ Trois observations :
 
 1. Le nombre total de cas *baisse* ! **Même si on n'arrive pas à R < 1, réduire R sauve quand même des vies en réduisant le dépassement au dessus du seuil d'immunité collective.** Beaucoup de gens s'imaginent « qu'aplatir la courbe » étale les cas sans toutefois réduire leur nombre total. C'est impossible dans *n'importe lequel* des modèles de base de l'épidémiologie. Mais parce que les médias d'actualité présentaient l'affirmation « 80% seront infectés » comme inévitable, les gens ont pensé que le nombre total de cas serait le même quoi qu'on fasse. *Soupir.*
 
-2. A cause des mesures supplémentaires, le nombre de cas actuels atteint un pic *avant* que l'immunité collective ne soit atteinte. En fait, dans cette simulation, le nombre total de cas passe *un tout petit peu* au dessus du seuil d'immunité collective - le plan du Royaume Uni ! A ce moment, R < 1, on peut abandonner toutes les autres mesures d'intervention et le COVID-19 reste contenu ! Eh bien, il y a quand même un problème...
+2. À cause des mesures supplémentaires, le nombre de cas actuels atteint un pic *avant* que l'immunité collective ne soit atteinte. En fait, dans cette simulation, le nombre total de cas passe *un tout petit peu* au dessus du seuil d'immunité collective - le plan du Royaume Uni ! À ce moment, R < 1, on peut abandonner toutes les autres mesures d'intervention et le COVID-19 reste contenu ! Eh bien, il y a quand même un problème...
 
 3. On sature les unités de soins intensifs. Pour plusieurs mois. (et souvenez-vous, on a pourtant *déjà* triplé la capacité pour ces simulations)
 
@@ -317,9 +317,9 @@ C'était l'autre conclusion du rapport du 16 mars de l'Imperial College de Londr
 Il ne faut donc pas simplement « aplatir » la courbe, il faut l'*écraser*. Par exemple, par le biais d'un...
 
 
-###Scenario 2 : Confinement de plusieurs moins
+###Scénario 2 : Confinement de plusieurs mois
 
-Voyons ce qu'il arrive lorsqu'on *écrase* la courbe avec un confinement de 5 mois, qu'on réduit <icon i></icon> à presque rien, et que finalement, - *finalement* - on retrouve une vie normale :
+Voyons ce qui arrive lorsqu'on *écrase* la courbe avec un confinement de 5 mois, qu'on réduit <icon i></icon> à presque rien, et que finalement, - *finalement* - on retrouve une vie normale :
 
 <div class="sim">
 		<iframe src="sim?stage=int-3&format=lines" width="800" height="540"></iframe>
@@ -327,13 +327,13 @@ Voyons ce qu'il arrive lorsqu'on *écrase* la courbe avec un confinement de 5 mo
 
 Oh.
 
-Voici la « seconde vague » dont tout le monde parle. Aussitôt le confinement levé, on repasse à R > 1. Un seul <icon i></icon> (ou un <icon i></icon> importé) peut provoquer un sursaut aussi grave que si nous avions suivi le 0 : « On ne fait absolument rien ».
+Voici la « seconde vague » dont tout le monde parle. Aussitôt le confinement levé, on repasse à R > 1. Un seul <icon i></icon> (ou un <icon i></icon> importé) peut provoquer un sursaut aussi grave que si nous avions suivi le Scénario 0 : « On ne fait absolument rien ».
 
 **Un confinement n'est pas un remède, c'est juste un nouveau départ.**
 
 Alors quoi, on se confine encore et toujours ?
 
-###Scenario 3 : Confinement intermittent
+###Scénario 3 : Confinement intermittent
 
 Cette solution a été suggérée en premier par le rapport du 16 mars de l'Imperial College London et plus tard dans un article de Harvard.[^lockdown_harvard]
 
@@ -460,7 +460,7 @@ Mais si les choses se passent *quand même* mal ? Les choses se sont déjà hor
 
 Le pessimiste invente le parachute.
 
-###Scenario 4+ : Masques pour tous, été, « Disjoncteur » 
+###Scénario 4+ : Masques pour tous, été, « Disjoncteur » 
 
 Et si R<sub>0</sub> était bien plus grand que ce que l'on pense, et que les actions précédentes, même aidées d'une légère distanciation, n'était *toujours* pas suffisantes pour rendre R < 1 ?
 
@@ -532,7 +532,7 @@ Et si tout cela ne permet *toujours* pas d'atteindre R < 1... nous pouvons nou
 
 Mais nous n'aurions pas à alterner 2 mois confinés/1 mois ouvert encore et encore ! R ayant diminué, nous n'aurions qu'à réaliser ce confinement « disjoncteur » une ou deux fois avant que le vaccin ne soit disponible. (Singapour a procédé ainsi récemment, « même » s'ils avaient réussi à contrôler le virus pendant 4 mois. Ce n'est pas un échec : c'est *ce qu'il faut* pour réussir.)
 
-Voici une simulation d'un scenario « pas trop d'effort »:
+Voici une simulation d'un scénario « pas trop d'effort »:
 
 1. Confinement, puis
 2. Un niveau correct d'hygiène + « Tester, tracer, isoler » + un soupçon de « Masques pour tous », et...
@@ -575,16 +575,16 @@ Vous attrapez le COVID-19 et en guérissez. Ou vous recevez un vaccin. Dans les 
 
 * Le COVID-19 est étroitement lié au SARS, qui rend ses survivants immunisés pour deux ans.[^SARS immunity]
 * Le coronavirus causant « le » rhume procure 8 mois d'immunité.[^cold immunity]
-* On a rapporté des cas de guéris du COVID-19 qui ont été, plus tard, à nouveau testés positivement, mais ce n'est pas clair ces cas sont des faux positifs.[^unclear]
+* On a rapporté des cas de guéris du COVID-19 qui ont été, plus tard, à nouveau testés positivement, n'est pas certain qu'il s'agisse de faux positifs.[^unclear]
 * Une étude *pas encore revue par les pairs* effectuée sur des singes suggère que l'immunité au coronavirus du COVID-19 durerait au moins 28 jours.[^monkeys]
 
 Mais pour le COVID-19 *chez les humains*, au 1er mai 2020, « Pour combien de temps » est encore une grande inconnue.
 
-[^SARS immunity]: « SARS-specific antibodies were maintained for an average of 2 years [...] Thus, SARS patients might be susceptible to reinfection ≥3 years after initial exposure. » [Wu LP, Wang NC, Chang YH, et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851497/) Traduction : « Les anticorps spécifiques au SARS sont maintenus en moyenne 2 ans [...] En conséquence, les patients du SARS pourraient être susceptibles d'être réinfectés ≥3 ans après l'exposition initiale. » « Malheureusement », on ne saura jamais combien de temps l'immunité au SARS dure réellement, puisqu'il a été éradiqué très rapidement.
+[^SARS immunity]: « SARS-specific antibodies were maintained for an average of 2 years [...] Thus, SARS patients might be susceptible to reinfection ≥3 years after initial exposure. » [Wu LP, Wang NC, Chang YH, et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851497/) Traduction : « Les anticorps spécifiques au SARS sont maintenus en moyenne 2 ans [...] En conséquence, les patients du SARS pourraient être susceptibles d'être réinfectés ≥3 ans après l'exposition initiale. » *Malheureusement*, on ne saura jamais combien de temps l'immunité au SARS dure réellement, puisqu'il a été éradiqué très rapidement.
 
-[^cold immunity]: « We found no significant difference between the probability of testing positive at least once and the probability of a recurrence for the beta-coronaviruses HKU1 and OC43 at 34 weeks after enrollment/first infection. » [Marta Galanti & Jeffrey Shaman (PDF)](http://www.columbia.edu/~jls106/galanti_shaman_ms_supp.pdf) Traduction : « Nous n'avons trouvé aucune différence significative entre la probabilité d'être testé positif au moins une fois et la probabilité d'une récurrence du beta-corronavirus HKU1 et OC43 34 semaines après l'exposition/la première infection. »
+[^cold immunity]: « We found no significant difference between the probability of testing positive at least once and the probability of a recurrence for the beta-coronaviruses HKU1 and OC43 at 34 weeks after enrollment/first infection. » [Marta Galanti & Jeffrey Shaman (PDF)](http://www.columbia.edu/~jls106/galanti_shaman_ms_supp.pdf) Traduction : « Nous n'avons trouvé aucune différence significative entre la probabilité d'être testé positif au moins une fois et la probabilité d'une récurrence des beta-corronavirus HKU1 et OC43 34 semaines après l'exposition/la première infection. »
 
-[^unclear]: « Once a person fights off a virus, viral particles tend to linger for some time. These cannot cause infections, but they can trigger a positive test. » [from STAT News by Andrew Joseph](https://www.statnews.com/2020/04/20/everything-we-know-about-coronavirus-immunity-and-antibodies-and-plenty-we-still-dont/) Traduction : « Une fois qu'une personne combat un virus, des particules virales tendent à subsister quelques temps. Cela ne peut causer une infection, mais cela peut provoquer un test positif. »
+[^unclear]: « Once a person fights off a virus, viral particles tend to linger for some time. These cannot cause infections, but they can trigger a positive test. » [from STAT News by Andrew Joseph](https://www.statnews.com/2020/04/20/everything-we-know-about-coronavirus-immunity-and-antibodies-and-plenty-we-still-dont/) Traduction : « Une fois qu'une personne combat un virus, des particules virales tendent à subsister quelques temps. Celles-ci ne peuvent causer une infection, mais peuvent provoquer un test positif. »
 
 [^monkeys]: De [Bao et al.](https://www.biorxiv.org/content/10.1101/2020.03.13.990226v1.abstract) *Attention : Cet article est une pré-publication et n'a pas (encore) été vérifiée par une relecture par les pairs.* Aussi, pour le souligner : ils ont seulement testé la ré-infection 28 jours plus tard.
 
@@ -646,9 +646,9 @@ Même dans le scénario catastrophe « sans vaccin », nous avons 3 échappato
 
 1) Intervenir temporairement ou modérément pour garantir R < 1 dans le but d'atteindre « l'immunité collective naturelle ». (Attention : cela va provoquer de nombreuses morts et séquelles pulmonaires. *Et* ça ne fonctionne pas si l'immunité ne dure pas.)
 
-2) Intevenir de manière permanente pour maintenir R < 1. Les suivis des contacts et le port du masque deviennent alors la nouvelle norme du monde post-COVID-19, tout comme les tests de MST et le port du préservatif sont devenus la nouvelle norme dans le monde post-VIH.
+2) Intevenir de manière permanente pour maintenir R < 1. Le traçage des contacts et le port du masque deviennent alors la nouvelle norme du monde post-COVID-19, tout comme les tests de MST et le port du préservatif sont devenus la nouvelle norme dans le monde post-VIH.
 
-3) Intervenir pour maintenir R < 1 jusqu'à que soient développés des traitements qui rendent le COVID-19 bien, bien moins probable de demander des soins critiques. (Ce qu'on devrait faire de *toute façon !*) Diviser le besoin de respirateur par 10 est équivalent à multiplier la capacité en respirateurs par 10 :
+3) Intervenir pour maintenir R < 1 jusqu'à ce que soient développés des traitements qui rendent le COVID-19 bien, bien moins susceptibles de requérir des soins critiques. (Ce qu'on devrait faire de *toute façon !*) Diviser le besoin de respirateur par 10 est équivalent à multiplier la capacité en respirateurs par 10 :
 
 **Voici une simulation *sans* immunité durable, *sans* vaccin et sans même aucune intervention - seule la capacité à survivre aux longs pics augmente lentement :**
 
@@ -661,7 +661,7 @@ Même dans *le pire* des pires scénarios... La vie continue.
 . . .
 
 
-Vous voudrez peut-être remettre en question nos hypothèses et essayer différents R<sub>0</sub> ou nombres. Ou même essayer de simuler vos *propres* combinaisons de plans d'intervention !
+Vous voudrez peut-être remettre en question nos hypothèses et essayer différents paramètres. Ou même essayer de simuler vos *propres* combinaisons de plans d'intervention !
 
 **Voici un mode (optionel) « bac à sable », où *tout* est disponible. (Fais défiler pour voir tous les contrôles.) Simule et joue autant que le coeur t'en dit :**
 
@@ -671,12 +671,12 @@ Vous voudrez peut-être remettre en question nos hypothèses et essayer différe
 
 Ce « simulateur de vol épidémiologique » nous a tant appris. Il nous a permis de répondre à des questions sur les derniers mois, sur ceux à venir et sur les prochaines années.
 
-Finalement, retournons à la...
+Finalement, retournons à...
 
 <div class="section chapter">
     <div>
 		<img src="banners/curve.png" height=480 style="position: absolute;"/>
-        <div>The Now</div>
+        <div>Maintenant</div>
     </div>
 </div>
 
@@ -692,11 +692,11 @@ Voilà grossièrement l'idée, avec quelques plans de rechange (moins consensuel
 
 Qu'est ce que ça veut dire pour vous maintenant ?
 
-**Pour tout le monde :** Respectez le confinement pour qu'on puisse sortir de la Phase I aussi vite que possible. Lavez-vous les mains. Fabriquez vos propres masques. Téléchargez une application de suivi des contacts *respectueuse de vos données personnelles* lorsqu'elles seront disponibles le mois prochain. Restez en forme, physiquement et mentalement ! Et écrivez à votre décideur local de bouger ses fesses et...
+**Pour tout le monde :** Respectez le confinement pour qu'on puisse sortir de la Phase I aussi vite que possible. Lavez-vous les mains. Fabriquez vos propres masques. Téléchargez une application de traçage des contacts *respectueuse de votre vie privée* lorsqu'elles seront disponibles le mois prochain. Restez en forme, physiquement et mentalement ! Et écrivez à votre décideur local de bouger ses fesses et...
 
-**Pour les décideurs :** Faites des lois qui supportent ceux qui doivent se mettre en auto-isolement/quarantaine. Engagez plus d'agents de suivi manuel des contacts, *supportés** par des applications de suivi des contacts qui respectent la vie privée. Dirigez plus de fonds vers les trucs qu'on devrait fabriquer, comme...
+**Pour les décideurs :** Faites des lois qui supportent ceux qui doivent se mettre en auto-isolement/quarantaine. Engagez plus d'agents de traçage manuel des contacts, *supportés** par des applications de traçage des contacts qui respectent la vie privée. Dirigez plus de fonds vers les trucs qu'on devrait fabriquer, comme...
 
-**Pour les fabriquants :** Fabriquez des tests. Fabriquez des respirateurs. Fabriquez de l'équipement de protection personnel pour les hôpitaux. Fabriquez des tests. Fabriquez des masques. Fabriquez des applications. Fabriquez des antiviraux, des prophylactiques et autres traitements qui ne sont pas vaccins. Fabriquez des vaccins. Fabriquez des tests. Fabriquez des tests. Fabriquez de l'espoir.
+**Pour les fabriquants :** Fabriquez des tests. Fabriquez des respirateurs. Fabriquez des équipements de protection personnel pour les hôpitaux. Fabriquez des tests. Fabriquez des masques. Fabriquez des applications. Fabriquez des antiviraux, des prophylactiques et autres traitements qui ne sont pas des vaccins. Fabriquez des vaccins. Fabriquez des tests. Fabriquez des tests. Fabriquez de l'espoir.
 
 Ne minimisez pas la peur pour fabriquer de l'espoir. Notre peur devrait faire *équipe* avec notre espoir, comme les inventeurs de l'avions et du parachute. C'est en se préparant à des futurs épouvantables qu'on *crée* un futur plein d'espérance.
 
