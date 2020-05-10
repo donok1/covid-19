@@ -261,7 +261,7 @@ Même si cette capacité était *plus que triplée* pour atteindre 2%, voici ce 
 		<iframe src="sim?stage=int-1&format=lines" width="800" height="540"></iframe>
 </div>
 
-Pas bien.
+Pas bon.
 
 C'est ce que [Le rapport du 16 mars de l'Imperial College London](http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/covid-19/report-9-impact-of-npis-on-covid-19/) décrit : si on ne fait rien, on sature les soins intensifs, avec plus de 80% de la population tombant malade.
 (Souvenez-vous : le nombre total de cas *dépasse* le seuil d'immunité collective)
@@ -575,7 +575,7 @@ Vous attrapez le COVID-19 et en guérissez. Ou vous recevez un vaccin. Dans les 
 
 * Le COVID-19 est étroitement lié au SARS, qui rend ses survivants immunisés pour deux ans.[^SARS immunity]
 * Le coronavirus causant « le » rhume procure 8 mois d'immunité.[^cold immunity]
-* On a rapporté des cas de guéris du COVID-19 qui ont été, plus tard, à nouveau testés positivement, n'est pas certain qu'il s'agisse de faux positifs.[^unclear]
+* On a rapporté des cas de guéris du COVID-19 qui ont été, plus tard, à nouveau testés positivement, mais il n'est pas certain qu'il s'agisse de faux positifs.[^unclear]
 * Une étude *pas encore revue par les pairs* effectuée sur des singes suggère que l'immunité au coronavirus du COVID-19 durerait au moins 28 jours.[^monkeys]
 
 Mais pour le COVID-19 *chez les humains*, au 1er mai 2020, « Pour combien de temps » est encore une grande inconnue.
@@ -661,7 +661,7 @@ Même dans *le pire* des pires scénarios... La vie continue.
 . . .
 
 
-Vous voudrez peut-être remettre en question nos hypothèses et essayer différents paramètres. Ou même essayer de simuler vos *propres* combinaisons de plans d'intervention !
+Vous voudrez peut-être remettre en question nos hypothèses et essayer différents paramètres. Vous pouvez aussi simuler vos *propres* combinaisons de plans d'intervention !
 
 **Voici un mode (optionel) « bac à sable », où *tout* est disponible. (Fais défiler pour voir tous les contrôles.) Simule et joue autant que le coeur t'en dit :**
 
@@ -696,7 +696,7 @@ Qu'est ce que ça veut dire pour vous maintenant ?
 
 **Pour les décideurs :** Faites des lois qui supportent ceux qui doivent se mettre en auto-isolement/quarantaine. Engagez plus d'agents de traçage manuel des contacts, *supportés** par des applications de traçage des contacts qui respectent la vie privée. Dirigez plus de fonds vers les trucs qu'on devrait fabriquer, comme...
 
-**Pour les fabriquants :** Fabriquez des tests. Fabriquez des respirateurs. Fabriquez des équipements de protection personnel pour les hôpitaux. Fabriquez des tests. Fabriquez des masques. Fabriquez des applications. Fabriquez des antiviraux, des prophylactiques et autres traitements qui ne sont pas des vaccins. Fabriquez des vaccins. Fabriquez des tests. Fabriquez des tests. Fabriquez de l'espoir.
+**Pour les fabriquants :** Fabriquez des tests. Fabriquez des respirateurs. Fabriquez des équipements de protection individuelle pour les hôpitaux. Fabriquez des tests. Fabriquez des masques. Fabriquez des applications. Fabriquez des antiviraux, des prophylactiques et autres traitements qui ne sont pas des vaccins. Fabriquez des vaccins. Fabriquez des tests. Fabriquez des tests. Fabriquez de l'espoir.
 
 Ne minimisez pas la peur pour fabriquer de l'espoir. Notre peur devrait faire *équipe* avec notre espoir, comme les inventeurs de l'avions et du parachute. C'est en se préparant à des futurs épouvantables qu'on *crée* un futur plein d'espérance.
 
