@@ -317,9 +317,9 @@ C'était l'autre conclusion du rapport du 16 mars de l'Imperial College de Londr
 Il ne faut donc pas simplement « aplatir » la courbe, il faut l'*écraser*. Par exemple, par le biais d'un...
 
 
-###Scénario 2 : Confinement de plusieurs moins
+###Scénario 2 : Confinement de plusieurs mois
 
-Voyons ce qu'il arrive lorsqu'on *écrase* la courbe avec un confinement de 5 mois, qu'on réduit <icon i></icon> à presque rien, et que finalement, - *finalement* - on retrouve une vie normale :
+Voyons ce qui arrive lorsqu'on *écrase* la courbe avec un confinement de 5 mois, qu'on réduit <icon i></icon> à presque rien, et que finalement, - *finalement* - on retrouve une vie normale :
 
 <div class="sim">
 		<iframe src="sim?stage=int-3&format=lines" width="800" height="540"></iframe>
@@ -648,7 +648,7 @@ Même dans le scénario catastrophe « sans vaccin », nous avons 3 échappato
 
 2) Intevenir de manière permanente pour maintenir R < 1. Le traçage des contacts et le port du masque deviennent alors la nouvelle norme du monde post-COVID-19, tout comme les tests de MST et le port du préservatif sont devenus la nouvelle norme dans le monde post-VIH.
 
-3) Intervenir pour maintenir R < 1 jusqu'à que soient développés des traitements qui rendent le COVID-19 bien, bien moins probable de demander des soins critiques. (Ce qu'on devrait faire de *toute façon !*) Diviser le besoin de respirateur par 10 est équivalent à multiplier la capacité en respirateurs par 10 :
+3) Intervenir pour maintenir R < 1 jusqu'à ce que soient développés des traitements qui rendent le COVID-19 bien, bien moins susceptibles de requérir des soins critiques. (Ce qu'on devrait faire de *toute façon !*) Diviser le besoin de respirateur par 10 est équivalent à multiplier la capacité en respirateurs par 10 :
 
 **Voici une simulation *sans* immunité durable, *sans* vaccin et sans même aucune intervention - seule la capacité à survivre aux longs pics augmente lentement :**
 
@@ -671,12 +671,12 @@ Vous voudrez peut-être remettre en question nos hypothèses et essayer différe
 
 Ce « simulateur de vol épidémiologique » nous a tant appris. Il nous a permis de répondre à des questions sur les derniers mois, sur ceux à venir et sur les prochaines années.
 
-Finalement, retournons à la...
+Finalement, retournons à...
 
 <div class="section chapter">
     <div>
 		<img src="banners/curve.png" height=480 style="position: absolute;"/>
-        <div>The Now</div>
+        <div>Maintenant</div>
     </div>
 </div>
 
@@ -692,7 +692,7 @@ Voilà grossièrement l'idée, avec quelques plans de rechange (moins consensuel
 
 Qu'est ce que ça veut dire pour vous maintenant ?
 
-**Pour tout le monde :** Respectez le confinement pour qu'on puisse sortir de la Phase I aussi vite que possible. Lavez-vous les mains. Fabriquez vos propres masques. Téléchargez une application de traçage des contacts *respectueuse de vos données personnelles* lorsqu'elles seront disponibles le mois prochain. Restez en forme, physiquement et mentalement ! Et écrivez à votre décideur local de bouger ses fesses et...
+**Pour tout le monde :** Respectez le confinement pour qu'on puisse sortir de la Phase I aussi vite que possible. Lavez-vous les mains. Fabriquez vos propres masques. Téléchargez une application de traçage des contacts *respectueuse de votre vie privée* lorsqu'elles seront disponibles le mois prochain. Restez en forme, physiquement et mentalement ! Et écrivez à votre décideur local de bouger ses fesses et...
 
 **Pour les décideurs :** Faites des lois qui supportent ceux qui doivent se mettre en auto-isolement/quarantaine. Engagez plus d'agents de traçage manuel des contacts, *supportés** par des applications de traçage des contacts qui respectent la vie privée. Dirigez plus de fonds vers les trucs qu'on devrait fabriquer, comme...
 
