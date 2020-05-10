@@ -37,7 +37,7 @@ Ce guide (publié le 1er Mai 2020. clique sur cette note !→[^timestamp]) est 
 
 [^timestamp]: Ces notes contiendront des sources, des liens et des commentaires bonus comme celui-ci !
     
-    **Ce guide a été publié le 1er Mai 2020. Traduction française publiée le TBD Mai 2020.** De nombreux détails deviendront obsolètes, mais nous sommes convaincus que ce guide couvre 95% des futurs possibles, et que notre initiation à l'épidémiologie vous sera bien utile.
+    **Ce guide a été publié le 1er Mai 2020 et sa traduction en français le TBD Mai 2020.** De nombreux détails deviendront obsolètes, mais nous sommes convaincus que ce guide couvre 95% des futurs possibles, et que notre initiation à l'épidémiologie vous sera bien utile.
 
 Alors accrochez-vous : nous entrons dans une zone de turbulences.
 
@@ -575,16 +575,16 @@ Vous attrapez le COVID-19 et en guérissez. Ou vous recevez un vaccin. Dans les 
 
 * Le COVID-19 est étroitement lié au SARS, qui rend ses survivants immunisés pour deux ans.[^SARS immunity]
 * Le coronavirus causant « le » rhume procure 8 mois d'immunité.[^cold immunity]
-* On a rapporté des cas de guéris du COVID-19 qui ont été, plus tard, à nouveau testés positivement, mais ce n'est pas clair ces cas sont des faux positifs.[^unclear]
+* On a rapporté des cas de guéris du COVID-19 qui ont été, plus tard, à nouveau testés positivement, n'est pas certain qu'il s'agisse de faux positifs.[^unclear]
 * Une étude *pas encore revue par les pairs* effectuée sur des singes suggère que l'immunité au coronavirus du COVID-19 durerait au moins 28 jours.[^monkeys]
 
 Mais pour le COVID-19 *chez les humains*, au 1er mai 2020, « Pour combien de temps » est encore une grande inconnue.
 
-[^SARS immunity]: « SARS-specific antibodies were maintained for an average of 2 years [...] Thus, SARS patients might be susceptible to reinfection ≥3 years after initial exposure. » [Wu LP, Wang NC, Chang YH, et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851497/) Traduction : « Les anticorps spécifiques au SARS sont maintenus en moyenne 2 ans [...] En conséquence, les patients du SARS pourraient être susceptibles d'être réinfectés ≥3 ans après l'exposition initiale. » « Malheureusement », on ne saura jamais combien de temps l'immunité au SARS dure réellement, puisqu'il a été éradiqué très rapidement.
+[^SARS immunity]: « SARS-specific antibodies were maintained for an average of 2 years [...] Thus, SARS patients might be susceptible to reinfection ≥3 years after initial exposure. » [Wu LP, Wang NC, Chang YH, et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851497/) Traduction : « Les anticorps spécifiques au SARS sont maintenus en moyenne 2 ans [...] En conséquence, les patients du SARS pourraient être susceptibles d'être réinfectés ≥3 ans après l'exposition initiale. » *Malheureusement*, on ne saura jamais combien de temps l'immunité au SARS dure réellement, puisqu'il a été éradiqué très rapidement.
 
-[^cold immunity]: « We found no significant difference between the probability of testing positive at least once and the probability of a recurrence for the beta-coronaviruses HKU1 and OC43 at 34 weeks after enrollment/first infection. » [Marta Galanti & Jeffrey Shaman (PDF)](http://www.columbia.edu/~jls106/galanti_shaman_ms_supp.pdf) Traduction : « Nous n'avons trouvé aucune différence significative entre la probabilité d'être testé positif au moins une fois et la probabilité d'une récurrence du beta-corronavirus HKU1 et OC43 34 semaines après l'exposition/la première infection. »
+[^cold immunity]: « We found no significant difference between the probability of testing positive at least once and the probability of a recurrence for the beta-coronaviruses HKU1 and OC43 at 34 weeks after enrollment/first infection. » [Marta Galanti & Jeffrey Shaman (PDF)](http://www.columbia.edu/~jls106/galanti_shaman_ms_supp.pdf) Traduction : « Nous n'avons trouvé aucune différence significative entre la probabilité d'être testé positif au moins une fois et la probabilité d'une récurrence des beta-corronavirus HKU1 et OC43 34 semaines après l'exposition/la première infection. »
 
-[^unclear]: « Once a person fights off a virus, viral particles tend to linger for some time. These cannot cause infections, but they can trigger a positive test. » [from STAT News by Andrew Joseph](https://www.statnews.com/2020/04/20/everything-we-know-about-coronavirus-immunity-and-antibodies-and-plenty-we-still-dont/) Traduction : « Une fois qu'une personne combat un virus, des particules virales tendent à subsister quelques temps. Cela ne peut causer une infection, mais cela peut provoquer un test positif. »
+[^unclear]: « Once a person fights off a virus, viral particles tend to linger for some time. These cannot cause infections, but they can trigger a positive test. » [from STAT News by Andrew Joseph](https://www.statnews.com/2020/04/20/everything-we-know-about-coronavirus-immunity-and-antibodies-and-plenty-we-still-dont/) Traduction : « Une fois qu'une personne combat un virus, des particules virales tendent à subsister quelques temps. Celles-ci ne peuvent causer une infection, mais peuvent provoquer un test positif. »
 
 [^monkeys]: De [Bao et al.](https://www.biorxiv.org/content/10.1101/2020.03.13.990226v1.abstract) *Attention : Cet article est une pré-publication et n'a pas (encore) été vérifiée par une relecture par les pairs.* Aussi, pour le souligner : ils ont seulement testé la ré-infection 28 jours plus tard.
 
@@ -661,7 +661,7 @@ Même dans *le pire* des pires scénarios... La vie continue.
 . . .
 
 
-Vous voudrez peut-être remettre en question nos hypothèses et essayer différents R<sub>0</sub> ou nombres. Ou même essayer de simuler vos *propres* combinaisons de plans d'intervention !
+Vous voudrez peut-être remettre en question nos hypothèses et essayer différents paramètres. Ou même essayer de simuler vos *propres* combinaisons de plans d'intervention !
 
 **Voici un mode (optionel) « bac à sable », où *tout* est disponible. (Fais défiler pour voir tous les contrôles.) Simule et joue autant que le coeur t'en dit :**
 
