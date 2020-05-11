@@ -2,7 +2,15 @@
 <html>
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143787397-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'UA-143787397-1');
+    </script>
 	<!-- THE BIG META -->
 	<title>Et ensuite ? Les futurs du COVID-19, expliqués par des simulations interactives</title>  <!-- TRANSLATE -->
 	<meta name="description" content="Un guide interactif." />  <!-- TRANSLATE: content -->
@@ -191,15 +199,15 @@ la <em>deuxième</em> idée la plus importante de notre initiation à l&#39;épi
 <p>Pour le COVID-19, on estime qu&#39;un individu est infecté-mais-pas-encore-infectieux <icon e></icon> pendant 3 jours, <em>en moyenne</em>.<sup id="fnref7"><a href="#fn7" rel="footnote">7</a></sup> Que se passe-t-il lorsqu&#39;on ajoute cela à la simulation ?</p>
 
 <p><b style='color:#ff4040'>La courbe Rouge <b style='color:#FF9393'>+ Rose</b></b> représente les cas <em>actuels</em> (infectieux <icon i></icon> + exposés <span class="nowrap"><icon e></icon>),</span><br>
-<b style='color:#888'>La courbe Grise</b> représente le <em>total</em> de cas (actuels <icon i></icon> <icon e></icon> + guéris <span class="nowrap"><icon r></icon>) :</span></p>
+<b style='color:#888'>La courbe Grise</b> représente le <em>total</em> de cas (actuels <icon i></icon> <icon e></icon> + <span class="nowrap">guéris <icon r></icon>) :</span></p>
 
 <div class="sim">
         <iframe src="sim?stage=epi-5" width="800" height="540"></iframe>
 </div>
 
-<p>Pas beaucoup de changement ! Le temps que l&#39;on passe en Exposé <icon e></icon> change le ratio de <span class="nowrap"><icon e></icon>-pour-<icon i></icon>,</span> et la <em>date</em> du pic de cas... mais la <em>hauteur</em> du pic, et le nombre total de cas à la fin restent les mêmes.</p>
+<p>Pas beaucoup de changement ! Le temps que l&#39;on passe en Exposé <icon e></icon> change le ratio de <span class="nowrap"><icon e></icon>-pour-<icon i></icon>,</span> et la <em>date</em> du pic de cas... mais la <em>hauteur</em> du pic, et le nombre total de cas à la fin restent les mêmes.</p>
 
-<p>Mais pourquoi ? A cause du <em>premier</em> concepte clé de l&#39;épidémiologie :</p>
+<p>Mais pourquoi ? À cause du <em>premier</em> concepte clé de l&#39;épidémiologie :</p>
 
 <p><img src="pics/r.png" alt=""></p>
 
@@ -225,7 +233,7 @@ la <em>deuxième</em> idée la plus importante de notre initiation à l&#39;épi
         <iframe src="sim?stage=epi-6a&format=calc" width="285" height="255"></iframe>
 </div>
 
-<p>Mais souvenez-vous, moins il y a de <span class="nowrap"><icon s></icon>,</span> plus les <icon s></icon> deviennent <icon i></icon> <em>lentement</em>. Le nombre de reproduction <em>actuel</em> (R) dépend non-seulement du nombre de reproduction <em>de base</em> (R<sub>0</sub>), mais <em>aussi</em> de combien de personnes ne sont plus Susceptibles  <span class="nowrap"><icon s></icon>.</span> (Par exemple, en guérissant et en devenant naturellement immunisées.)</p>
+<p>Mais souvenez-vous, moins il y a de <span class="nowrap"><icon s></icon>,</span> plus les <icon s></icon> deviennent <icon i></icon> <em>lentement</em>. Le nombre de reproduction <em>actuel</em> (R) dépend non-seulement du nombre de reproduction <em>de base</em> (R<sub>0</sub>), mais <em>aussi</em> de combien de personnes ne sont plus Susceptibles <span class="nowrap"><icon s></icon>.</span> (Par exemple, en guérissant et en devenant naturellement immunisées.)</p>
 
 <div class="sim">
         <iframe src="sim?stage=epi-6b&format=calc" width="285" height="390"></iframe>
@@ -255,7 +263,7 @@ la <em>deuxième</em> idée la plus importante de notre initiation à l&#39;épi
 
 <p>(Si vous pensez que R<sub>0</sub> ou d&#39;autres paramètres dans vos simulations sont trop haut/bas, c&#39;est bien, vous défiez nos hypothèses ! Il y aura un mode « bac à sable » à la fin de ce guide, où vous pourrez entrer vos <em>propres</em> paramètres et voir ce que ça donne.)</p>
 
-<p><em>Toutes</em> les mesures contre le COVID-19 dont vous avez entendu parler - lavage des mains, distance sociale, confinements, auto-isolation, suivi des contacts et mise en quarantaine, port du masque et même « immunité collective » - elles ont toutes le même but :</p>
+<p><em>Toutes</em> les mesures contre le COVID-19 dont vous avez entendu parler - lavage des mains, distance sociale, confinements, auto-isolation, traçage des contacts et mise en quarantaine, port du masque et même « immunité collective » - elles ont toutes le même but :</p>
 
 <p>Obtenir R &lt; 1.</p>
 
@@ -270,9 +278,9 @@ la <em>deuxième</em> idée la plus importante de notre initiation à l&#39;épi
     </div>
 </div>
 
-<p>... ça aurait pu être pire. Voici un univers parallèle que l&#39;on a <span class="nowrap">évité :</span></p>
+<p>... ça aurait pu être pire. Voici un univers parallèle que l&#39;on a <span class="nowrap">évité :</span></p>
 
-<h3 id="toc_0">Scenario 0 : On ne fait absolument rien</h3>
+<h3 id="toc_0">Scénario 0 : On ne fait absolument rien</h3>
 
 <p>Environ une personne atteinte du COVID-19 sur vingt a besoin de soins intensifs.<sup id="fnref13"><a href="#fn13" rel="footnote">13</a></sup> Dans un pays développé comme les États-Unis, il y a une place en soins intensifs pour 3400 personnes.<sup id="fnref14"><a href="#fn14" rel="footnote">14</a></sup> Dès lors, pour 3400 personnes atteintes <em>en même temps</em>, les États-Unis peuvent en gérer 20 - soit 0,6% de la population.</p>
 
@@ -291,9 +299,9 @@ la <em>deuxième</em> idée la plus importante de notre initiation à l&#39;épi
 
 <p>(Beaucoup de médias et de réseaux sociaux annonçaient « 80% des gens vont être infectés » <em>sans</em> préciser « SI l&#39;on ne fait rien ». La peur a été transformée en clics, pas en compréhension. <em>Soupir.</em>)</p>
 
-<h3 id="toc_1">Scenario 1 : Aplatir la courbe / Immunité collective</h3>
+<h3 id="toc_1">Scénario 1 : Aplatir la courbe / Immunité collective</h3>
 
-<p>La stratégie « Aplatir la courbe » a été promue par tous les organismes de santé publique, pendant que le plan de base « d&#39;immunité collective » du Royaume Uni était universellement décrié. Ces deux plans <em>le même objectif</em>. Le Royaume Uni a juste mal communiqué le sien.<sup id="fnref15"><a href="#fn15" rel="footnote">15</a></sup></p>
+<p>La stratégie « Aplatir la courbe » a été promue par tous les organismes de santé publique, pendant que le plan de base « d&#39;immunité collective » du Royaume Uni était universellement décrié. Ces deux plans ont <em>le même objectif</em>. Le Royaume Uni a juste mal communiqué le sien.<sup id="fnref15"><a href="#fn15" rel="footnote">15</a></sup></p>
 
 <p>Cependant, les deux plans avaient des failles fatales (littéralement).</p>
 
@@ -317,7 +325,7 @@ la <em>deuxième</em> idée la plus importante de notre initiation à l&#39;épi
 
 <ol>
 <li><p>Le nombre total de cas <em>baisse</em> ! <strong>Même si on n&#39;arrive pas à R &lt; 1, réduire R sauve quand même des vies en réduisant le dépassement au dessus du seuil d&#39;immunité collective.</strong> Beaucoup de gens s&#39;imaginent « qu&#39;aplatir la courbe » étale les cas sans toutefois réduire leur nombre total. C&#39;est impossible dans <em>n&#39;importe lequel</em> des modèles de base de l&#39;épidémiologie. Mais parce que les médias d&#39;actualité présentaient l&#39;affirmation « 80% seront infectés » comme inévitable, les gens ont pensé que le nombre total de cas serait le même quoi qu&#39;on fasse. <em>Soupir.</em></p></li>
-<li><p>A cause des mesures supplémentaires, le nombre de cas actuels atteint un pic <em>avant</em> que l&#39;immunité collective ne soit atteinte. En fait, dans cette simulation, le nombre total de cas passe <em>un tout petit peu</em> au dessus du seuil d&#39;immunité collective - le plan du Royaume Uni ! A ce moment, R &lt; 1, on peut abandonner toutes les autres mesures d&#39;intervention et le COVID-19 reste contenu ! Eh bien, il y a quand même un problème...</p></li>
+<li><p>À cause des mesures supplémentaires, le nombre de cas actuels atteint un pic <em>avant</em> que l&#39;immunité collective ne soit atteinte. En fait, dans cette simulation, le nombre total de cas passe <em>un tout petit peu</em> au dessus du seuil d&#39;immunité collective - le plan du Royaume Uni ! À ce moment, R &lt; 1, on peut abandonner toutes les autres mesures d&#39;intervention et le COVID-19 reste contenu ! Eh bien, il y a quand même un problème...</p></li>
 <li><p>On sature les unités de soins intensifs. Pour plusieurs mois. (et souvenez-vous, on a pourtant <em>déjà</em> triplé la capacité pour ces simulations)</p></li>
 </ol>
 
@@ -327,9 +335,9 @@ la <em>deuxième</em> idée la plus importante de notre initiation à l&#39;épi
 
 <p>Il ne faut donc pas simplement « aplatir » la courbe, il faut l&#39;<em>écraser</em>. Par exemple, par le biais d&#39;un...</p>
 
-<h3 id="toc_2">Scenario 2 : Confinement de plusieurs moins</h3>
+<h3 id="toc_2">Scénario 2 : Confinement de plusieurs mois</h3>
 
-<p>Voyons ce qu&#39;il arrive lorsqu&#39;on <em>écrase</em> la courbe avec un confinement de 5 mois, qu&#39;on réduit <icon i></icon> à presque rien, et que finalement, - <em>finalement</em> - on retrouve une vie normale :</p>
+<p>Voyons ce qui arrive lorsqu&#39;on <em>écrase</em> la courbe avec un confinement de 5 mois, qu&#39;on réduit <icon i></icon> à presque rien, et que finalement, - <em>finalement</em> - on retrouve une vie normale :</p>
 
 <div class="sim">
         <iframe src="sim?stage=int-3&format=lines" width="800" height="540"></iframe>
@@ -337,13 +345,13 @@ la <em>deuxième</em> idée la plus importante de notre initiation à l&#39;épi
 
 <p>Oh.</p>
 
-<p>Voici la « seconde vague » dont tout le monde parle. Aussitôt le confinement levé, on repasse à R &gt; 1. Un seul <icon i></icon> (ou un <icon i></icon> importé) peut provoquer un sursaut aussi grave que si nous avions suivi le 0 : « On ne fait absolument rien ».</p>
+<p>Voici la « seconde vague » dont tout le monde parle. Aussitôt le confinement levé, on repasse à R &gt; 1. Un seul <icon i></icon> (ou un <icon i></icon> importé) peut provoquer un sursaut aussi grave que si nous avions suivi le Scénario 0 : « On ne fait absolument rien ».</p>
 
 <p><strong>Un confinement n&#39;est pas un remède, c&#39;est juste un nouveau départ.</strong></p>
 
 <p>Alors quoi, on se confine encore et toujours ?</p>
 
-<h3 id="toc_3">Scenario 3 : Confinement intermittent</h3>
+<h3 id="toc_3">Scénario 3 : Confinement intermittent</h3>
 
 <p>Cette solution a été suggérée en premier par le rapport du 16 mars de l&#39;Imperial College London et plus tard dans un article de Harvard.<sup id="fnref19"><a href="#fn19" rel="footnote">19</a></sup></p>
 
@@ -450,7 +458,7 @@ la <em>deuxième</em> idée la plus importante de notre initiation à l&#39;épi
 
 <p>Le pessimiste invente le parachute.</p>
 
-<h3 id="toc_5">Scenario 4+ : Masques pour tous, été, « Disjoncteur »</h3>
+<h3 id="toc_5">Scénario 4+ : Masques pour tous, été, « Disjoncteur »</h3>
 
 <p>Et si R<sub>0</sub> était bien plus grand que ce que l&#39;on pense, et que les actions précédentes, même aidées d&#39;une légère distanciation, n&#39;était <em>toujours</em> pas suffisantes pour rendre R &lt; 1 ?</p>
 
@@ -500,7 +508,7 @@ la <em>deuxième</em> idée la plus importante de notre initiation à l&#39;épi
 
 <p>Mais nous n&#39;aurions pas à alterner 2 mois confinés/1 mois ouvert encore et encore ! R ayant diminué, nous n&#39;aurions qu&#39;à réaliser ce confinement « disjoncteur » une ou deux fois avant que le vaccin ne soit disponible. (Singapour a procédé ainsi récemment, « même » s&#39;ils avaient réussi à contrôler le virus pendant 4 mois. Ce n&#39;est pas un échec : c&#39;est <em>ce qu&#39;il faut</em> pour réussir.)</p>
 
-<p>Voici une simulation d&#39;un scenario « pas trop d&#39;effort »:</p>
+<p>Voici une simulation d&#39;un scénario « pas trop d&#39;effort »:</p>
 
 <ol>
 <li>Confinement, puis</li>
@@ -548,7 +556,7 @@ la <em>deuxième</em> idée la plus importante de notre initiation à l&#39;épi
 <ul>
 <li>Le COVID-19 est étroitement lié au SARS, qui rend ses survivants immunisés pour deux ans.<sup id="fnref36"><a href="#fn36" rel="footnote">36</a></sup></li>
 <li>Le coronavirus causant « le » rhume procure 8 mois d&#39;immunité.<sup id="fnref37"><a href="#fn37" rel="footnote">37</a></sup></li>
-<li>On a rapporté des cas de guéris du COVID-19 qui ont été, plus tard, à nouveau testés positivement, mais ce n&#39;est pas clair ces cas sont des faux positifs.<sup id="fnref38"><a href="#fn38" rel="footnote">38</a></sup></li>
+<li>On a rapporté des cas de guéris du COVID-19 qui ont été, plus tard, à nouveau testés positivement, mais il n&#39;est pas certain qu&#39;il s&#39;agisse de faux positifs.<sup id="fnref38"><a href="#fn38" rel="footnote">38</a></sup></li>
 <li>Une étude <em>pas encore revue par les pairs</em> effectuée sur des singes suggère que l&#39;immunité au coronavirus du COVID-19 durerait au moins 28 jours.<sup id="fnref39"><a href="#fn39" rel="footnote">39</a></sup></li>
 </ul>
 
@@ -607,9 +615,9 @@ la <em>deuxième</em> idée la plus importante de notre initiation à l&#39;épi
 
 <p>1) Intervenir temporairement ou modérément pour garantir R &lt; 1 dans le but d&#39;atteindre « l&#39;immunité collective naturelle ». (Attention : cela va provoquer de nombreuses morts et séquelles pulmonaires. <em>Et</em> ça ne fonctionne pas si l&#39;immunité ne dure pas.)</p>
 
-<p>2) Intevenir de manière permanente pour maintenir R &lt; 1. Les suivis des contacts et le port du masque deviennent alors la nouvelle norme du monde post-COVID-19, tout comme les tests de MST et le port du préservatif sont devenus la nouvelle norme dans le monde post-VIH.</p>
+<p>2) Intevenir de manière permanente pour maintenir R &lt; 1. Le traçage des contacts et le port du masque deviennent alors la nouvelle norme du monde post-COVID-19, tout comme les tests de MST et le port du préservatif sont devenus la nouvelle norme dans le monde post-VIH.</p>
 
-<p>3) Intervenir pour maintenir R &lt; 1 jusqu&#39;à que soient développés des traitements qui rendent le COVID-19 bien, bien moins probable de demander des soins critiques. (Ce qu&#39;on devrait faire de <em>toute façon !</em>) Diviser le besoin de respirateur par 10 est équivalent à multiplier la capacité en respirateurs par 10 :</p>
+<p>3) Intervenir pour maintenir R &lt; 1 jusqu&#39;à ce que soient développés des traitements qui rendent le COVID-19 bien, bien moins susceptibles de requérir des soins critiques. (Ce qu&#39;on devrait faire de <em>toute façon !</em>) Diviser le besoin de respirateur par 10 est équivalent à multiplier la capacité en respirateurs par 10 :</p>
 
 <p><strong>Voici une simulation <em>sans</em> immunité durable, <em>sans</em> vaccin et sans même aucune intervention - seule la capacité à survivre aux longs pics augmente lentement :</strong></p>
 
@@ -621,7 +629,7 @@ la <em>deuxième</em> idée la plus importante de notre initiation à l&#39;épi
 
 <p>. . .</p>
 
-<p>Vous voudrez peut-être remettre en question nos hypothèses et essayer différents R<sub>0</sub> ou nombres. Ou même essayer de simuler vos <em>propres</em> combinaisons de plans d&#39;intervention !</p>
+<p>Vous voudrez peut-être remettre en question nos hypothèses et essayer différents paramètres. Vous pouvez aussi simuler vos <em>propres</em> combinaisons de plans d&#39;intervention !</p>
 
 <p><strong>Voici un mode (optionel) « bac à sable », où <em>tout</em> est disponible. (Fais défiler pour voir tous les contrôles.) Simule et joue autant que le coeur t&#39;en dit :</strong></p>
 
@@ -631,12 +639,12 @@ la <em>deuxième</em> idée la plus importante de notre initiation à l&#39;épi
 
 <p>Ce « simulateur de vol épidémiologique » nous a tant appris. Il nous a permis de répondre à des questions sur les derniers mois, sur ceux à venir et sur les prochaines années.</p>
 
-<p>Finalement, retournons à la...</p>
+<p>Finalement, retournons à...</p>
 
 <div class="section chapter">
     <div>
         <img src="banners/curve.png" height=480 style="position: absolute;"/>
-        <div>The Now</div>
+        <div>Maintenant</div>
     </div>
 </div>
 
@@ -650,11 +658,11 @@ la <em>deuxième</em> idée la plus importante de notre initiation à l&#39;épi
 
 <p>Qu&#39;est ce que ça veut dire pour vous maintenant ?</p>
 
-<p><strong>Pour tout le monde :</strong> Respectez le confinement pour qu&#39;on puisse sortir de la Phase I aussi vite que possible. Lavez-vous les mains. Fabriquez vos propres masques. Téléchargez une application de suivi des contacts <em>respectueuse de vos données personnelles</em> lorsqu&#39;elles seront disponibles le mois prochain. Restez en forme, physiquement et mentalement ! Et écrivez à votre décideur local de bouger ses fesses et...</p>
+<p><strong>Pour tout le monde :</strong> Respectez le confinement pour qu&#39;on puisse sortir de la Phase I aussi vite que possible. Lavez-vous les mains. Fabriquez vos propres masques. Téléchargez une application de traçage des contacts <em>respectueuse de votre vie privée</em> lorsqu&#39;elles seront disponibles le mois prochain. Restez en forme, physiquement et mentalement ! Et écrivez à votre décideur local de bouger ses fesses et...</p>
 
-<p><strong>Pour les décideurs :</strong> Faites des lois qui supportent ceux qui doivent se mettre en auto-isolement/quarantaine. Engagez plus d&#39;agents de suivi manuel des contacts, <em>supportés</em>* par des applications de suivi des contacts qui respectent la vie privée. Dirigez plus de fonds vers les trucs qu&#39;on devrait fabriquer, comme...</p>
+<p><strong>Pour les décideurs :</strong> Faites des lois qui supportent ceux qui doivent se mettre en auto-isolement/quarantaine. Engagez plus d&#39;agents de traçage manuel des contacts, <em>supportés</em>* par des applications de traçage des contacts qui respectent la vie privée. Dirigez plus de fonds vers les trucs qu&#39;on devrait fabriquer, comme...</p>
 
-<p><strong>Pour les fabriquants :</strong> Fabriquez des tests. Fabriquez des respirateurs. Fabriquez de l&#39;équipement de protection personnel pour les hôpitaux. Fabriquez des tests. Fabriquez des masques. Fabriquez des applications. Fabriquez des antiviraux, des prophylactiques et autres traitements qui ne sont pas vaccins. Fabriquez des vaccins. Fabriquez des tests. Fabriquez des tests. Fabriquez de l&#39;espoir.</p>
+<p><strong>Pour les fabriquants :</strong> Fabriquez des tests. Fabriquez des respirateurs. Fabriquez des équipements de protection individuelle pour les hôpitaux. Fabriquez des tests. Fabriquez des masques. Fabriquez des applications. Fabriquez des antiviraux, des prophylactiques et autres traitements qui ne sont pas des vaccins. Fabriquez des vaccins. Fabriquez des tests. Fabriquez des tests. Fabriquez de l&#39;espoir.</p>
 
 <p>Ne minimisez pas la peur pour fabriquer de l&#39;espoir. Notre peur devrait faire <em>équipe</em> avec notre espoir, comme les inventeurs de l&#39;avions et du parachute. C&#39;est en se préparant à des futurs épouvantables qu&#39;on <em>crée</em> un futur plein d&#39;espérance.</p>
 
@@ -667,7 +675,7 @@ la <em>deuxième</em> idée la plus importante de notre initiation à l&#39;épi
 <li id="fn1">
 <p>Ces notes contiendront des sources, des liens et des commentaires bonus comme celui-ci !&nbsp;<a href="#fnref1" rev="footnote">&#8617;</a></p>
 
-<p><strong>Ce guide a été publié le 1er Mai 2020. Traduction française publiée le TBD Mai 2020.</strong> De nombreux détails deviendront obsolètes, mais nous sommes convaincus que ce guide couvre 95% des futurs possibles, et que notre initiation à l&#39;épidémiologie vous sera bien utile.</p>
+<p><strong>Ce guide a été publié le 1er Mai 2020 et sa traduction en français le TBD Mai 2020.</strong> De nombreux détails deviendront obsolètes, mais nous sommes convaincus que ce guide couvre 95% des futurs possibles, et que notre initiation à l&#39;épidémiologie vous sera bien utile.</p>
 </li>
 
 <li id="fn2">
@@ -695,7 +703,7 @@ la <em>deuxième</em> idée la plus importante de notre initiation à l&#39;épi
 </li>
 
 <li id="fn7">
-<p>« Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8–3.0 days) before symptom onset » Traduction : « En supposant que la période d&#39;incubation est en moyenne de 5,2 jours en s&#39;appuyant sur une autre étude des premiers cas de COVID-19, nous en déduisons que la contagiosité commence au bout de 2,3 jours (IC 95% : 0,8–3,0 jours) avant l&#39;apparition des symptômes ». (explication : En supposant que les symptômes commencent au 5ème jour, sachant que le caractère infectieux commence 2 jours avant, on devient infectieux au bout de 3 jours) <a href="https://www.nature.com/articles/s41591-020-0869-5">He, X., Lau, E.H.Y., Wu, P. et al.</a>&nbsp;<a href="#fnref7" rev="footnote">&#8617;</a></p>
+<p>« Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8–3.0 days) before symptom onset » <a href="https://www.nature.com/articles/s41591-020-0869-5">He, X., Lau, E.H.Y., Wu, P. et al.</a> Traduction : « En supposant que la période d&#39;incubation est en moyenne de 5,2 jours en s&#39;appuyant sur une autre étude des premiers cas de COVID-19, nous en déduisons que la contagiosité commence au bout de 2,3 jours (IC 95% : 0,8–3,0 jours) avant l&#39;apparition des symptômes ». (explication : En supposant que les symptômes commencent au 5ème jour, sachant que le caractère infectieux commence 2 jours avant, on devient infectieux au bout de 3 jours)&nbsp;<a href="#fnref7" rev="footnote">&#8617;</a></p>
 </li>
 
 <li id="fn8">
@@ -703,11 +711,11 @@ la <em>deuxième</em> idée la plus importante de notre initiation à l&#39;épi
 </li>
 
 <li id="fn9">
-<p>« We estimated the basic reproduction number R0 of 2019-nCoV to be around 2.2 (90% high density interval: 1.4–3.8) » <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/">Riou J, Althaus CL.</a> Traduction : « Nous avons estimé le nombre de reproduction de base R0 de 2019-nCoV à environ 2,2 (IC 90%: 1,4-3,8) »&nbsp;<a href="#fnref9" rev="footnote">&#8617;</a></p>
+<p>« We estimated the basic reproduction number R0 of 2019-nCoV to be around 2.2 (90% high density interval: 1.4–3.8) » <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/">Riou J, Althaus CL.</a> Traduction : « Nous avons estimé le nombre de reproduction de base R<sub>0</sub> de 2019-nCoV à environ 2,2 (IC 90%: 1,4-3,8) »&nbsp;<a href="#fnref9" rev="footnote">&#8617;</a></p>
 </li>
 
 <li id="fn10">
-<p>« we calculated a median R0 value of 5.7 (95% CI 3.8–8.9) » <a href="https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article">Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.</a> Traduction : « Nous avons calculé une valeur médiane de R0 de 5,7 (IC 95% : 3,8-8,9) »&nbsp;<a href="#fnref10" rev="footnote">&#8617;</a></p>
+<p>« we calculated a median R0 value of 5.7 (95% CI 3.8–8.9) » <a href="https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article">Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.</a> Traduction : « Nous avons calculé une valeur médiane de R<sub>0</sub> de 5,7 (IC 95% : 3,8-8,9) »&nbsp;<a href="#fnref10" rev="footnote">&#8617;</a></p>
 </li>
 
 <li id="fn11">
@@ -715,7 +723,7 @@ la <em>deuxième</em> idée la plus importante de notre initiation à l&#39;épi
 </li>
 
 <li id="fn12">
-<p>Gardez en tête que R = R<sub>0</sub> * le taux des transmissions encore possibles. Souvenez-vous aussi que le taux des transmissions possibles = 1 - le taux des transmissions <em>empêchées</em>.&nbsp;<a href="#fnref12" rev="footnote">&#8617;</a></p>
+<p>Gardez en tête que R = R<sub>0</sub> * le taux des transmissions encore possibles. Souvenez-vous aussi que le taux des transmissions possibles = 1 - le taux des transmissions <em>empêchées</em>.&nbsp;<a href="#fnref12" rev="footnote">&#8617;</a></p>
 
 <p>Donc, pour obtenir R &lt; 1, on a besoin d&#39;avoir R<sub>0</sub> * TransmissionsPermises &lt; 1.</p>
 
@@ -725,11 +733,11 @@ la <em>deuxième</em> idée la plus importante de notre initiation à l&#39;épi
 
 <p>Donc, TransmissionsEmpêchées &gt; 1 - 1/R<sub>0</sub></p>
 
-<p>Par conséquent, il faut empêcher plus de <strong>1 - 1/R<sub>0</sub></strong> des transmissions pour obtenir R &lt; 1 et contenir le virus !</p>
+<p>Par conséquent, il faut empêcher plus de <strong>1 - 1/R<sub>0</sub></strong> des transmissions pour obtenir R &lt; 1 et contenir le virus !</p>
 </li>
 
 <li id="fn13">
-<p>« Percentage of COVID-19 cases in the United States from February 12 to March 16, 2020 that required intensive care unit (ICU) admission, by age group »](https://www.statista.com/statistics/1105420/covid-icu-admission-rates-us-by-age-group/).Traduction : « Pourcentage de cas de COVID-19 aux États-Unis du 12 février au 26 mars 2020 nécéssitant une admission en unité de soins intesifs, par groupe d&#39;âge ». Entre 4,9% et 11,5% de <em>tous</em> les cas de COVID-19 ont eu besoin de soins intensifs. En choisissant généreusement l&#39;estimation basse, cela nous fait 5%, soit 1 sur 20. Notez que cette proportion est propre à la pyramide des âges de ce pays. Elle sera plus haute dans les pays avec une population âgée et plus basse dans les pays avec une population jeune.&nbsp;<a href="#fnref13" rev="footnote">&#8617;</a></p>
+<p><a href="https://www.statista.com/statistics/1105420/covid-icu-admission-rates-us-by-age-group/">« Percentage of COVID-19 cases in the United States from February 12 to March 16, 2020 that required intensive care unit (ICU) admission, by age group »</a>.Traduction : « Pourcentage de cas de COVID-19 aux États-Unis du 12 février au 26 mars 2020 nécéssitant une admission en unité de soins intesifs, par groupe d&#39;âge ». Entre 4,9% et 11,5% de <em>tous</em> les cas de COVID-19 ont eu besoin de soins intensifs. En choisissant généreusement l&#39;estimation basse, cela nous fait 5%, soit 1 sur 20. Notez que cette proportion est propre à la pyramide des âges de ce pays. Elle sera plus haute dans les pays avec une population âgée et plus basse dans les pays avec une population jeune.&nbsp;<a href="#fnref13" rev="footnote">&#8617;</a></p>
 </li>
 
 <li id="fn14">
@@ -747,7 +755,7 @@ la <em>deuxième</em> idée la plus importante de notre initiation à l&#39;épi
 </li>
 
 <li id="fn17">
-<p>« We found a 73% reduction in the average daily number of contacts observed per participant. This would be sufficient to reduce R0 from a value from 2.6 before the lockdown to 0.62 (0.37 - 0.89) during the lockdown ».  <a href="https://cmmid.github.io/topics/covid19/comix-impact-of-physical-distance-measures-on-transmission-in-the-UK.html">Jarvis and Zandvoort et al</a> Traduction : « Nous avons trouvé une réduction de 73% du nombre de contacts journaliers observés par participant. Cela serait suffisant pour réduire R0 de 2,6 avant le confinement à 0,62 (IC 0,37 - 0,89) pendant le confinement ». Pour faire simple, le taux a été arrondi à 70% dans les simulations.&nbsp;<a href="#fnref17" rev="footnote">&#8617;</a></p>
+<p>« We found a 73% reduction in the average daily number of contacts observed per participant. This would be sufficient to reduce R0 from a value from 2.6 before the lockdown to 0.62 (0.37 - 0.89) during the lockdown ».  <a href="https://cmmid.github.io/topics/covid19/comix-impact-of-physical-distance-measures-on-transmission-in-the-UK.html">Jarvis and Zandvoort et al</a> Traduction : « Nous avons trouvé une réduction de 73% du nombre de contacts journaliers observés par participant. Cela serait suffisant pour réduire R<sub>0</sub> de 2,6 avant le confinement à 0,62 (IC 0,37 - 0,89) pendant le confinement ». Pour faire simple, le taux a été arrondi à 70% dans les simulations.&nbsp;<a href="#fnref17" rev="footnote">&#8617;</a></p>
 </li>
 
 <li id="fn18">
@@ -829,15 +837,15 @@ la <em>deuxième</em> idée la plus importante de notre initiation à l&#39;épi
 </li>
 
 <li id="fn36">
-<p>« SARS-specific antibodies were maintained for an average of 2 years [...] Thus, SARS patients might be susceptible to reinfection ≥3 years after initial exposure. » <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851497/">Wu LP, Wang NC, Chang YH, et al.</a> Traduction : « Les anticorps spécifiques au SARS sont maintenus en moyenne 2 ans [...] En conséquence, les patients du SARS pourraient être susceptibles d&#39;être réinfectés ≥3 ans après l&#39;exposition initiale. » « Malheureusement », on ne saura jamais combien de temps l&#39;immunité au SARS dure réellement, puisqu&#39;il a été éradiqué très rapidement.&nbsp;<a href="#fnref36" rev="footnote">&#8617;</a></p>
+<p>« SARS-specific antibodies were maintained for an average of 2 years [...] Thus, SARS patients might be susceptible to reinfection ≥3 years after initial exposure. » <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851497/">Wu LP, Wang NC, Chang YH, et al.</a> Traduction : « Les anticorps spécifiques au SARS sont maintenus en moyenne 2 ans [...] En conséquence, les patients du SARS pourraient être susceptibles d&#39;être réinfectés ≥3 ans après l&#39;exposition initiale. » <em>Malheureusement</em>, on ne saura jamais combien de temps l&#39;immunité au SARS dure réellement, puisqu&#39;il a été éradiqué très rapidement.&nbsp;<a href="#fnref36" rev="footnote">&#8617;</a></p>
 </li>
 
 <li id="fn37">
-<p>« We found no significant difference between the probability of testing positive at least once and the probability of a recurrence for the beta-coronaviruses HKU1 and OC43 at 34 weeks after enrollment/first infection. » <a href="http://www.columbia.edu/%7Ejls106/galanti_shaman_ms_supp.pdf">Marta Galanti &amp; Jeffrey Shaman (PDF)</a> Traduction : « Nous n&#39;avons trouvé aucune différence significative entre la probabilité d&#39;être testé positif au moins une fois et la probabilité d&#39;une récurrence du beta-corronavirus HKU1 et OC43 34 semaines après l&#39;exposition/la première infection. »&nbsp;<a href="#fnref37" rev="footnote">&#8617;</a></p>
+<p>« We found no significant difference between the probability of testing positive at least once and the probability of a recurrence for the beta-coronaviruses HKU1 and OC43 at 34 weeks after enrollment/first infection. » <a href="http://www.columbia.edu/%7Ejls106/galanti_shaman_ms_supp.pdf">Marta Galanti &amp; Jeffrey Shaman (PDF)</a> Traduction : « Nous n&#39;avons trouvé aucune différence significative entre la probabilité d&#39;être testé positif au moins une fois et la probabilité d&#39;une récurrence des beta-corronavirus HKU1 et OC43 34 semaines après l&#39;exposition/la première infection. »&nbsp;<a href="#fnref37" rev="footnote">&#8617;</a></p>
 </li>
 
 <li id="fn38">
-<p>« Once a person fights off a virus, viral particles tend to linger for some time. These cannot cause infections, but they can trigger a positive test. » <a href="https://www.statnews.com/2020/04/20/everything-we-know-about-coronavirus-immunity-and-antibodies-and-plenty-we-still-dont/">from STAT News by Andrew Joseph</a> Traduction : « Une fois qu&#39;une personne combat un virus, des particules virales tendent à subsister quelques temps. Cela ne peut causer une infection, mais cela peut provoquer un test positif. »&nbsp;<a href="#fnref38" rev="footnote">&#8617;</a></p>
+<p>« Once a person fights off a virus, viral particles tend to linger for some time. These cannot cause infections, but they can trigger a positive test. » <a href="https://www.statnews.com/2020/04/20/everything-we-know-about-coronavirus-immunity-and-antibodies-and-plenty-we-still-dont/">from STAT News by Andrew Joseph</a> Traduction : « Une fois qu&#39;une personne combat un virus, des particules virales tendent à subsister quelques temps. Celles-ci ne peuvent causer une infection, mais peuvent provoquer un test positif. »&nbsp;<a href="#fnref38" rev="footnote">&#8617;</a></p>
 </li>
 
 <li id="fn39">
@@ -935,6 +943,17 @@ la <em>deuxième</em> idée la plus importante de notre initiation à l&#39;épi
 		Srini Kadamati,
 		Vi Hart
 
+		<br>
+
+		Traduction en français et relectures par :
+        <a href='https://catheu.tech'>@cyrilou242</a>,
+        <a href='https://github.com/e-guenat'>@e-guenat</a>,
+        <a href='https://github.com/sylvainberube'>@sylvainberube</a>,
+        <a href='https://github.com/kephas'>@kephas</a>,
+        <a href='https://github.com/donok1'>@donok1</a>,
+        <a href='https://github.com/NicoKiaru'>@NicoKiaru</a>,
+        <a href='https://github.com/MaximeBedoin'>@MaximeBedoin</a>,
+        <a href='https://github.com/benjaminMaille'>@benjaminMaille</a>.
 		<br><br>
 
 		Toute erreur résiduelle est probablement de la faute de Nicky (ou des traducteurs).
