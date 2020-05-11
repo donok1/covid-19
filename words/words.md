@@ -12,9 +12,9 @@
 				🕐 30 min de jeu/lecture
 				&nbsp;&middot;&nbsp;
 			</b>
-			by
+			par
 			<a href="https://scholar.google.com/citations?user=_wHMGkUAAAAJ&amp;hl=en">Marcel Salathé</a>
-			(epidemiologist)
+			(épidemiologiste)
 			&
 			<a href="https://ncase.me/">Nicky Case</a>
 			(art/code)
